@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Stage B: full-text source verification (network reopened)
+
+Changed:
+- `knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md` — after the User widened the environment egress allowlist, ran a full-text verification pass. Built a `curl` + `pypdf`/`beautifulsoup4` toolchain (the WebFetch tool itself is still 403 on a separate path) and **read the actual full text of ~20 Tier 1 load-bearing sources**, upgrading them from `access-failed` to `verified-open`. Adopted the 5-way access taxonomy with real evidence behind each label. Key verified findings: both Gate 2 competing-interpretation pairs are genuine and **citation-level** (Odlyzko fn 107 rebuts Campbell by name; Donaldson & Hornbeck engage Fogel by name in §II). Two full-text corrections to earlier search-level claims: (1) Donaldson & Hornbeck's result is "moderately larger" — 3.22% of GNP vs Fogel's 2.7% (upper bound 5.35%) — **not "more than double"**; (2) the Dec-1870-IMM survivorship check + buy-and-hold/−100% bounds belong to *Rule Britannia!* (Acheson et al. 2009), **not** *Before the Cult of Equity* (which does no survivorship adjustment). Resolved "Brian Mitchell" = B.R. Mitchell (same person, via the 2011 paper's internal self-citation chain). Confirmed sole authorship of three Campbell papers from actual PDFs. Assessed the York and North Midland Railway cash-flow candidate against real sources: "Dispelling the Myth" has no company-level call data; Tuck's Manual (1845/1847, read on archive.org) gives partial YNM inputs but no dated call schedule — a genuine remaining gap. Poor's Manual (~1899/1900) and Lubben (2004) read for US receivership evidence.
+- `governance/WORK_BOARD.md` — status: "Stage B complete, now with full-text verification — awaiting Research Architect review"; network prerequisite marked resolved.
+
+Note:
+- Network constraint resolved at the proxy/allowlist level. Genuine gaps remaining: aggregate UK investor-capital-loss figure (absent from Odlyzko's full text); YNM dated call schedule (missing Tuck's/Bradshaw's editions); provincial-underrepresentation magnitude for 1843–50; Arnold & McCartney (2004) pre-1870 returns paper (paywalled, no open copy); "Managerial Failure" (Business History 66(5)) co-authorship unresolved.
+- No Evidence Ledger claim rows, `REV-HIST-001`, Pattern, Mapping, or Thesis created. No cash-flow reconstruction performed. Still Stage B.
+- Next step: Stage B review by the Research Architect before Stage C.
+
 ## 2026-07-12 — Environment network-access requirements documented
 
 Added:
