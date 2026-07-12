@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Stage C active: Evidence Ledger construction
+
+Changed:
+- `governance/WORK_BOARD.md` — HIS-001 status: "Stage B PASS — Stage C Quantitative Backbone & Evidence Ledger active."
+
+Note:
+- Stage B passed Research Architect review. Stage C converts the verified source set into a traceable Evidence Ledger (`HIS-001_EVIDENCE_LEDGER.md`) with stable claim IDs, every claim tied to a source actually read at an exact location. No final narrative, no Pattern/Mapping/Thesis, no AI-era interpretation this stage. (Detailed Stage C completion entry appended when the ledger is delivered.)
+
 ## 2026-07-12 — HIS-001 Stage B: full-text source verification (network reopened)
 
 Changed:

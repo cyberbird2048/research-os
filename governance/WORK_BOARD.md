@@ -16,7 +16,7 @@ Single tracker for all research task state. Update this file in the same change 
 
 - **Title:** Steam, Railways, and Wealth Creation in the First Industrial Revolution
 - **Owner:** claude-code
-- **Current step:** Stage B complete — awaiting Research Architect review
+- **Current step:** Stage B PASS — Stage C Quantitative Backbone & Evidence Ledger active
 - **Branch:** `main`
 - **Brief:** [`governance/HIS-001_RESEARCH_BRIEF.md`](HIS-001_RESEARCH_BRIEF.md)
 - **Plan:** [`knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md`](../knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md)
