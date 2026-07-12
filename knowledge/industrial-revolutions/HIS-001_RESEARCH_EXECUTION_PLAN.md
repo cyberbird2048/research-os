@@ -122,7 +122,7 @@ Every ledger row must carry a claim classification: `historical fact` / `quantit
 
 ## 3. Proposed Primary-Source Categories
 
-Categories, not yet a vetted list. Feasibility of access is Unresolved Question U5.
+Categories, not yet a vetted list. Access approach is governed by Gate 1 decision U5 (open-access-first; see §12).
 
 1. **UK parliamentary and regulatory records** — Railway Returns to the Board of Trade; select committee reports on railway acts; authorization statistics (miles authorized vs. built).
 2. **Contemporary security price records** — *Course of the Exchange*; contemporary newspaper share tables (including provincial exchanges: Manchester, Liverpool, Glasgow); railway share indices reconstructed by modern scholars from these tables (near-primary).
@@ -148,7 +148,7 @@ Brief minimums this plan must hit: ≥3 primary/near-primary quantitative source
 Staged; each stage ends by updating the source register before any ledger rows cite it.
 
 - **Stage A — Orientation (bounded, ≤1 session).** Map the literature landscape using surveys and bibliographies (EH.net encyclopedia entries, handbook chapters). Output: candidate source list in `HIS-001_SOURCE_REGISTER.md` with reliability ratings. No claims yet.
-- **Stage B — Academic acquisition.** Locate open-access versions (author pages, SSRN/NBER/university repositories) of the §4 core papers. Record access path per source. Where only abstracts are accessible, mark the source `partial-access` and treat derived numbers as lower-confidence until verified.
+- **Stage B — Academic acquisition (open-access-first).** Locate open-access versions (author pages, SSRN/NBER/university repositories, scholars' published datasets, Mitchell's compendia) of the §4 core papers before considering any paid source. Record access path per source. Where only abstracts are accessible, mark the source `partial-access` and treat derived numbers as lower-confidence until verified. **Paid-access request trigger (Gate 1 decision U5):** escalate a specific, named paid-access request to the User only when (a) the source is load-bearing for a Gate 2 minimum-sufficiency requirement in §2, and (b) no open-access equivalent or substitute dataset exists after this stage's search. Do not silently substitute a lower-quality source for an inaccessible load-bearing one — log the gap instead.
 - **Stage C — Quantitative backbone.** Extract the key series (share indices, dividends, authorized capital, cost series) into ledger rows with exact citations (table/page). Prefer series already digitized by scholars over hand-collected numbers; record the scholar's own source chain.
 - **Stage D — Counter-evidence sweep.** Deliberate search pass for failures, dilution, weak regions, and anti-narrative findings (search terms oriented to "losses", "abandoned", "receivership", "calls", "unprofitable"). This stage is mandatory and has its own ledger section; it may not be skipped for time.
 - **Stage E — Dispute documentation.** For each of the two required competing-interpretation pairs, write a neutral statement of both positions, their data, and what would decide between them.
@@ -172,7 +172,7 @@ Per the brief §9; no files outside this list without a scope change approved at
 | `research/ai-revolution/MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` | after Gate 3 | Gate 4 |
 | `THS-001` | **not in HIS-001** | Gate 5, Phase 3 |
 
-Patterns may also be *rejected*: a pattern file can be created with `status: archived` and a rejection rationale if evidence contradicts the hypothesis — rejection is a valid deliverable.
+Patterns are capped at `draft` status within HIS-001 (Gate 1 decision U8; see §12). A hypothesis found unsupported is recorded as a `rejected` verdict row in the evidence ledger's hypothesis-verdict section (§7.4); this does not, by default, create a new pattern file. A pattern file is created only for a candidate mechanism judged recurring and evidence-backed enough to document, per Step 6 of `workflows/RESEARCH_WORKFLOW.md`.
 
 ## 7. Claim-to-Evidence Workflow
 
@@ -199,7 +199,7 @@ Patterns may also be *rejected*: a pattern file can be created with `status: arc
 1. **Cohort-based sampling**: where feasible, take *all* railway securities listed in a given year's share tables (e.g., 1845) as the cohort and follow them forward — including delisted, absorbed, and failed lines — rather than sampling companies known today.
 2. **Authorized-but-never-built tracking**: compare parliamentary authorizations (miles, capital) against completed mileage; the gap is a direct measure of capital committed to projects that died.
 3. **Failure quota**: the evidence ledger must contain a dedicated failure section covering at minimum: failed/abandoned companies, shareholders ruined by calls, post-Mania dividend collapses, overbuilt duplicate routes, and at least one weak-return region — before Gate 2 can pass.
-4. **US panics as out-of-sample check**: UK Mania findings tested against US receivership waves (1857/1873/1893) to ensure mechanisms aren't one-country artifacts. (Scope guard: US treatment is comparative, not a second full study — see U3.)
+4. **US panics as out-of-sample check**: UK Mania findings tested against **at most two** of the US receivership waves (1857/1873/1893) to ensure mechanisms aren't one-country artifacts. Scope is capped to financing-fragility and receivership-outcome evidence only — not a parallel full study of US value capture. (Gate 1 decision U3 — see §12.)
 5. **Winner-independent sourcing**: source register flags every source that conditions on success (company centenary histories, hagiographies) and caps their evidential weight.
 
 ## 10. Separating Investor Returns from Social Value and Operating Profit
@@ -212,39 +212,53 @@ Each concept gets its own measurement, its own evidence, and its own ledger rows
 | Social value creation | Social savings estimates and their critiques; consumer surplus from rate declines; market-integration effects | §4.3 literature, both sides |
 | Enterprise operating profit | Operating ratio, net revenue, return on paid-up capital, by company category and period | Company accounts, Railway Returns |
 | Bondholder return | Yields, default incidence, recovery in reorganizations | Price records, failure records |
-| Shareholder return | Total return (price + dividends) on cohort basis, accounting for calls actually paid in (money-weighted where the call structure matters) | Reconstructed share indices, dividend records |
-| Long-term excess return | Shareholder return minus benchmark (consols and/or broad UK equity index) over matched windows | §4.2 series |
+| Shareholder return | Total return (price + dividends) on cohort basis; **at least one representative cohort computed as a full cash-flow-aware (money-weighted) return accounting for installment-call timing** (Gate 1 decision U2); other cohorts may use scholarly time-weighted returns with qualitative money-weighted caveats | Reconstructed share indices, dividend records |
+| Long-term excess return | Shareholder return minus benchmark — **primary benchmark: reconstructed broad UK equity index; secondary: consols** (Gate 1 decision U1) — over matched windows; **benchmark-relative framing is primary, real/deflated framing secondary**, using the Bank of England "A Millennium of Macroeconomic Data" series as the primary deflator plus one sensitivity check against an alternative contemporary price index where available (Gate 1 decision U6) | §4.2 series |
 
 Explicit rule: national productivity gains (H2's "social value" side) may never be cited as evidence of investor return, and vice versa. The final asset must be able to state, separately and with sources: *who created value, who captured profit, who earned returns, who lost money* — and where these were different people.
 
 ## 11. Stopping Conditions
 
-HIS-001 evidence collection stops when **all** of the following hold (from brief §12, operationalized):
+Stopping conditions are staged to match the workflow sequence in `workflows/RESEARCH_WORKFLOW.md`. A later-stage condition (e.g. mapping quality) is never a precondition for an earlier stage to conclude (Gate 1 decision, Required Revision 11).
+
+### 11.1 Evidence Collection Exit Criteria (enables Historical Draft — Gate 2)
 
 1. QT1–QT5 branches each meet their Gate 2 sufficiency row in §2.
 2. The two required competing-interpretation pairs are documented with a decision criterion.
-3. Investor-return evidence covers: at least one boom cohort, at least one bust cohort, and benchmark-relative framing.
+3. Investor-return evidence covers: at least one boom cohort, at least one bust cohort, the cash-flow-aware cohort requirement (U2), and benchmark-relative framing (U1).
 4. Failure quota (§9.3) is met.
-5. H1–H5 each have a verdict row (including "rejected" or "undecidable" as acceptable outcomes).
-6. At least two candidate patterns are supported **or rejected** on evidence.
-7. MAP-001's critical-differences section is non-empty and falsifiable.
-8. Remaining gaps are listed and judged non-critical at Gap Review.
+
+### 11.2 Historical Draft Completion Criteria (Gate 3)
+
+5. H1–H5 each have a verdict row (including "rejected" or "undecidable" as acceptable outcomes), citing the ledger rows that decide it.
+6. Remaining gaps are listed and judged non-critical at Gap Review.
+
+### 11.3 Full Sprint Completion Criteria (Gate 4, downstream of the historical draft)
+
+7. At least two candidate patterns are supported **or rejected** on evidence (capped at `draft` status within HIS-001 — U8).
+8. MAP-001's critical-differences section is non-empty and falsifiable.
+
+Condition 8 governs only when the *full* HIS-001 program is considered complete. It must never be read as blocking evidence collection (§11.1) or the historical draft (§11.2), which conclude independently and earlier — MAP-001 is not created until after Gate 3 (`workflows/RESEARCH_WORKFLOW.md`, Step 7).
 
 Anti-goals that also stop work (failure conditions from brief §13): work drifting into general history summary; conclusions resting mainly on popular synthesis; AI mapping crowding out historical analysis; new revolutions being introduced; untraceable claims. Any of these triggers a pause and a redesign request, not silent continuation.
 
-## 12. Unresolved Research-Design Questions
+## 12. Resolved Design Decisions (Gate 1)
 
-For Research Design Review (Gate 1):
+Ruled by the Research Architect at Gate 1 (`governance/HIS-001_GATE_1_REVIEW.md`, verdict: PASS WITH CONDITIONS). These are binding decisions, not open questions; U1–U8 numbering is preserved for traceability to the original questions.
 
-- **U1 — Excess-return benchmark.** For 19th-century UK: consols only, or also a reconstructed broad equity index? Consols are cleaner and contemporary-realistic; a broad index is the stricter alpha test. Proposal: report against both, treat consols as primary. Decision needed.
-- **U2 — Return metric under call-based financing.** Railway shares were paid in via installment calls; time-weighted index returns understate realized investor pain (calls arrived during the bust). Proposal: use scholarly cohort returns where available and note money-weighted caveats qualitatively rather than rebuilding cash-flow-level returns. Is that rigor level acceptable?
-- **U3 — Depth of US treatment.** Full parallel UK/US study doubles scope. Proposal: UK as primary case (Mania-centric), US as comparative check on financing structures and receivership outcomes (three panic episodes, Poor's-level data). Confirm.
-- **U4 — Canals.** Treat canals as (a) core evidence for an earlier infrastructure cycle (canal mania of the 1790s strengthens the capital-cycle pattern with n=2) or (b) background context only? Proposal: (a)-lite — one bounded ledger section on canal mania returns, no dedicated narrative chapter. Confirm.
-- **U5 — Source access constraints.** Paywalled archives (ProQuest Parliamentary Papers, some journals) may be inaccessible from this environment. Fallbacks: open-access versions, scholars' published datasets, Mitchell's compendia. Acceptable, or should the user provision specific access?
-- **U6 — Real vs. nominal.** Which deflator convention for 19th-century series (Bank of England millennium dataset CPI proxy vs. reporting benchmark-relative returns only)? Proposal: benchmark-relative primary, real returns secondary.
-- **U7 — Guaranteed-return structures.** Indian/colonial guaranteed railways are a striking financing-structure case (state-guaranteed 5% returns → moral hazard) but geographically out of the declared scope. Include as one bounded financing-structure ledger item, or exclude? Proposal: exclude from HIS-001; note for a future sprint.
-- **U8 — Pattern promotion threshold.** Confirm that within HIS-001 alone, patterns can reach at most `draft` status (since cross-cycle validation requires ≥2 revolutions, which arrives only with HIS-002/003).
+- **U1 — Excess-return benchmark (RESOLVED).** Primary benchmark for long-term excess return is a reconstructed broad UK equity index; consols are reported as a secondary, contemporary-realistic benchmark. Both appear in every excess-return calculation, with the broad index labeled primary.
+- **U2 — Return metric under call-based financing (RESOLVED).** At least one representative cohort must have a full cash-flow-aware (money-weighted) return calculation accounting for installment-call timing. Other cohorts may use scholarly time-weighted returns with qualitative money-weighted caveats.
+- **U3 — Depth of US treatment (RESOLVED).** UK remains the primary case. US treatment is capped to **at most two** of the three panic episodes (1857/1873/1893), scoped only to financing-fragility and receivership-outcome evidence — not a parallel full study.
+- **U4 — Canals (RESOLVED).** One bounded ledger section on canal-mania returns only; no dedicated narrative chapter.
+- **U5 — Source access constraints (RESOLVED).** Open-access-first is the sourcing rule (author pages, SSRN/NBER/repositories, scholars' published datasets, Mitchell's compendia). A paid-access request to the User is triggered only when (a) a source is load-bearing for a Gate 2 minimum-sufficiency requirement in §2, and (b) no open-access equivalent or substitute dataset is found after the Stage B search (§5). Requests must name the specific source and the specific requirement it would satisfy.
+- **U6 — Real vs. nominal (RESOLVED).** Benchmark-relative returns are the primary framing. Real (deflated) returns are secondary, using the Bank of England "A Millennium of Macroeconomic Data" series as the primary deflator, with one sensitivity check against an alternative contemporary price index (e.g., Feinstein or Clark cost-of-living series) where available.
+- **U7 — Guaranteed-return structures (RESOLVED).** Excluded from HIS-001 entirely, including as a bounded ledger item. Colonial state-guaranteed railway cases (e.g., India) may be considered for a future sprint but are out of scope here.
+- **U8 — Pattern promotion threshold (RESOLVED).** Confirmed: within HIS-001 alone, all candidate patterns are capped at `draft` status. Promotion to `active` requires cross-cycle validation from a second historical revolution (HIS-002/003), which has not started.
+
+## 13. Research-Budget Guardrail
+
+If a comparative or bounding module — the US panic-episode comparison (§9.4) or the canal ledger section (U4) — begins to consume research time disproportionate to the core UK steam/railway analysis, the comparative module is cut back or dropped first. The Sprint timeline is not extended to accommodate it. Any cut is logged in the evidence ledger's Notes column and reported at the next gate review rather than silently absorbed.
 
 ---
 
-*Next step after this plan: STOP. Submit for Research Design Review (Gate 1) by the Research Architect. No evidence collection begins until review passes or revisions are requested.*
+*Gate 1 status: Research Design Review completed — PASS WITH CONDITIONS (`governance/HIS-001_GATE_1_REVIEW.md`). The 12 required revisions are implemented in this revision of the plan. Next step: STOP. Await Research Architect confirmation that all 12 revisions are correctly implemented before Stage A (source-register orientation) begins.*
