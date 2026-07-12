@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Stage B: source verification, cash-flow candidate, network-access constraint confirmed
+
+Changed:
+- `knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md` — full Stage B pass. Directly tested network capability (curl + WebFetch against 4 diverse URLs: official/institutional page, academic working paper, downloadable book, dataset page) — **confirmed 403 in all 8 attempts**, logged by the session proxy as explicit policy denials. Adopted the 5-way access-status taxonomy (verified-open/partial/paywalled/access-failed/not-yet-checked); since no fetch succeeded, essentially all ~58 register entries are labeled `access-failed` rather than any `verified-*` status. Applied 8 bibliographic corrections (several "Campbell & Turner" papers are sole-authored by Campbell; the provincial-markets paper was misattributed; the Atack GIS dataset covers the American Midwest, not Great Britain; the "Brian Mitchell"/"B.R. Mitchell" identity flag now leans toward same-person, reversing Stage A's caution). Confirmed genuine (not title-level) disagreement for both required Gate 2 competing-interpretation pairs (Railway Mania: Campbell vs. Odlyzko; social savings: Fogel/Fishlow vs. Donaldson & Hornbeck), and reclassified Hawke vs. Leunig as a successive refinement, not a second pair. Identified a cash-flow reconstruction candidate (York and North Midland Railway) with supporting sources. Added a minimal Tier 3 canal-source set (3 sources). Resolved the provincial-market question as "partially resolved — material limitation for the Mania-period series." Assessed all 9 Tier 1 requirements as Partial or Sufficient-for-Stage-C; none Blocked. No Paid Access Escalation triggered (four-condition test applied and not met for any candidate).
+- `governance/WORK_BOARD.md` — status: "Stage B complete — awaiting Research Architect review."
+
+Note:
+- **Network-access constraint is the dominant finding of this stage:** true full-text/dataset verification is not achievable in this session for any external source (organizational egress policy, not a per-host or client issue). Recommend the User treat this as a distinct infrastructure question, separate from any single paywalled source.
+- No Evidence Ledger claim rows, `REV-HIST-001`, Pattern, Mapping, or Thesis created. No cash-flow reconstruction performed (candidate only). Stage B scope limits otherwise unchanged.
+- Next step: Stage B review by the Research Architect. No automatic continuation into Stage C.
+
 ## 2026-07-12 — HIS-001 Gate 1 PASSED; Stage A Orientation complete
 
 Added:

@@ -16,12 +16,12 @@ Single tracker for all research task state. Update this file in the same change 
 
 - **Title:** Steam, Railways, and Wealth Creation in the First Industrial Revolution
 - **Owner:** claude-code
-- **Current step:** Stage A PASS WITH CONDITIONS — Stage B Source Acquisition & Verification active
+- **Current step:** Stage B complete — awaiting Research Architect review
 - **Branch:** `main`
 - **Brief:** [`governance/HIS-001_RESEARCH_BRIEF.md`](HIS-001_RESEARCH_BRIEF.md)
 - **Plan:** [`knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md`](../knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md)
 - **Gate 1 Review:** [`governance/HIS-001_GATE_1_REVIEW.md`](HIS-001_GATE_1_REVIEW.md) — verdict: PASS WITH CONDITIONS, confirmed PASSED by Research Architect.
-- **Source Register:** [`knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md`](../knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md) — Stage A candidate landscape reviewed PASS WITH CONDITIONS; Stage B (source acquisition/verification) in progress. Network-access constraint confirmed and documented (see register).
+- **Source Register:** [`knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md`](../knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md) — Stage A reviewed PASS WITH CONDITIONS. Stage B (source acquisition/verification) complete: bibliographic corrections applied, Tier 1 requirements assessed (all Partial or Sufficient-for-Stage-C, none Blocked), cash-flow reconstruction candidate identified (York and North Midland Railway), provincial-market question partially resolved. **Network-access constraint confirmed directly this stage (curl + WebFetch, 4/4 test categories, 403 at the proxy/policy level)** — no source can reach `verified-open/partial/paywalled` status in this environment; flagged for the Research Architect/User as a distinct infrastructure question. Awaiting review before Stage C.
 
 ## Waiting for Review
 
