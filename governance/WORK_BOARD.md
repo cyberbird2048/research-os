@@ -16,11 +16,12 @@ Single tracker for all research task state. Update this file in the same change 
 
 - **Title:** Steam, Railways, and Wealth Creation in the First Industrial Revolution
 - **Owner:** claude-code
-- **Current step:** Gate 1 revisions implemented — awaiting Research Architect confirmation
+- **Current step:** Gate 1 PASS — Stage A Orientation active
 - **Branch:** `main`
 - **Brief:** [`governance/HIS-001_RESEARCH_BRIEF.md`](HIS-001_RESEARCH_BRIEF.md)
 - **Plan:** [`knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md`](../knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md)
-- **Gate 1 Review:** [`governance/HIS-001_GATE_1_REVIEW.md`](HIS-001_GATE_1_REVIEW.md) — verdict: PASS WITH CONDITIONS; 12 required revisions implemented in the plan, pending Research Architect confirmation.
+- **Gate 1 Review:** [`governance/HIS-001_GATE_1_REVIEW.md`](HIS-001_GATE_1_REVIEW.md) — verdict: PASS WITH CONDITIONS, confirmed PASSED by Research Architect.
+- **Source Register:** [`knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md`](../knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md) — Stage A orientation in progress.
 
 ## Waiting for Review
 
