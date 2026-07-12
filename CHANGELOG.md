@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Stage C complete: Evidence Ledger delivered
+
+Added:
+- `knowledge/industrial-revolutions/HIS-001_EVIDENCE_LEDGER.md` — the Stage C deliverable. **151 traceable claims** across C1–C8 (technology/cost/diffusion; capital formation/overbuild; prices/investor returns; cash-flow reconstruction; operating vs shareholder return; failure/impairment; competing interpretations; canals + US comparative), each read from actual full text at an exact page/table/figure location with unit/period/sample, counter-evidence, and limitations. Includes a Quantitative Backbone (21 core series), a disposition of the six carried Stage B gaps, and a Gate 2 readiness matrix. Claim tally: 105 supported / 29 partially-supported / 11 contested / 4 gap / 2 undecidable; classifications 66 quantitative-estimate / 37 historical-fact / 24 scholarly-interpretation / 15 research-inference; **0 ai-era analogy** (forbidden this stage).
+
+Changed:
+- `knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md` — applied the Stage C provenance correction (ledger C-197): the file previously mis-keyed "McCartney (2024) Managerial Failure" is actually **Campbell & Turner (2015) "Managerial Failure in Mid-Victorian Britain?"**; added **McCartney & Arnold (2001)** as the true (unread, paywalled) origin of the YNM 10.1%/−0.3% figures; added the newly-located **Tuck 1848/9th edition**.
+- `governance/WORK_BOARD.md` — HIS-001 status: "Stage C complete — awaiting Gate 2 Evidence Sufficiency Review."
+
+Note:
+- **Cash-flow-aware reconstruction (York and North Midland Railway) = `undecidable`** with current evidence — no dated call schedule exists in any located source (three Tuck editions read, incl. one Stage B missed); no figure was fabricated or interpolated (ledger C-166).
+- Genuine gaps carried forward: aggregate UK investor-capital-loss figure; provincial-underrepresentation magnitude for 1843–50; Arnold & McCartney (2004) full text; Odlyzko-vs-Mitchell railway-investment/GDP-share discrepancy.
+- No `REV-HIST-001`, Pattern, Mapping, or Thesis created; no AI-era interpretation. Next: Gate 2 review, then (if passed) the historical draft.
+
 ## 2026-07-12 — HIS-001 Stage C active: Evidence Ledger construction
 
 Changed:
