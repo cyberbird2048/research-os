@@ -16,12 +16,12 @@ Single tracker for all research task state. Update this file in the same change 
 
 - **Title:** Steam, Railways, and Wealth Creation in the First Industrial Revolution
 - **Owner:** claude-code
-- **Current step:** Gate 1 PASS — Stage A Orientation active
+- **Current step:** Stage A PASS WITH CONDITIONS — Stage B Source Acquisition & Verification active
 - **Branch:** `main`
 - **Brief:** [`governance/HIS-001_RESEARCH_BRIEF.md`](HIS-001_RESEARCH_BRIEF.md)
 - **Plan:** [`knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md`](../knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md)
 - **Gate 1 Review:** [`governance/HIS-001_GATE_1_REVIEW.md`](HIS-001_GATE_1_REVIEW.md) — verdict: PASS WITH CONDITIONS, confirmed PASSED by Research Architect.
-- **Source Register:** [`knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md`](../knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md) — Stage A orientation in progress.
+- **Source Register:** [`knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md`](../knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md) — Stage A candidate landscape reviewed PASS WITH CONDITIONS; Stage B (source acquisition/verification) in progress. Network-access constraint confirmed and documented (see register).
 
 ## Waiting for Review
 

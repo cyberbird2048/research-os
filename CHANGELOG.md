@@ -3,7 +3,9 @@
 ## 2026-07-12 — HIS-001 Gate 1 PASSED; Stage A Orientation complete
 
 Added:
-- `knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md` — Stage A deliverable: candidate source landscape across 6 primary/near-primary categories and 7 academic/institutional categories (plan §3, §4), with metadata, reliability, access path, and source-chain notes for ~45 real, verified candidate sources. Both required Gate 2 competing-interpretation pairs are covered with openly accessible sources on each side (Railway Mania: Campbell & Turner vs. Odlyzko; social savings: Fogel/Fishlow vs. Donaldson & Hornbeck).
+- `knowledge/industrial-revolutions/HIS-001_SOURCE_REGISTER.md` — Stage A deliverable: candidate source landscape across 6 primary/near-primary categories and 7 academic/institutional categories (plan §3, §4), with metadata, reliability, access path, and source-chain notes for ~45 candidate sources. Candidate sources identified; bibliographic metadata provisionally verified during Stage A. Full-text accessibility, methodological suitability, and actual evidentiary support are subject to Stage B verification. Both required Gate 2 competing-interpretation pairs have openly-claimed candidate sources on each side (Railway Mania: Campbell & Turner vs. Odlyzko; social savings: Fogel/Fishlow vs. Donaldson & Hornbeck) — genuine disagreement and accessibility remain to be confirmed in Stage B.
+
+**Correction (2026-07-12, Stage B):** the phrase "~45 real, verified candidate sources" in this entry overstated Stage A's actual verification level. Stage A verified bibliographic existence (real titles/authors/venues) via web search, not full-text or dataset accessibility. Corrected per Research Architect Stage A review (PASS WITH CONDITIONS).
 
 Changed:
 - `governance/WORK_BOARD.md` — HIS-001 status: "Gate 1 PASS — Stage A Orientation active"; Gate 1 recorded as confirmed PASSED by the Research Architect.
