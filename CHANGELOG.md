@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-12 — Environment network-access requirements documented
+
+Added:
+- `governance/ENVIRONMENT_NETWORK_REQUIREMENTS.md` — living allowlist for the remote environment. Diagnoses the current "Trusted" network level (allows GitHub + package registries, blocks the general web incl. all HIS-001 academic/primary sources), and lists the domains the User must add to the environment's custom allowlist to unlock source verification. 8 Tier-1-required domains + supplementary/orientation lists, each mapped to what it unlocks. Extended as needed per the "add as needed" protocol in the file.
+
+Note:
+- This is an infrastructure/operational change, not research content. No Evidence Ledger, narrative, Pattern, Mapping, or Thesis affected. HIS-001 remains at "Stage B complete — awaiting Research Architect review"; resolving network access is a prerequisite for Stage C, tracked separately from Stage C authorization.
+
 ## 2026-07-12 — HIS-001 Stage B: source verification, cash-flow candidate, network-access constraint confirmed
 
 Changed:
