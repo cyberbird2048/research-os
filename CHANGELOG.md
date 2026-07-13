@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Pattern Review: PASS WITH MINOR REVISIONS (1 of 2 applied)
+
+Changed:
+- `patterns/PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md` — Pattern Statement revised per Pattern Review: removed the implication that HIS-001 observed social value, enterprise profitability, and investor return diverging within one fully matched episode/cohort. Now reads: "Across related infrastructure episodes, social value creation, enterprise profitability, and investor return can diverge materially. HIS-001 does not establish all three through one matched cohort-level dataset."
+
+Note:
+- Pattern Review authorized two minor Pattern revisions plus one bounded Historical-to-AI Mapping (`MAP-001`), but only the PAT-001 revision above was fully specified. The second revision's target file/wording and the required structure for `MAP-001` were not given — paused to ask the Research Architect for both rather than inventing MAP-001's structure, given its governance sensitivity (mandatory critical-differences section, falsifiability, no premature AI conclusion). No Mapping or Thesis file created yet.
+
 ## 2026-07-12 — HIS-001 Gate 3 PASSED; three candidate Patterns drafted
 
 Added:

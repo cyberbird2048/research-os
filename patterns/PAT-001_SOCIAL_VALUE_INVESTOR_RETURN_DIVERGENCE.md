@@ -22,7 +22,7 @@ related:
 
 ## Pattern Statement
 
-Infrastructure can create durable social and downstream economic value while direct investors experience weak, uneven, or negative returns. Social value creation, enterprise operating profit, and shareholder return are three distinct measures that need not move together, and a single episode can show all three diverging at once.
+Infrastructure can create durable social and downstream economic value while direct investors experience weak, uneven, or negative returns. Social value creation, enterprise operating profit, and shareholder return are three distinct measures that need not move together. Across related infrastructure episodes, social value creation, enterprise profitability, and investor return can diverge materially. HIS-001 does not establish all three through one matched cohort-level dataset.
 
 ## Historical Mechanism
 
