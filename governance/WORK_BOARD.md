@@ -16,7 +16,7 @@ Single tracker for all research task state. Update this file in the same change 
 
 - **Title:** Steam, Railways, and Wealth Creation in the First Industrial Revolution
 - **Owner:** claude-code
-- **Current step:** Pattern Review PASS WITH MINOR REVISIONS — 1 of 2 revisions applied; awaiting clarification on the second revision and the MAP-001 structural spec
+- **Current step:** Pattern Validation Framework complete — awaiting methodology review
 - **Branch:** `main`
 - **Brief:** [`governance/HIS-001_RESEARCH_BRIEF.md`](HIS-001_RESEARCH_BRIEF.md)
 - **Plan:** [`knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md`](../knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md)
@@ -29,6 +29,8 @@ Single tracker for all research task state. Update this file in the same change 
   - [`patterns/PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md`](../patterns/PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md) — infrastructure can create durable social/downstream value while direct investors see weak, uneven, or negative returns.
   - [`patterns/PAT-002_CAPITAL_CYCLE_OVERBUILD.md`](../patterns/PAT-002_CAPITAL_CYCLE_OVERBUILD.md) — abundant speculative capital can accelerate buildout beyond near-term demand, impairing investors while leaving some productive capacity behind.
   - [`patterns/PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md`](../patterns/PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md) — entry timing, leverage, and installment-call structure can dominate investor outcome within the same sector.
+  - One PAT-001 revision applied per Pattern Review; a second revision (file/wording unspecified) remains an open item, separate from the workflow change below.
+- **Workflow change — MAP-001 superseded:** the prior authorization to create `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` is withdrawn. No AI Mapping work exists or was started. The Research Architect has inserted a new stage between candidate Patterns and any Mapping: [`governance/PATTERN_VALIDATION_FRAMEWORK.md`](PATTERN_VALIDATION_FRAMEWORK.md) — new pipeline is `Candidate Pattern → Pattern Validation Framework → Cross-cycle Historical Validation → Active Pattern → Historical → AI Mapping → Investment Thesis`. All three candidate Patterns remain at `draft` under this framework; none may reach `active` until a second historical revolution (HIS-002 or HIS-003) is studied and run through the framework's Validation Matrix.
   - All three derived only from `REV-HIST-001` and the Evidence Ledger; none eligible for `active`; no `MAP-001` or `THS-001` created. Awaiting Pattern Review.
 
 ## Waiting for Review

@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-12 — Workflow change: MAP-001 superseded by Pattern Validation Framework
+
+Added:
+- `governance/PATTERN_VALIDATION_FRAMEWORK.md` (`status: active`) — new governance document defining how a candidate Pattern (`PAT-###`) may be promoted from `draft` to `active`. Defines: a 6-state lifecycle (`draft → validated-in-one-cycle → cross-cycle-candidate → active → stable → archived`, each with meaning/entry/exit/review-authority/required-evidence); a reusable Validation Matrix template (rows: Steam & Railways, Electricity, Oil & Automobile, Semiconductor, Internet, Mobile, Cloud, AI — columns: Supports/Weakens/Rejects/Notes; no rows populated); minimum promotion requirements (≥2 independent revolutions, different institutional environments where possible, counter-evidence review, boundary/falsification conditions tested, no unresolved load-bearing gap, repeatable mechanism not narrative similarity); a 5-level evidence hierarchy (primary → near-primary quantitative → academic synthesis → historical interpretation → narrative analogy, with narrative analogy alone barred from ever promoting a Pattern); explicit rules for handling a contradicting revolution (boundary-narrowing vs. genuine rejection); a Pattern Quality Checklist; and a formal review process (Draft → Historical Validation → Counter-Evidence Review → Cross-Cycle Comparison → Promotion Decision, authority held jointly by the Research Architect and Investment Committee). Methodology only — no AI-era company, sector, or investment content.
+
+Changed:
+- `governance/WORK_BOARD.md` — HIS-001 status: "Pattern Validation Framework complete — awaiting methodology review." Records that the prior `MAP-001` authorization is withdrawn (no Mapping work existed or was started) and that the pipeline is now `Candidate Pattern → Pattern Validation Framework → Cross-cycle Historical Validation → Active Pattern → Historical → AI Mapping → Investment Thesis`. All three candidate Patterns remain `draft`; none reach `active` without a second historical revolution run through the new framework.
+
+Note:
+- This is a purely methodological change. No Historical Asset, Evidence Ledger, Source Register, Pattern content, Mapping, or Thesis was modified. No new historical research conducted.
+
 ## 2026-07-12 — HIS-001 Pattern Review: PASS WITH MINOR REVISIONS (1 of 2 applied)
 
 Changed:
