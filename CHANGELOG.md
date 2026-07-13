@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Gate 3 PASSED; three candidate Patterns drafted
+
+Added:
+- `patterns/PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md` — candidate pattern: infrastructure can create durable social/downstream value while direct investors see weak, uneven, or negative returns. Derived from `REV-HIST-001` §A/§E/§F and Evidence Ledger claims incl. C-107/108/109, C-112/113/120/121, C-133, C-188/190/191/192/193, C-224, C-272/273/274. `status: draft`, `confidence: low`.
+- `patterns/PAT-002_CAPITAL_CYCLE_OVERBUILD.md` — candidate pattern: abundant speculative capital can accelerate deployment beyond near-term demand, impairing investors while leaving some productive capacity behind. Keeps authorization/subscription/called/paid/expenditure/completed-capacity/impairment strictly distinct per C-050/051/054–060/063/069/112/113/120/121/123. Presents both a rational-investment and a speculative-excess interpretation without forcing a binary. `status: draft`, `confidence: low`.
+- `patterns/PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md` — candidate pattern: entry timing, leverage, and installment-call structure can dominate investor outcome within the same sector. Grounded in the cohort/leverage evidence (C-115–C-119, C-123/124) and explicit about the YNM cash-flow reconstruction's `undecidable` status (C-150–166) — cohort-level index evidence is not conflated with a verified representative investor's dated cash-flow history. `status: draft`, `confidence: low`.
+
+Changed:
+- `knowledge/industrial-revolutions/REV-HIST-001_STEAM_AND_RAILWAYS.md` — frontmatter `related` updated to add `PAT-001`–`003` now that those files exist; scope note updated to reflect their creation.
+- `governance/WORK_BOARD.md` — HIS-001 status: "Candidate Pattern Drafts complete — awaiting Pattern Review." Historical Synthesis marked Gate 3 PASSED (stable historical asset).
+
+Note:
+- All three patterns derive only from `REV-HIST-001` and `HIS-001_EVIDENCE_LEDGER.md` — no new historical research conducted. Every substantive statement cites `C-###` IDs. Zero AI-era content (no companies, sectors, GPUs, data centers, valuations). No pattern may reach `active` within HIS-001 alone; cross-cycle validation from HIS-002/HIS-003 is required.
+- No `MAP-001` or `THS-001` created.
+
 ## 2026-07-12 — HIS-001 Gate 3: minor revisions implemented
 
 Changed:

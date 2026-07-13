@@ -15,11 +15,14 @@ sources:
 related:
   - HIS-001
   - HIS-001-EVIDENCE-LEDGER
+  - PAT-001
+  - PAT-002
+  - PAT-003
 ---
 
 # REV-HIST-001 — Steam, Railways, and Wealth Creation
 
-**Scope note.** This is a historical asset derived from `HIS-001_EVIDENCE_LEDGER.md`. Every material conclusion cites ledger claim IDs (`C-###`). No material factual claim appears here that is not in the ledger; where the evidence is thin, the conclusion is weakened, marked unresolved, or omitted. **No AI-era analogy, mapping, pattern, or thesis appears in this document** — those are later stages, and no `PAT-*`, `MAP-001`, or `THS-001` file exists yet. Future relationships to those assets will be added to `related` once they are actually created.
+**Scope note.** This is a historical asset derived from `HIS-001_EVIDENCE_LEDGER.md`. Every material conclusion cites ledger claim IDs (`C-###`). No material factual claim appears here that is not in the ledger; where the evidence is thin, the conclusion is weakened, marked unresolved, or omitted. **No AI-era analogy, mapping, or thesis appears in this document** — those are later stages, and no `MAP-001` or `THS-001` file exists yet. Candidate patterns `PAT-001`–`003` have since been drafted from this asset (all `status: draft`, `confidence: low`, not eligible for `active` — see each Pattern's eligibility table); `MAP-001`/`THS-001` relationships will be added once those files actually exist.
 
 **Confidence convention.** Conclusions carry an explicit confidence (low / medium / high) and a classification inherited from the ledger. "Two-hop" marks a claim whose ultimate source was not read directly (see §5.D).
 
