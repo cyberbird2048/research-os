@@ -15,16 +15,11 @@ sources:
 related:
   - HIS-001
   - HIS-001-EVIDENCE-LEDGER
-  - PAT-001
-  - PAT-002
-  - PAT-003
-  - PAT-004
-  - MAP-001
 ---
 
 # REV-HIST-001 — Steam, Railways, and Wealth Creation
 
-**Scope note.** This is a historical asset derived from `HIS-001_EVIDENCE_LEDGER.md`. Every material conclusion cites ledger claim IDs (`C-###`). No material factual claim appears here that is not in the ledger; where the evidence is thin, the conclusion is weakened, marked unresolved, or omitted. **No AI-era analogy, mapping, pattern, or thesis appears in this document** — those are later stages. The candidate `PAT-*`/`MAP-001` IDs in the frontmatter are placeholders for traceability only; no such files exist.
+**Scope note.** This is a historical asset derived from `HIS-001_EVIDENCE_LEDGER.md`. Every material conclusion cites ledger claim IDs (`C-###`). No material factual claim appears here that is not in the ledger; where the evidence is thin, the conclusion is weakened, marked unresolved, or omitted. **No AI-era analogy, mapping, pattern, or thesis appears in this document** — those are later stages, and no `PAT-*`, `MAP-001`, or `THS-001` file exists yet. Future relationships to those assets will be added to `related` once they are actually created.
 
 **Confidence convention.** Conclusions carry an explicit confidence (low / medium / high) and a classification inherited from the ledger. "Two-hop" marks a claim whose ultimate source was not read directly (see §5.D).
 
@@ -32,7 +27,7 @@ related:
 
 ## A. Executive Answer
 
-The steam-and-railway era is the clearest available case of a technology that was **transformative in importance, real but bounded in social value, uneven in enterprise profitability, and sharply timing-dependent in investor return** — five things that the evidence requires be held apart.
+The steam-and-railway era is a well-documented case of a technology that was **transformative in importance, real but bounded in social value, uneven in enterprise profitability, and sharply timing-dependent in investor return** — five things that the evidence requires be held apart. (This study alone cannot establish that steam and railways are the clearest such case across technological revolutions; no comparative revolution has yet been studied under this project.)
 
 **1. Who created economic value?** Steam and railways created real aggregate value, but the measured productivity contribution was *modest and heavily delayed*. Steam did not reach parity with water power until 1830, ~60 years after Watt, and was then only ~1.5% of the capital stock [C-001]; its peak growth-accounting contribution (steam + railways) was ~0.38 pp/yr in 1850–70 [C-007], with railways alone ≤0.26 pp/yr despite a capital stock worth 30% of GDP by 1855 [C-008]; the lag to peak impact was ~80 years [C-009] with "no equivalent to Moore's Law" [C-010]. Social value (a distinct measure) was real but bounded and contested: for US railroads, 2.7% of 1890 GNP (Fogel) to 3.22% (Donaldson & Hornbeck), explicitly "moderately larger," not double [C-272, C-273]; UK passenger social savings were larger but are a within-method refinement debate (Hawke→Leunig) [C-274]. **Confidence: medium. Classification: technological importance and social value creation — held separate from any return measure.**
 
@@ -42,7 +37,7 @@ The steam-and-railway era is the clearest available case of a technology that wa
 
 **4. Who lost money?** Late/top-of-boom entrants and holders of new Mania schemes: the all-railway price index fell 66–70% peak-to-trough [C-112, C-113, C-120]; the 1847 cohort lost even on a fully-paid basis [C-117]; shareholders were legally compelled to keep paying calls into assets the market had already discounted by half [C-223, C-230]; dividends across the sector collapsed to an average 1.9% in 1849 [C-224]; and speculators in never-authorized schemes lost before a rail was laid [C-236]. A qualifier: many losers had paid only small deposits, so per-investor losses on the shortest-lived promotions may have been limited [C-134]. **No reliable aggregate £ investor-loss figure exists [§5.C].**
 
-**5. Why did outcomes differ?** Four mechanisms recur in the evidence: (i) **entry timing and price**, amplified by (ii) **partial-payment leverage** [C-116, C-117]; (iii) **accounting quality** that let reported dividends diverge from economic profit [C-188, C-193]; and (iv) the structural **gap between social value and investor return** — the infrastructure kept delivering transport value while much of the capital that financed it was impaired [C-272, C-273 vs C-224]. Technological importance did not translate into investor return; the two must never be equated.
+**5. Why did outcomes differ?** Four mechanisms recur in the evidence: (i) **entry timing and price**, amplified by (ii) **partial-payment leverage** [C-116, C-117]; (iii) **accounting quality** that let reported dividends diverge from economic profit [C-188, C-193]; and (iv) the structural **gap between social value and investor return** — the infrastructure kept delivering transport value even as identifiable cohorts, late entrants, and failed schemes suffered substantial impairment [C-272, C-273 vs C-224]. No reliable aggregate UK investor-loss figure has been established (§5.C), so this is stated at the cohort level, not as an economy-wide capital-loss estimate. Technological importance did not translate into investor return; the two must never be equated.
 
 ---
 
@@ -144,6 +139,8 @@ Proposition: *investor capital can be destroyed while the infrastructure it fina
 - **Partially supporting:** the surviving infrastructure's downstream value is measured only at the economy-wide aggregate (social savings), and that aggregate is itself modest and contested (Fogel 2.7% vs D&H 3.22% of GNP [C-272, C-273]) — so "enormous productive legacy" overstates what is measured.
 - **Unresolved measurement issues:** there is no aggregate £ investor-loss figure to place on one side of the ledger [§5.C], and no dated cohort reconstruction to establish *how much* capital was destroyed for *whom* [§5.A]. The proposition is therefore **partially supported (medium-low confidence)**: the *direction* (capital impaired, infrastructure retained, social value real) is evidenced; the *magnitudes* on both sides are not jointly quantified.
 
+**The evidence chain is cross-geography and cross-period, not a single reconstruction.** The "capital impaired" side draws on UK Railway Mania investor outcomes (price and dividend collapse, 1845–1850) [C-112, C-224]; the "social value retained" side draws on US social-savings estimates for 1890 [C-272, C-273] and on later UK productivity/infrastructure effects spanning 1850–1912 [C-006–C-011, C-274]. These are three separate bodies of evidence, different countries and different periods, stitched together by analogy rather than by one dataset following one cohort of UK investors' capital through to the social benefit their specific capital produced. This supports H3 only **partially**, and the finding must not be read as a single-cohort UK capital-loss-to-social-benefit reconstruction — no such reconstruction exists in this ledger.
+
 **Discipline preserved:** high social value is **not** used to infer attractive investor returns — the dividend/return evidence [C-109, C-117, C-224] is the only basis for investor-return statements.
 
 ---
@@ -165,7 +162,7 @@ Assessing movement of value capture across stages (technology → equipment → 
 |---|---|---|---|---|---|
 | **H1 — Bottleneck Capture** | partially supported (infrastructure layer only); supplier side **undecidable** | low | Early established operators captured returns [C-233, C-191, C-229] | Returns eroded over time [C-187]; **no supplier/coal/iron/locomotive return data at all** (§E) | Holds, weakly, for early infrastructure *operators*; untested for the "scarce complements" the hypothesis names |
 | **H2 — Social Value Exceeds Investor Value** | partially supported | medium | Social value real [C-272, C-273, C-274] alongside weak/negative railway investor outcomes [C-109, C-117, C-224] | Broad UK equity returns were positive [C-107, C-133]; no aggregate investor-loss figure [§5.C] | "Exceeds" is directional, not a measured inequality; strongest for late/new-cohort railway shareholders, not all investors |
-| **H3 — Overbuild Can Be Economically Productive** | partially supported | medium-low | Capital impaired [C-224] while ~half of mileage built & retained [C-056] and social value delivered [C-272, C-273] | Social-value magnitude modest/contested [C-272 vs C-273]; "overbuild" partly interpretive [C-055 vs C-056] | Direction evidenced; magnitudes on both sides not jointly quantified |
+| **H3 — Overbuild Can Be Economically Productive** | partially supported | medium-low | Capital impaired [C-224] while ~half of mileage built & retained [C-056] and social value delivered [C-272, C-273] | Social-value magnitude modest/contested [C-272 vs C-273]; "overbuild" partly interpretive [C-055 vs C-056] | **Evidence chain is cross-geography and cross-period** — UK Mania investor outcomes + US social-savings estimates + later UK productivity effects (§H), not a single-cohort UK capital-loss-to-social-benefit reconstruction; supports H3 only partially on that basis |
 | **H4 — Profit Pools Migrate** | undecidable | low | Temporal return decay within operators [C-187, C-195]; durable downstream capture [C-272] | No equipment/supplier/downstream firm-level return data (§E, §I) | Cross-stage migration untestable; only within-operator temporal decay is evidenced |
 | **H5 — Timing Dominates Category Selection** | supported | medium-high | Cohort dispersion by authorization year [C-115, C-117]; leverage artifact [C-116]; boom-top compulsion [C-223]; price/investment offset [C-069] | Fundamental component also present [C-125, C-232]; LSE-only sample [C-119, C-124] | Bounded to the partial-payment/leverage mechanism and London-listed railways; strongest-evidenced hypothesis |
 

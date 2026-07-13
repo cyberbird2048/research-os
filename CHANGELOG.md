@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Gate 3: minor revisions implemented
+
+Changed:
+- `knowledge/industrial-revolutions/REV-HIST-001_STEAM_AND_RAILWAYS.md` — implemented the 4 revisions from the Gate 3 Historical Stability Review (verdict: PASS WITH MINOR REVISIONS):
+  1. Frontmatter `related` no longer lists nonexistent future assets (`PAT-001`–`004`, `MAP-001`); only `HIS-001` and `HIS-001-EVIDENCE-LEDGER` remain. Scope note updated to say future relationships are added once those files actually exist.
+  2. §A: "the clearest available case" → "a well-documented case," with an explicit note that this study alone cannot establish comparative primacy across technological revolutions.
+  3. §A: "much of the capital that financed it was impaired" → "identifiable cohorts, late entrants, and failed schemes suffered substantial impairment," with the no-aggregate-figure caveat restated inline.
+  4. §H and the H3 row in §J: added explicit statement that the productive-overbuild evidence chain is cross-geography and cross-period (UK Railway Mania investor outcomes + US social-savings estimates + later UK productivity/infrastructure effects) — not a single-cohort UK capital-loss-to-social-benefit reconstruction, and that this supports H3 only partially.
+- `governance/WORK_BOARD.md` — status: "Gate 3 minor revisions implemented — awaiting final confirmation."
+
+Note:
+- No Pattern, Mapping, or Thesis file created in this change set.
+
 ## 2026-07-12 — HIS-001 Historical Synthesis: REV-HIST-001 delivered (Gate 2 PASS)
 
 Added:
