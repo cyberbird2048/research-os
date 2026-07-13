@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-12 — HIS-001 Historical Synthesis: REV-HIST-001 delivered (Gate 2 PASS)
+
+Added:
+- `knowledge/industrial-revolutions/REV-HIST-001_STEAM_AND_RAILWAYS.md` — the historical asset for HIS-001, derived strictly from the Evidence Ledger. ~3,880 words, mechanism-first and structured around the research question (Executive Answer; technology/cost; capital formation & overbuild; the Railway Mania interpretation debate; value creation vs value capture by actor; operating profit vs investor return; who lost money; was overbuild productive; profit-pool migration; H1–H5 verdicts; open questions; candidate reusable mechanisms). 75 distinct `C-###` claim IDs cited; every material conclusion traces to the ledger; **0 AI-era content** (no analogy, no AI companies, no GPUs/data centers/valuations). H1–H5 verdicts: H5 supported (medium-high); H2 & H3 partially supported; H1 partially supported with the supplier side undecidable; H4 undecidable. Candidate reusable mechanisms M1–M6 listed as provisional only — **no Pattern file created.** The four Gate 2 conditions are preserved as visible limitations (YNM cash-flow `undecidable`; provincial magnitude unquantified; no aggregate UK loss figure invented; two-hop citations labelled).
+
+Changed:
+- `governance/WORK_BOARD.md` — HIS-001 status: "Historical Synthesis complete — awaiting Gate 3 Historical Stability Review."
+
+Note:
+- Central finding, held to the evidence: technological importance, social value creation, enterprise profitability, shareholder return, and long-term excess return are five distinct things that diverged in this era — the "suppliers/builders were the winners" story is **untested** (not supported, not refuted) because the ledger has no supplier/coal/iron/landowner return data.
+- No `PAT-*`, `MAP-001`, or `THS-001` created; no AI-era interpretation. Next: Gate 3 review, then (if passed) candidate pattern promotion and AI mapping.
+
 ## 2026-07-12 — HIS-001 Stage C complete: Evidence Ledger delivered
 
 Added:
