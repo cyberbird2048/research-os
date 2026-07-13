@@ -3,7 +3,7 @@ type: governance
 title: Work Board
 status: active
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 
 # Work Board
@@ -12,11 +12,19 @@ Single tracker for all research task state. Update this file in the same change 
 
 ## Active
 
+### Sprint 0 — Repository Consolidation
+
+- **Owner:** claude-code
+- **Current step:** Complete. Six governance documents created/updated (`PROJECT_STATE.md`, `REPOSITORY_INDEX.md`, `ROADMAP.md`, `DECISION_LOG.md`, `NEXT_ACTION.md`, `REPOSITORY_AUDIT.md`), plus `DEC-007`–`DEC-010` appended to `governance/DECISIONS.md`. Awaiting Research Architect review of the audit findings and a decision on the next sprint.
+- **Scope:** Governance, repository integrity, and operating-system quality only. No research content, no Pattern promotion, no AI mapping, no investment thesis, no new `HIS-###` task.
+- **Audit summary:** [`governance/REPOSITORY_AUDIT.md`](REPOSITORY_AUDIT.md) — 0 high, 1 medium-high, 4 medium, 4 low, 1 disclosed-informational finding. No medium/high finding was auto-fixed, per instruction.
+- **State snapshot:** [`governance/PROJECT_STATE.md`](PROJECT_STATE.md). **Directory map:** [`governance/REPOSITORY_INDEX.md`](REPOSITORY_INDEX.md). **Phase tracking:** [`governance/ROADMAP.md`](ROADMAP.md). **Handoff:** [`governance/NEXT_ACTION.md`](NEXT_ACTION.md).
+
 ### HIS-001
 
 - **Title:** Steam, Railways, and Wealth Creation in the First Industrial Revolution
 - **Owner:** claude-code
-- **Current step:** Pattern Validation Framework complete — awaiting methodology review
+- **Current step:** Pattern Validation Framework complete; Sprint 0 consolidation complete. Paused — awaiting Research Architect review before `HIS-002`/`HIS-003` or further Pattern/Mapping work.
 - **Branch:** `main`
 - **Brief:** [`governance/HIS-001_RESEARCH_BRIEF.md`](HIS-001_RESEARCH_BRIEF.md)
 - **Plan:** [`knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md`](../knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md)

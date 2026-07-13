@@ -3,7 +3,7 @@ type: governance
 title: Decision Log
 status: active
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 
 # Decision Log
@@ -51,6 +51,34 @@ Append-only record of governance decisions. Each entry has a unique `DEC-###` ID
 - **Decision:** The repository's foundation (governance layer) was reconstructed from handoff package v1.0, because the original foundation files were not present in the GitHub repository — only `README.md` and `CHANGELOG.md` had been committed.
 - **Rationale:** `CHANGELOG.md` and `README.md` referenced a completed Phase 1 foundation (constitution, scope, operating principles, naming/frontmatter standards, agent instructions, work board, decision log) that did not exist as files. Governance content was rebuilt from `00_START_HERE/PROJECT_STATUS.md` and `01_CONVERSATION/ORIGINAL_CONVERSATION.md` in the handoff package, and made consistent with the already-present `governance/HIS-001_RESEARCH_BRIEF.md`.
 - **Status:** In effect. This reconstruction is itself the action recorded by this decision.
+
+## DEC-007 — Multi-gate evidence pipeline formalized for Phase 2
+
+- **Date:** 2026-07-13
+- **Decision:** Historical research tasks proceed through a fixed gate sequence: Gate 1 (Research Design Review) → Stage A (Source Orientation) → Stage B (Source Acquisition & Verification) → Stage C (Evidence Ledger) → Gate 2 (Evidence Sufficiency) → Historical Synthesis → Gate 3 (Historical Stability) → Candidate Pattern drafting → Pattern Review. No stage may be skipped, and no asset is promoted ahead of the gate that governs it.
+- **Rationale:** This sequence was designed and run in full for `HIS-001` but had not previously been recorded as a standing decision; recording it now makes it binding on `HIS-002`/`HIS-003` rather than merely a description of what happened once.
+- **Status:** In effect. See `governance/WORK_BOARD.md` for `HIS-001`'s completed run and `workflows/RESEARCH_WORKFLOW.md` for the process definition.
+
+## DEC-008 — Pattern lifecycle adopted; no Pattern reaches `active` on single-cycle evidence
+
+- **Date:** 2026-07-13
+- **Decision:** Patterns move through six lifecycle states — `draft → validated-in-one-cycle → cross-cycle-candidate → active → stable → archived` — as defined in `governance/PATTERN_VALIDATION_FRAMEWORK.md`. A Pattern derived from a single historical revolution may not be promoted past `draft`/`validated-in-one-cycle` regardless of how well-evidenced that single cycle is.
+- **Rationale:** A mechanism observed in one revolution (the steam and railway era) is a hypothesis about recurrence, not a demonstrated pattern, until it is checked against at least one independent revolution. This prevents `PAT-001`–`PAT-003` from being treated as more validated than their evidence base supports.
+- **Status:** In effect. Governs all Patterns in `patterns/`, all currently `status: draft`, `confidence: low`.
+
+## DEC-009 — MAP-001 authorization withdrawn; Mapping stage gated behind Pattern Validation
+
+- **Date:** 2026-07-13
+- **Decision:** The prior authorization to create `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` is withdrawn in full. No Historical-to-AI Mapping work exists or may begin until at least one Pattern has been run through the Pattern Validation Framework's cross-cycle validation matrix against a second historical revolution.
+- **Rationale:** Mapping a single-cycle Pattern directly to the AI era would draw an investment-relevant analogy from an unvalidated mechanism. The Research Architect inserted the Pattern Validation Framework specifically to close this gap before any Mapping work resumes.
+- **Status:** In effect. No `MAP-###` file exists in the repository.
+
+## DEC-010 — Repository consolidation sprints required before phase progression
+
+- **Date:** 2026-07-13
+- **Decision:** Before Phase 2 opens a second historical revolution, or Phase 3 is approached, a consolidation sprint (the first being "Sprint 0") audits repository integrity — orphaned files, broken references, inconsistent IDs/statuses, stale assets — and produces or refreshes the operating-state documents (`PROJECT_STATE.md`, `REPOSITORY_INDEX.md`, `ROADMAP.md`, `NEXT_ACTION.md`, `REPOSITORY_AUDIT.md`). New research does not resume until the sprint's deliverables are reviewed.
+- **Rationale:** The repository grew quickly through `HIS-001`'s full pipeline; without a deliberate consolidation checkpoint, drift (stale cross-references, undocumented state, orphaned files) compounds silently across research cycles.
+- **Status:** In effect. Sprint 0 is the first instance; its findings are recorded in `governance/REPOSITORY_AUDIT.md`.
 
 ## Notes
 

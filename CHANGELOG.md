@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-07-13 — Sprint 0: Repository Consolidation
+
+Added:
+- `governance/PROJECT_STATE.md` — one-page current-state snapshot: phase, sprint, gate-by-gate verdict table, stable/draft asset lists, blocked work, known evidence gaps, next required review.
+- `governance/REPOSITORY_INDEX.md` — directory map of every major directory with a one-sentence description of each key file, plus a numbered reading order for a new agent.
+- `governance/ROADMAP.md` — completed/current/remaining phases with entry and exit criteria for each, including a Phase 3 gate-progress table (1/3 historical assets, 0/5 cross-cycle Patterns, 0/3 Mappings, 0/1 monthly reviews).
+- `governance/DECISION_LOG.md` — narrative companion to `governance/DECISIONS.md`, summarizing the six architectural-decision themes the Research Architect asked to have recorded (GitHub as canonical source, single active research question, gate review workflow, Pattern lifecycle, MAP-001 suspension, phase locking), each citing its authoritative `DEC-###` entry. Explicitly not a competing ledger — `DECISIONS.md` remains authoritative on conflict.
+- `governance/NEXT_ACTION.md` — one-page operational handoff: current sprint, objective, blockers, assigned responsibilities, immediate next action.
+- `governance/REPOSITORY_AUDIT.md` — full repository integrity audit (35 files inspected): frontmatter completeness, ID consistency, relative-link resolution, filename-reference/orphan check, status-value consistency, duplicate-template check, naming-convention compliance. Result: 0 high, 1 medium-high (triple `id: HIS-001` collision across brief/plan/gate-review), 4 medium (stale `PAT-004`/`MAP-001`/`THS-001` references in the brief and execution plan's `related` frontmatter; originally-planned Pattern concepts no longer matching the Patterns actually drafted; `workflows/THESIS_WORKFLOW.md`'s non-standard `status: locked`; stale `README.md` status section and Core Loop diagram), 4 low (two orphaned files — `templates/SOURCE_REGISTER_TEMPLATE.md`, `workflows/GIT_WORKFLOW.md`; undocumented HIS-001-family directory-placement rule; template `status: draft` schema gap; stale illustrative examples in `NAMING_AND_IDS.md`), 1 disclosed informational finding (naming overlap this sprint's own `DECISION_LOG.md` creates with `DECISIONS.md`'s internal title). No medium/high finding was automatically fixed, per explicit instruction.
+
+Changed:
+- `governance/DECISIONS.md` — appended `DEC-007` (multi-gate evidence pipeline formalized), `DEC-008` (Pattern lifecycle adopted; no Pattern reaches `active` on single-cycle evidence), `DEC-009` (MAP-001 authorization withdrawn; Mapping gated behind Pattern Validation), `DEC-010` (repository consolidation sprints required before phase progression) — recording decisions already made in substance but not yet logged as formal entries.
+- `governance/WORK_BOARD.md` — added a Sprint 0 entry under Active; HIS-001 marked paused awaiting Research Architect review before any further Pattern/Mapping/HIS-002 work.
+
+Note:
+- Scope strictly limited to governance, repository integrity, and operating-system quality, per instruction. No new historical research, no Pattern promotion, no AI mapping, no investment thesis, and no new research asset was created or modified — `knowledge/`, `patterns/`, and `research/` content is untouched this sprint.
+- Verified before starting: the sole pending item from the prior Pattern Review (the `PAT-001` wording revision) was already committed (`d0b7910`); the working tree was clean at sprint start.
+
 ## 2026-07-12 — Workflow change: MAP-001 superseded by Pattern Validation Framework
 
 Added:
