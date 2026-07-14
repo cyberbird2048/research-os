@@ -1,10 +1,10 @@
 ---
-id: HIS-001
+id: HIS-001-PLAN
 type: execution-plan
 title: HIS-001 Research Execution Plan — Steam, Railways, and Wealth Creation
 status: draft
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 owner: cyberbird
 research_lead: claude-code
 research_architect: chatgpt
@@ -12,12 +12,11 @@ review_date: 2026-08-01
 confidence: low
 sources: []
 related:
+  - HIS-001
   - REV-HIST-001
   - PAT-001
   - PAT-002
   - PAT-003
-  - PAT-004
-  - MAP-001
 ---
 
 # HIS-001 Research Execution Plan
@@ -173,6 +172,8 @@ Per the brief §9; no files outside this list without a scope change approved at
 | `THS-001` | **not in HIS-001** | Gate 5, Phase 3 |
 
 Patterns are capped at `draft` status within HIS-001 (Gate 1 decision U8; see §12). A hypothesis found unsupported is recorded as a `rejected` verdict row in the evidence ledger's hypothesis-verdict section (§7.4); this does not, by default, create a new pattern file. A pattern file is created only for a candidate mechanism judged recurring and evidence-backed enough to document, per Step 6 of `workflows/RESEARCH_WORKFLOW.md`.
+
+> **Outcome annotation (added Sprint 0.1, 2026-07-14 — the table above is left as originally planned, not rewritten).** The four planned Pattern rows above were superseded by evidence-driven Pattern drafting. The Patterns actually created are `patterns/PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md`, `patterns/PAT-002_CAPITAL_CYCLE_OVERBUILD.md`, and `patterns/PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md`. **Infrastructure Bottleneck Capture** was not promoted — insufficient supplier-side evidence (coal, iron, landowners). **Profit Pool Migration** remained undecidable and was not promoted. **Social Value vs. Investor Return** and **Capital Cycle Overbuild** were both drafted, under `PAT-001`/`PAT-002` respectively rather than `PAT-002`/`PAT-003`. **Entry Timing and Financing Structure**, not in this original table, emerged as `PAT-003` from the Evidence Ledger's cohort/leverage claims and the Historical Synthesis. `MAP-001` was authorized once, then withdrawn (`DEC-009`) before any file was created — no Mapping file exists. `THS-001` remains out of scope, as originally planned.
 
 ## 7. Claim-to-Evidence Workflow
 

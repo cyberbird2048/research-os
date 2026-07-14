@@ -1,14 +1,14 @@
 ---
 type: workflow
 title: Thesis Workflow
-status: locked
+status: draft
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 ---
 
 # Thesis Workflow
 
-**Status: LOCKED.** This workflow may not be executed until the Phase 3 entry gates in `governance/RESEARCH_SCOPE.md` are satisfied.
+This workflow is not usable until Phase 3 entry gates in `governance/RESEARCH_SCOPE.md` are satisfied.
 
 ## Phase 3 Entry Gates (all required)
 

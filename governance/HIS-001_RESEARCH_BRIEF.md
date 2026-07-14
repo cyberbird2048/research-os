@@ -1,10 +1,10 @@
 ---
-id: HIS-001
+id: HIS-001-BRIEF
 type: research-brief
 title: Steam, Railways, and Wealth Creation in the First Industrial Revolution
 status: active
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 owner: cyberbird
 research_lead: claude-code
 research_architect: chatgpt
@@ -12,12 +12,11 @@ review_date: 2026-08-01
 confidence: low
 sources: []
 related:
+  - HIS-001
   - REV-HIST-001
   - PAT-001
   - PAT-002
   - PAT-003
-  - MAP-001
-  - THS-001
 ---
 
 # HIS-001 Research Brief
@@ -328,6 +327,14 @@ Create only if evidence supports them:
 - `patterns/PAT-004_PROFIT_POOL_MIGRATION.md`
 
 A pattern must not be promoted to `active` based on one attractive anecdote.
+
+> **Outcome annotation (added Sprint 0.1, 2026-07-14 — not a retrospective rewrite of the plan above).** The Pattern set actually drafted, after Gate 3 and evidence-driven titling, differs from this originally planned list. It was superseded because the evidence assembled did not map cleanly onto the four concepts named above. What was actually created:
+>
+> - `patterns/PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md`
+> - `patterns/PAT-002_CAPITAL_CYCLE_OVERBUILD.md`
+> - `patterns/PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md`
+>
+> Disposition of each originally-planned concept: **Infrastructure Bottleneck Capture** was not promoted to a Pattern file — the supplier-side evidence (coal, iron, landowners) needed to support it was insufficient (see `HIS-001_EVIDENCE_LEDGER.md`'s Gate 2 Readiness Matrix and `REV-HIST-001` H1's "supplier side undecidable" verdict). **Social Value vs. Investor Return** was drafted, but as `PAT-001` rather than `PAT-002`, once it became the strongest-evidenced mechanism. **Capital Cycle Overbuild** was drafted as `PAT-002` rather than `PAT-003`, for the same reason. **Profit Pool Migration** remained undecidable on the available evidence and was not promoted to a Pattern file. **Entry Timing and Financing Structure** — not part of this original list — emerged as `PAT-003` directly from the Evidence Ledger's cohort/leverage claims (C-115–C-124) and the Historical Synthesis's H1/H4 discussion, once that mechanism became visible in the assembled evidence.
 
 ### E. Candidate Historical Mapping
 

@@ -1,26 +1,26 @@
 ---
 type: governance
-title: Repository Audit — Sprint 0
+title: Repository Audit — Sprint 0 (Sprint 0.1 disposition applied)
 status: active
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
-# Repository Audit — Sprint 0
+# Repository Audit — Sprint 0 (Sprint 0.1 disposition applied)
 
-Point-in-time integrity audit of the entire repository (35 tracked files as of this sprint). Performed by direct inspection — full file inventory, frontmatter extraction from every Markdown file, relative-link resolution, ID/status cross-checks, and filename-reference search for every non-template, non-workflow asset.
+Point-in-time integrity audit of the entire repository (35 tracked files as of Sprint 0). Performed by direct inspection — full file inventory, frontmatter extraction from every Markdown file, relative-link resolution, ID/status cross-checks, and filename-reference search for every non-template, non-workflow asset.
 
-**Per the Research Architect's explicit instruction for this sprint: no medium- or high-severity issue below has been automatically fixed.** Each entry states a recommended fix for a future, explicitly authorized change. Only the low-severity, purely-additive step of documenting these files in `governance/REPOSITORY_INDEX.md` (this sprint) was taken; no existing file's content was altered as a "fix."
+**Sprint 0 policy: no medium- or high-severity issue was automatically fixed at the time of the original audit.** Each entry stated a recommended fix pending explicit authorization. The Repository Architecture Review (2026-07-14) returned **PASS WITH CONDITIONS** and authorized Sprint 0.1 to apply a bounded set of these recommended fixes. Findings 1–5 below are now marked **RESOLVED — Sprint 0.1**; Findings 6–9 remain open, deferred by the Research Architect's own bounded scope for Sprint 0.1.
 
 ## Summary
 
-| Severity | Count |
-|---|---|
-| High | 0 |
-| Medium-High | 1 |
-| Medium | 4 |
-| Low | 4 |
-| Informational (by-design, disclosed) | 1 |
+| Severity | Count | Resolved (Sprint 0.1) | Open |
+|---|---|---|---|
+| High | 0 | — | — |
+| Medium-High | 1 | 1 | 0 |
+| Medium | 4 | 4 | 0 |
+| Low | 4 | 0 | 4 |
+| Informational (by-design, disclosed) | 1 | 0 | 1 |
 
 ## Findings
 
@@ -32,6 +32,8 @@ The brief, the Gate 1 review, and the execution plan are three distinct delivera
 
 **Recommended fix:** Research Architect decides the rule — e.g., `HIS-001` names the task only, and the brief/plan/review each get their own suffixed ID (`HIS-001-BRIEF`, `HIS-001-PLAN`, `HIS-001-GATE-1`), consistent with the source register and evidence ledger. Then apply it uniformly. Not applied automatically because it changes IDs referenced elsewhere (`WORK_BOARD.md`, `DECISIONS.md`).
 
+**RESOLVED — Sprint 0.1.** `HIS-001` is now the task ID only. `governance/HIS-001_RESEARCH_BRIEF.md` → `id: HIS-001-BRIEF`; `knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md` → `id: HIS-001-PLAN`; `governance/HIS-001_GATE_1_REVIEW.md` → `id: HIS-001-GATE-1`. All three now list `HIS-001` in `related` (pointing back to the task), matching the convention already used by `PAT-###`, `REV-HIST-001`, and the evidence ledger/source register. `governance/FRONTMATTER_STANDARD.md`'s canonical schema example (reproduced from the brief) was updated to match, with a new note explaining the task-ID-vs-document-ID distinction. Checked: no other file referenced `HIS-001` as if it denoted a specific document rather than the task, so no other cross-reference needed updating.
+
 ### 2. [Medium] Stale `related` frontmatter referencing non-existent assets
 
 **Affected files:**
@@ -42,6 +44,8 @@ This is the same class of issue already corrected in `REV-HIST-001_STEAM_AND_RAI
 
 **Recommended fix:** Remove `PAT-004`, `MAP-001`, `THS-001` from both files' `related` lists (or replace with a prose footnote noting they were originally planned and superseded — see Finding 3 for why deleting outright may lose useful provenance). Deferred to the Research Architect since it touches HIS-001-family documents outside this sprint's authorized scope (governance/repository-integrity only, no research-asset edits).
 
+**RESOLVED — Sprint 0.1.** `PAT-004`, `MAP-001`, `THS-001` removed from both files' `related` frontmatter (Research Architect explicitly instructed not to preserve nonexistent assets there). A prose outcome annotation was added to each file's body instead (see Finding 3's disposition) so the provenance is not lost, just relocated from frontmatter to an explanatory note.
+
 ### 3. [Medium] Originally-planned Pattern concepts no longer match the Patterns actually drafted
 
 **Affected files:** `governance/HIS-001_RESEARCH_BRIEF.md` §9D ("Candidate Patterns," listing `PAT-001_INFRASTRUCTURE_BOTTLENECK_CAPTURE`, `PAT-002_SOCIAL_VALUE_VS_INVESTOR_RETURN`, `PAT-003_CAPITAL_CYCLE_OVERBUILD`, `PAT-004_PROFIT_POOL_MIGRATION`); `knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md`'s file-plan table (same four names).
@@ -49,6 +53,8 @@ This is the same class of issue already corrected in `REV-HIST-001_STEAM_AND_RAI
 What was actually drafted, under Gate 3 authorization and titled according to what the evidence actually supported, is a different set: `PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE`, `PAT-002_CAPITAL_CYCLE_OVERBUILD`, `PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE`. The concepts originally slotted as `PAT-002` and `PAT-003` were drafted as `PAT-001` and `PAT-002` instead; "Infrastructure Bottleneck Capture" and "Profit Pool Migration" were never drafted; "Entry Timing and Financing Structure" does not appear in the original plan at all. This divergence is expected and appropriate — Patterns were drafted from evidence, not a pre-committed list — but the brief and plan still read as current, which could mislead a new agent into expecting a `PAT-004` is pending.
 
 **Recommended fix:** Add a short annotation (not a rewrite — the original plan has provenance value) to brief §9D and the plan's file-plan table, cross-referencing the Patterns actually drafted and stating the four originally-named concepts were superseded by evidence-driven titling. Deferred — touches HIS-001-family research documents, out of this sprint's scope.
+
+**RESOLVED — Sprint 0.1.** Added an "Outcome annotation" block to brief §9D and to the plan's file-plan table (the original lists were left untouched, per instruction not to rewrite the plan retrospectively). Each annotation names the three Patterns actually drafted and states the disposition of every originally-planned concept: Infrastructure Bottleneck Capture not promoted (insufficient supplier-side evidence); Profit Pool Migration remained undecidable; Social Value vs. Investor Return and Capital Cycle Overbuild were both drafted, under `PAT-001`/`PAT-002` rather than `PAT-002`/`PAT-003`; Entry Timing and Financing Structure (not in the original list) emerged as `PAT-003` from the Evidence Ledger and Historical Synthesis.
 
 ### 4. [Medium] `workflows/THESIS_WORKFLOW.md` uses a non-standard `status` value
 
@@ -58,6 +64,8 @@ What was actually drafted, under Gate 3 authorization and titled according to wh
 
 **Recommended fix:** Set `status` to `draft` or `stable` (Research Architect's call, depending on whether the workflow content itself is considered final), and add a body note: "Not usable until Phase 3 opens — see `governance/RESEARCH_SCOPE.md`." Not applied automatically since it requires a judgment call on the workflow's actual completeness.
 
+**RESOLVED — Sprint 0.1.** `status` changed to `draft` (Research Architect's explicit instruction). Body note added: "This workflow is not usable until Phase 3 entry gates in `RESEARCH_SCOPE.md` are satisfied," replacing the redundant "Status: LOCKED" bold line that duplicated the frontmatter.
+
 ### 5. [Medium] `README.md` status section and core-loop diagram are stale
 
 **Affected file:** `README.md`, "Status" section and "Core Loop" diagram.
@@ -65,6 +73,8 @@ What was actually drafted, under Gate 3 authorization and titled according to wh
 "Status" reads `Historical research: not started`, but Phase 2 has since passed Gates 1–3, produced a stable historical synthesis, and drafted three candidate Patterns. The "Core Loop" diagram (`Evidence → Historical Mapping → Pattern → Investment Thesis → Prediction → Validation → Review`) omits the gate-review stages entirely and shows Patterns feeding Mapping directly, with no Pattern Validation / cross-cycle step — inconsistent with `governance/PATTERN_VALIDATION_FRAMEWORK.md`, adopted this sprint's predecessor.
 
 **Recommended fix:** Update the Status bullets to reflect current Phase 2 progress, and insert a Pattern Validation step in the Core Loop diagram between Pattern and Historical Mapping. README.md is a root-level, non-research file — editing it is arguably within Sprint 0's "governance and repository integrity" remit, but it was left as a recommended fix rather than auto-applied, since Sprint 0's brief listed six specific documents to create/update and did not name README.md among them.
+
+**RESOLVED — Sprint 0.1.** Status section rewritten to reflect Phase 1 complete, `HIS-001` complete through Gate 3, `REV-HIST-001` stable, `PAT-001`–`003` draft, Pattern Validation Framework awaiting review, Mapping/Thesis blocked, `HIS-002` not authorized. Core Loop replaced with `Research Question → Source Verification → Evidence Ledger → Historical Synthesis → Candidate Pattern → Cross-Cycle Validation → Historical-to-Current Mapping → Investment Thesis → Prediction → Monitoring and Review`. Start Here links now point to `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md`, and `governance/REPOSITORY_INDEX.md`.
 
 ### 6. [Low] Two files are never referenced by name anywhere else in the repository
 
@@ -109,4 +119,4 @@ Sprint 0 explicitly required creating `governance/DECISION_LOG.md`. `governance/
 
 ## Methodology Note
 
-This audit is a snapshot as of 2026-07-13. It does not re-run automatically; a future consolidation sprint should re-run the same checks (full file inventory, frontmatter dump, relative-link resolution, filename-reference search, status-value scan) rather than assume this file stays current.
+This audit is a snapshot as of 2026-07-13, with Sprint 0.1's fix disposition (2026-07-14) recorded inline against each resolved finding. It does not re-run automatically; a future consolidation sprint should re-run the same checks (full file inventory, frontmatter dump, relative-link resolution, filename-reference search, status-value scan) rather than assume this file stays current — in particular, Findings 6–9 remain open and unverified against any repository changes made after 2026-07-14.

@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-07-14 — Sprint 0.1: Repository Integrity Fix
+
+Following the Repository Architecture Review verdict on Sprint 0's audit (PASS WITH CONDITIONS), applied a bounded set of the recommended fixes.
+
+Changed:
+- `governance/HIS-001_RESEARCH_BRIEF.md` — `id: HIS-001` → `id: HIS-001-BRIEF`; `related` no longer lists `MAP-001`/`THS-001` (now lists `HIS-001` instead, pointing back to the task); added an outcome annotation to §9D reconciling the four originally-planned Pattern concepts against the three actually drafted.
+- `knowledge/industrial-revolutions/HIS-001_RESEARCH_EXECUTION_PLAN.md` — `id: HIS-001` → `id: HIS-001-PLAN`; `related` no longer lists `PAT-004`/`MAP-001` (now lists `HIS-001` instead); added the matching outcome annotation to the file-plan table.
+- `governance/HIS-001_GATE_1_REVIEW.md` — `id: HIS-001` → `id: HIS-001-GATE-1`.
+- `governance/FRONTMATTER_STANDARD.md` — canonical schema example updated to `id: HIS-001-BRIEF` (it reproduces the brief's frontmatter), with a new note distinguishing the task ID (`HIS-001`) from a document's own suffixed ID.
+- `workflows/THESIS_WORKFLOW.md` — `status: locked` → `status: draft`; body note now reads "This workflow is not usable until Phase 3 entry gates in `RESEARCH_SCOPE.md` are satisfied," replacing the redundant "Status: LOCKED" line.
+- `README.md` — Status section rewritten (Phase 1 complete; `HIS-001` complete through Gate 3; `REV-HIST-001` stable; `PAT-001`–`003` draft; Pattern Validation Framework awaiting review; Mapping/Thesis blocked; `HIS-002` not authorized). Core Loop replaced with `Research Question → Source Verification → Evidence Ledger → Historical Synthesis → Candidate Pattern → Cross-Cycle Validation → Historical-to-Current Mapping → Investment Thesis → Prediction → Monitoring and Review`. Start Here now links to `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md`, `governance/REPOSITORY_INDEX.md`.
+- `governance/REPOSITORY_AUDIT.md` — Findings 1–5 marked RESOLVED — Sprint 0.1 with disposition notes; Findings 6–9 remain open (deferred, outside this sprint's bounded scope).
+- `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — updated to reflect Sprint 0.1 completion, `HIS-001` marked complete, and active task set to Pattern Validation Framework methodology review; removed the stale claim that the second Pattern Review revision was unspecified.
+- `governance/WORK_BOARD.md` — Sprint 0, Sprint 0.1, and `HIS-001` moved to Done; Active now holds only "Pattern Validation Framework — methodology review."
+
+Verified, not changed:
+- `patterns/PAT-002_CAPITAL_CYCLE_OVERBUILD.md` — the second of the two Pattern Review revisions ("apply two minor Pattern revisions") is the operational definition of overbuild. Verified it was already present in the file's Mechanism section (the authorization→subscription→called→paid→expenditure→completed→impaired chain, kept strictly distinct) since the file's original drafting. No content change was needed; recorded as complete.
+
+Note:
+- Scope was bounded to the eight numbered fixes in the Repository Architecture Review's instruction. No new historical research, no Pattern promotion, no AI mapping, no investment thesis. `HIS-002`, `MAP-001`, and `THS-001` remain blocked — `HIS-002` awaits Research Architect review of `governance/PATTERN_VALIDATION_FRAMEWORK.md`'s methodology, the sole remaining gate.
+- Repository Audit Findings 6–9 (two orphaned files, an undocumented HIS-001 directory-placement rule, a template `status` schema gap, and the disclosed `DECISIONS.md`/`DECISION_LOG.md` naming overlap) were left open — they were not named in the Repository Architecture Review's eight-item instruction.
+
 ## 2026-07-13 — Sprint 0: Repository Consolidation
 
 Added:

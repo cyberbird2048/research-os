@@ -1,10 +1,10 @@
 ---
-id: HIS-001
+id: HIS-001-GATE-1
 type: review
 title: HIS-001 Gate 1 — Research Design Review
 status: stable
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 owner: cyberbird
 research_lead: claude-code
 research_architect: chatgpt

@@ -3,7 +3,7 @@ type: governance
 title: Next Action
 status: active
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 # Next Action
@@ -12,25 +12,25 @@ One-page operational handoff. If you read only one file to know what to do right
 
 ## Current Sprint
 
-Sprint 0 — Repository Consolidation.
+Sprint 0.1 — Repository Integrity Fix — complete. `HIS-001` is now marked complete on the Work Board. The active task is Pattern Validation Framework methodology review.
 
 ## Current Objective
 
-Bring the repository to a durable, internally consistent state (accurate cross-references, consistent IDs/statuses, current operating-state documents) before any further research sprint opens. No research content changes in this sprint.
+Get the Pattern Validation Framework's methodology reviewed and confirmed by the Research Architect — the sole remaining gate before `HIS-002` can be authorized.
 
 ## Current Blockers
 
-- **Phase 2 continuation (`HIS-002`/`HIS-003`) is blocked** until the Research Architect reviews this sprint's deliverables and explicitly authorizes opening a second historical revolution.
+- **Phase 2 continuation (`HIS-002`/`HIS-003`) is blocked** until the Research Architect reviews `governance/PATTERN_VALIDATION_FRAMEWORK.md`'s methodology and explicitly authorizes opening a second historical revolution.
 - **Historical-to-AI Mapping is blocked** until a Pattern reaches `cross-cycle-candidate` under `governance/PATTERN_VALIDATION_FRAMEWORK.md` — which itself requires a second historical revolution to exist.
-- **`governance/PATTERN_VALIDATION_FRAMEWORK.md` has not yet had its own Research Architect review pass** — it is in effect as governance but its methodology is unconfirmed.
-- **Two items from the Pattern Review remain genuinely open** (not blocking, but unresolved): the second of "two minor Pattern revisions" was never specified beyond the first; `MAP-001`'s structural spec was never supplied before that task was withdrawn. Neither should be pursued unless the Research Architect raises it again.
+- **One item remains genuinely open** (not blocking): `MAP-001`'s structural spec was never supplied before that task was withdrawn. This should not be pursued unless the Research Architect raises it again.
+- **Four items from the Sprint 0 audit remain genuinely open, deferred by design** (medium-severity, touch HIS-001-family research documents, not auto-fixed): the brief §9D/plan file-plan table's provenance-preserving annotations are in place (Sprint 0.1), but a documented HIS-001-family directory-placement rule and a template `status` schema clarification (`governance/NAMING_AND_IDS.md`, `governance/FRONTMATTER_STANDARD.md`) are still pending a Research Architect decision — see `governance/REPOSITORY_AUDIT.md` Findings 7 and 8.
 
 ## Assigned Responsibilities
 
-Per `governance/AGENTS.md`: GitHub is the source of truth; Claude Code is Research Lead/Repository Operator (executes, does not self-authorize scope changes); the Research Architect (ChatGPT) designs research and reviews gates; Codex reviews evidence and logic; the User is the Investment Committee and final decision-maker. This sprint's work — governance documents and the repository audit — was executed by Claude Code under an explicit Research Architect instruction, with no gate review required (it is not a research asset).
+Per `governance/AGENTS.md`: GitHub is the source of truth; Claude Code is Research Lead/Repository Operator (executes, does not self-authorize scope changes); the Research Architect (ChatGPT) designs research and reviews gates; Codex reviews evidence and logic; the User is the Investment Committee and final decision-maker. Sprint 0 and Sprint 0.1's work — governance documents and repository-integrity fixes — was executed by Claude Code under explicit Research Architect instructions.
 
 ## Immediate Next Action
 
-1. Research Architect reviews Sprint 0's deliverables: the six new/updated governance documents and `governance/REPOSITORY_AUDIT.md`'s findings.
-2. Research Architect decides the recommended next sprint (see the Sprint 0 completion report in `CHANGELOG.md` for the options considered) — most likely either (a) authorize `HIS-002` to begin under the now-formalized gate pipeline and Pattern Validation Framework, or (b) request specific medium/high-severity audit fixes before doing so.
+1. Research Architect reviews `governance/PATTERN_VALIDATION_FRAMEWORK.md`'s methodology.
+2. On approval, Research Architect authorizes `HIS-002` (or `HIS-003`) to begin under the now-formalized gate pipeline and Pattern Validation Framework — or requests further changes first.
 3. Until that authorization arrives, no agent should start `HIS-002`, `HIS-003`, any `MAP-###`, any `THS-###`, or promote any Pattern past `draft`.

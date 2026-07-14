@@ -80,7 +80,7 @@ Step-by-step process definitions for recurring activities.
 | `RESEARCH_WORKFLOW.md` | The end-to-end Gate 1 → Stage A/B/C → Gate 2 → Synthesis → Gate 3 → Pattern pipeline, as actually run for `HIS-001`. |
 | `GIT_WORKFLOW.md` | Branching, commit, and push conventions. |
 | `MONTHLY_REVIEW_WORKFLOW.md` | Process for the recurring `MR-YYYY-MM` monthly review (not yet run — zero completed monthly reviews). |
-| `THESIS_WORKFLOW.md` | Process for building an investment thesis once Phase 3 opens. `status: locked` (non-standard value — see Repository Audit). |
+| `THESIS_WORKFLOW.md` | Process for building an investment thesis once Phase 3 opens. `status: draft`; not usable until Phase 3 entry gates are satisfied (fixed Sprint 0.1 — was `status: locked`, a non-standard value). |
 
 ### Root
 

@@ -3,7 +3,7 @@ type: governance
 title: Frontmatter Standard
 status: active
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 ---
 
 # Frontmatter Standard
@@ -14,12 +14,12 @@ All Markdown files in this repository carry YAML frontmatter. The canonical sche
 
 ```yaml
 ---
-id: HIS-001
+id: HIS-001-BRIEF
 type: research-brief
 title: Steam, Railways, and Wealth Creation in the First Industrial Revolution
 status: active
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 owner: cyberbird
 research_lead: claude-code
 research_architect: chatgpt
@@ -27,10 +27,13 @@ review_date: 2026-08-01
 confidence: low
 sources: []
 related:
+  - HIS-001
   - REV-HIST-001
   - PAT-001
 ---
 ```
+
+Note: `id` here identifies this specific document (the brief), not the task. `HIS-001` denotes the task/sprint as a whole and is used as-is in `related` fields elsewhere to mean "relates to the HIS-001 task"; a document's own `id` gets a suffix (`-BRIEF`, `-PLAN`, `-GATE-1`, `-SOURCE-REGISTER`, `-EVIDENCE-LEDGER`, etc.) whenever more than one deliverable exists under the same task.
 
 ## Field Definitions
 
