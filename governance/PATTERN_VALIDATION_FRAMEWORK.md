@@ -3,7 +3,7 @@ type: governance
 title: Pattern Validation Framework
 status: active
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 ---
 
 # Pattern Validation Framework
@@ -120,6 +120,8 @@ Column definitions:
 - **Notes** — the specific `C-###`/claim-equivalent evidence, and any scope narrowing applied.
 
 A row is populated only from a completed `HIS-###` chain (Evidence Ledger → Historical Asset). It is never populated from narrative impression, from a revolution that has not yet been researched under this project, or in anticipation of AI-era evidence — the `AI` row exists in the template because Phase 3 will eventually require it, not because it may be filled in now. Populating the `AI` row is out of scope until Phase 3 gates open per `governance/RESEARCH_SCOPE.md`.
+
+**A cross-cycle test that cannot be classified.** Where a revolution's available evidence is too thin, ambiguous, or evidentially disconnected from the Pattern's mechanism (e.g., no comparable financing-structure or cohort-return data exists) to support a finding of `Supports`, `Weakens`, or `Rejects`, the row is recorded as **Undecidable** in the Notes column — not as a fourth table column — mirroring the `undecidable` classification already used for individual claims and hypothesis verdicts in `governance/OPERATING_PRINCIPLES.md` and `REV-HIST-001`. An `Undecidable` result does not count as a populated `Supports` row toward the minimum promotion requirements (§4); it does not block `cross-cycle-candidate` entry the way an unresolved `Rejects` does; and it does not, by itself, advance or demote the Pattern. It means the revolution in question does not yet supply usable cross-cycle evidence, and a further or better-evidenced case is still required before the Pattern's status can change.
 
 ---
 

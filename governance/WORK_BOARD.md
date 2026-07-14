@@ -12,11 +12,14 @@ Single tracker for all research task state. Update this file in the same change 
 
 ## Active
 
-### Pattern Validation Framework — methodology review
+### Sprint 1 — HIS-002 Research Design / Pattern Validation
 
-- **Owner:** Research Architect (review), claude-code (executed the draft)
-- **Current step:** [`governance/PATTERN_VALIDATION_FRAMEWORK.md`](PATTERN_VALIDATION_FRAMEWORK.md) is drafted and in effect as governance, but its methodology (6-state lifecycle, Validation Matrix template, minimum promotion requirements, evidence hierarchy, contradiction-handling rules, formal review process) has not had its own Research Architect review pass. This is the sole active item; `HIS-002` remains unauthorized until this review concludes.
-- **Scope:** Review only — no repository changes are anticipated unless the review requests them.
+- **Owner:** claude-code (Research Executor)
+- **Current step:** Research design only. [`governance/HIS-002_RESEARCH_BRIEF.md`](HIS-002_RESEARCH_BRIEF.md) (`id: HIS-002-BRIEF`) drafted: primary research question, bounded geography (United States, chosen for institutional diversity from HIS-001's British frame) and time period (c. 1900–1935), included/excluded infrastructure layers, evidence/counter-evidence/failure-case requirements, and explicit Supports/Weakens/Rejects/Undecidable validation criteria for `PAT-001`–`PAT-003`. **No evidence collection has begun.** Three open research-design questions are logged in the brief §11 for Research Architect ruling (vocabulary mapping; Pattern lifecycle sequencing relative to `validated-in-one-cycle`; confirmation of the US-only geography choice).
+- **Pattern Validation Framework readiness:** [`governance/PATTERN_VALIDATION_FRAMEWORK.md`](PATTERN_VALIDATION_FRAMEWORK.md) reviewed for internal completeness. One minimum necessary gap closed: §3 now defines how an `Undecidable` cross-cycle result is recorded (Notes column, not a new table column) — the lifecycle, Validation Matrix template, and promotion requirements are otherwise unchanged. Assessed as ready for Research Architect methodology review; that formal sign-off has not yet been separately confirmed (see brief §11).
+- **Tracking asset:** [`patterns/PATTERN_VALIDATION_MATRIX.md`](../patterns/PATTERN_VALIDATION_MATRIX.md) created — the canonical cross-Pattern tracking table. HIS-001 column populated from the repository's own existing verdicts (`PAT-001`/`PAT-002`: Supports (partial); `PAT-003`: Supports — not simplified to a uniform rating). HIS-002/HIS-003 columns: pending. All three Patterns remain `status: draft`; none promoted.
+- **Next review:** Gate 1 — HIS-002 Research Design Review.
+- **Scope:** Research design and Pattern-validation tracking only. No evidence collection, no Source Register, no Evidence Ledger, no historical synthesis, no new or promoted Pattern, no `MAP-001`, no `THS-001`, no AI mapping, no investment recommendation.
 
 ## Waiting for Review
 
@@ -25,11 +28,6 @@ _None._
 ## Backlog
 
 Do not begin these tasks. Listed for sequencing only; Phase 2 runs one task at a time (see `governance/RESEARCH_SCOPE.md`).
-
-### HIS-002
-
-- **Title:** Electricity & Automobiles era
-- **Status:** Not started. Do not begin.
 
 ### HIS-003
 

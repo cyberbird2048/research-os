@@ -3,7 +3,7 @@ type: governance
 title: Repository Index
 status: active
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 # Repository Index
@@ -35,6 +35,7 @@ Rules for how the repository operates: scope, roles, naming, frontmatter, decisi
 | `ENVIRONMENT_NETWORK_REQUIREMENTS.md` | Which external domains the execution environment must allow for source verification, and known access gotchas. Operational/infrastructure, not research. |
 | `HIS-001_RESEARCH_BRIEF.md` | The original brief for `HIS-001` (hypotheses H1–H5, evidence standards, originally-planned deliverables). Historical research content that lives in `governance/` for provenance reasons — see Repository Audit for the resulting cross-directory inconsistency. |
 | `HIS-001_GATE_1_REVIEW.md` | The closed Gate 1 Research Design Review verdict for `HIS-001`. |
+| `HIS-002_RESEARCH_BRIEF.md` | The research design brief for `HIS-002` (Electricity, Grid Infrastructure, and Industrial Electrification) — a cross-cycle validation case for `PAT-001`–`PAT-003`. Research design only; awaiting Gate 1. |
 
 ### `knowledge/industrial-revolutions/`
 
@@ -56,6 +57,7 @@ Candidate reusable mechanisms distilled from historical syntheses. All currently
 | `PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md` | Infrastructure can create durable social value while direct investors see weak, uneven, or negative returns. |
 | `PAT-002_CAPITAL_CYCLE_OVERBUILD.md` | Abundant speculative capital can accelerate buildout beyond near-term demand, impairing investors while leaving productive capacity behind. |
 | `PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md` | Entry timing, leverage, and installment-call structure can dominate investor outcome within the same sector. |
+| `PATTERN_VALIDATION_MATRIX.md` | The single canonical cross-Pattern tracking table (Pattern × Revolution → Supports/Weakens/Rejects/Undecidable). A tracking asset, not evidence; does not itself promote any Pattern. |
 
 ### `research/ai-revolution/`
 

@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-07-14 — Sprint 1: HIS-002 Research Design / Pattern Validation
+
+Research OS architecture frozen for this sprint (Research Executor role). `HIS-002` — Electricity, Grid Infrastructure, and Industrial Electrification — opened as a cross-cycle validation case for `PAT-001`–`PAT-003`. No Pattern assumed true; no evidence collected.
+
+Added:
+- `governance/HIS-002_RESEARCH_BRIEF.md` (`id: HIS-002-BRIEF`) — primary research question (how social value, capital cycles, financing structure, and entry timing affected value creation/capture/impairment during US electricity/grid buildout, and what this evidence does to `PAT-001`–`PAT-003`); bounded to the United States, c. 1900–1935 (deliberately a different institutional/regulatory environment from `HIS-001`'s British frame, per Framework §4.2); included/excluded infrastructure layers; evidence, counter-evidence, and failure-case requirements (≥3 named failure/impairment cases); investor-return requirements (cohort-level where obtainable, `undecidable` where not — no interpolation); explicit operating-profit-vs-shareholder-return distinction naming holding-company pyramiding as the era's candidate divergence mechanism (distinct from `HIS-001`'s accounting-practice mechanism); explicit Supports/Weakens/Rejects/Undecidable validation criteria for each of `PAT-001`, `PAT-002`, `PAT-003`; Gate 1 pass criteria. Three open research-design questions logged for Research Architect ruling (§11). No evidence collection begun.
+- `patterns/PATTERN_VALIDATION_MATRIX.md` — the single canonical cross-Pattern tracking table (Pattern × Revolution), instantiating `governance/PATTERN_VALIDATION_FRAMEWORK.md` §3 in one location rather than duplicating a matrix inside each `PAT-###` file. HIS-001 column populated from each Pattern's own existing Pattern Eligibility table and `REV-HIST-001`'s hypothesis verdicts, not simplified to a uniform rating: `PAT-001` and `PAT-002` recorded `Supports (partial)`; `PAT-003` recorded `Supports`. HIS-002/HIS-003 columns: pending. No Pattern promoted.
+
+Changed:
+- `governance/PATTERN_VALIDATION_FRAMEWORK.md` — one minimum-necessary completeness fix: §3 now defines how an `Undecidable` cross-cycle result is recorded (in the Notes column, not as a new table column), and clarifies it neither counts toward promotion nor blocks `cross-cycle-candidate` entry. No other change; lifecycle, matrix template, and promotion requirements unchanged. Assessed as internally complete and ready for Research Architect methodology review; that formal sign-off itself was not part of this sprint.
+- `governance/WORK_BOARD.md` — Active section replaced with Sprint 1; `HIS-002` moved from Backlog to Active with its refined title; next review set to Gate 1 — HIS-002 Research Design Review.
+- `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — updated to reflect Sprint 1's state, the three open research-design questions, and the Framework readiness assessment.
+- `governance/REPOSITORY_INDEX.md` — added entries for `HIS-002_RESEARCH_BRIEF.md` and `PATTERN_VALIDATION_MATRIX.md`.
+
+Note:
+- No evidence collection, Source Register, Evidence Ledger, or historical synthesis for `HIS-002`. No new Pattern created; no existing Pattern promoted or content-edited. No `MAP-001`, `THS-001`, AI mapping, or investment recommendation. Governance, roles, repository structure, and the research lifecycle were not redesigned.
+
 ## 2026-07-14 — Sprint 0.1: Repository Integrity Fix
 
 Following the Repository Architecture Review verdict on Sprint 0's audit (PASS WITH CONDITIONS), applied a bounded set of the recommended fixes.
