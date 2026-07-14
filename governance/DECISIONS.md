@@ -3,7 +3,7 @@ type: governance
 title: Decision Log
 status: active
 created: 2026-07-12
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 # Decision Log
@@ -79,6 +79,13 @@ Append-only record of governance decisions. Each entry has a unique `DEC-###` ID
 - **Decision:** Before Phase 2 opens a second historical revolution, or Phase 3 is approached, a consolidation sprint (the first being "Sprint 0") audits repository integrity — orphaned files, broken references, inconsistent IDs/statuses, stale assets — and produces or refreshes the operating-state documents (`PROJECT_STATE.md`, `REPOSITORY_INDEX.md`, `ROADMAP.md`, `NEXT_ACTION.md`, `REPOSITORY_AUDIT.md`). New research does not resume until the sprint's deliverables are reviewed.
 - **Rationale:** The repository grew quickly through `HIS-001`'s full pipeline; without a deliberate consolidation checkpoint, drift (stale cross-references, undocumented state, orphaned files) compounds silently across research cycles.
 - **Status:** In effect. Sprint 0 is the first instance; its findings are recorded in `governance/REPOSITORY_AUDIT.md`.
+
+## DEC-011 — PI Agent registered as Operating System / Continuity Agent
+
+- **Date:** 2026-07-14
+- **Decision:** A PI Agent role is added to `governance/AGENTS.md` as the project's operating-system/continuity layer — state recovery, handoff awareness, idea-inbox classification, task routing. It does NOT perform repository implementation (branches/files/commits remain Claude Code's domain), does not make research, Pattern-promotion, methodology, or investment decisions, and does not create parallel governance. When a state or handoff change is needed, the PI Agent produces the content and routes the commit to Claude Code, then verifies the committed state.
+- **Rationale:** Continuity and routing were previously unowned — state was repeatedly reconstructed from conversation. A continuity layer that reads the repository as authoritative, without taking over execution, repository operation, or judgment, closes the gap without violating single-north-star, single-repository, or single-operator principles.
+- **Status:** In effect. See `governance/AGENTS.md`.
 
 ## Notes
 

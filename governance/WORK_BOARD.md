@@ -68,3 +68,8 @@ Do not begin these tasks. Listed for sequencing only; Phase 2 runs one task at a
 
 - **Completed:** 2026-07-12
 - Governance layer, naming/frontmatter standards, agent roles, work board, and decision log established.
+
+### Governance — PI Agent role registered
+
+- **Completed:** 2026-07-14
+- **Decision:** DEC-011. Added PI Agent (continuity/routing) to `governance/AGENTS.md`; non-committing. No research task state changed.

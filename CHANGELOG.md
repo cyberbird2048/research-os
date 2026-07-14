@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-14 — Governance: PI Agent role registered (DEC-011)
+
+Added:
+- `governance/AGENTS.md` — new role "PI Agent — Operating System / Continuity Agent" and a "Default Task Routing" section. Non-committing continuity/routing layer; GitHub authoritative; hard limits (no Pattern promotion, no investment conclusions, no methodology changes, no parallel governance).
+
+Changed:
+- `governance/DECISIONS.md` — appended DEC-011.
+- `governance/WORK_BOARD.md` — governance note: PI Agent role registered (DEC-011); no research task state change.
+
+Note:
+- No research asset, Pattern, Mapping, or Thesis created or modified. No gate advanced. Repository operator remains Claude Code; this adds a continuity/routing role, not a second repository operator.
+
 ## 2026-07-14 — Sprint 1: HIS-002 Research Design / Pattern Validation
 
 Research OS architecture frozen for this sprint (Research Executor role). `HIS-002` — Electricity, Grid Infrastructure, and Industrial Electrification — opened as a cross-cycle validation case for `PAT-001`–`PAT-003`. No Pattern assumed true; no evidence collected.
