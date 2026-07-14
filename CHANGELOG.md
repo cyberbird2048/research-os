@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-07-14 — Sprint 1: Gate 1 revisions applied + Gate 1 review recorded (DEC-012)
+
+Research Architect (ChatGPT) completed Gate 1 — HIS-002 Research Design Review and returned **PASS WITH CONDITIONS**, with explicit rulings on the three open §11 questions and 8 required revisions. All 8 revisions applied in this same change set; Gate 1 review recorded as a governance asset; §11 rulings canonicalized into the brief and DECISIONS.md.
+
+Added:
+- `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`) — full Gate 1 review record: verdict, per-§9-criterion assessment, rulings on §11.1/§11.2/§11.3, 8 required revisions, Gate 2+ escalation conditions.
+
+Changed:
+- `governance/HIS-002_RESEARCH_BRIEF.md` — §8 canonicalized to four-label vocabulary (Supports/Weakens/Rejects/Undecidable); §8.1/§8.2/§8.3 Supports, Rejects, and Undecidable criteria rewritten to test mechanism rather than reproduce HIS-001's empirical shape; new §8.4 Anti-Confirmation Rule; new §12 Resolved Research-Design Decisions recording the three §11 rulings.
+- `governance/DECISIONS.md` — appended DEC-012: §11.1/§11.2/§11.3 rulings + Gate 1 verdict + the §11.2 programmatic consequence (Single-Cycle Pattern Validation gate required before HIS-002 evidence collection).
+- `governance/WORK_BOARD.md` — Active section: next review changed to Gate 1 re-review (PASS WITH CONDITIONS); scope updated to reflect US-only origin and DEC-012 consequence.
+- `governance/PROJECT_STATE.md` and `governance/NEXT_ACTION.md` — updated to reflect: Gate 1 verdict (PASS WITH CONDITIONS), §11 rulings now resolved, new Single-Cycle Pattern Validation (HIS-001) gate identified, HIS-002 evidence collection still blocked pending Gate 1 re-review confirmation.
+
+Note:
+- No evidence collection, Source Register, Evidence Ledger, or historical synthesis begun. No Pattern created, promoted, or content-edited. No `MAP-001`, `THS-001`, AI mapping, or investment recommendation. PAT-001–PAT-003 remain `status: draft`, `confidence: low`. Gate 1 re-review required (verdict must be confirmed PASSED) before HIS-002 evidence collection may begin; even then, a separate Single-Cycle Pattern Validation gate must pass first per DEC-012 §11.2.
+- One documented gap: the handoff package referenced the Research Architect's six Gate 2+ escalation conditions but did not transcribe their verbatim text, so the escalation section in `HIS-002_GATE_1_REVIEW.md` is reconstructed by the Repository Operator and flagged for confirmation at the Gate 1 re-review rather than presented as ChatGPT's verbatim wording.
+
 ## 2026-07-14 — Governance: PI Agent role registered (DEC-011)
 
 Added:

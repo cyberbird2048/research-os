@@ -87,6 +87,17 @@ Append-only record of governance decisions. Each entry has a unique `DEC-###` ID
 - **Rationale:** Continuity and routing were previously unowned — state was repeatedly reconstructed from conversation. A continuity layer that reads the repository as authoritative, without taking over execution, repository operation, or judgment, closes the gap without violating single-north-star, single-repository, or single-operator principles.
 - **Status:** In effect. See `governance/AGENTS.md`.
 
+## DEC-012 — HIS-002 Gate 1: Research Architect rulings on §11 and Gate 1 verdict (PASS WITH CONDITIONS)
+
+- **Date:** 2026-07-14
+- **Decision:**
+  1. **§11.1 vocabulary mapping — CONFIRM WITH SIMPLIFICATION.** The Validation Matrix uses only four canonical cross-cycle outcomes: Supports / Weakens / Rejects / Undecidable. "Partially supported" is removed as a separate matrix outcome; permitted only as explanatory prose under `Weakens`. Brief §8 is canonicalized accordingly.
+  2. **§11.2 Pattern lifecycle sequencing — TWO-STEP, NO CONCURRENT.** Originating-cycle validation (`draft` → `validated-in-one-cycle`) is a separate gate, based solely on HIS-001 evidence, with its own Research Architect ruling. HIS-002 supplies only the cross-cycle evidence. A Pattern still at `draft` may be tested cross-cycle, but cannot advance directly to `cross-cycle-candidate`; its originating-cycle deficiencies must be resolved or explicitly recorded first. **Programmatic consequence:** after Gate 1 is confirmed PASSED, an additional review — Single-Cycle Pattern Validation (HIS-001) — must be executed and pass before HIS-002 evidence collection begins. No Pattern is promoted by this decision.
+  3. **§11.3 bounded geography — CONFIRMED.** HIS-002 is bounded to the United States, c. 1900–1935. No second national system is added. Non-US evidence may be used only for narrow methodological context, not as an additional validation row or substantive comparative case.
+  4. **Gate 1 verdict — PASS WITH CONDITIONS.** The HIS-002 brief is sufficiently bounded and methodologically serious to proceed after the 8 required revisions are applied and the revised brief is confirmed PASSED by re-review. Until then, HIS-002 evidence collection does not begin.
+- **Rationale:** Records the Research Architect's rulings and the Gate 1 verdict as binding governance, so subsequent sprints and agents cannot relitigate vocabulary, lifecycle sequencing, or geography, and so the 8 required revisions are explicitly tracked rather than carried informally. The §11.2 programmatic consequence is recorded at the same time to prevent a future agent from skipping the Single-Cycle Pattern Validation gate and treating HIS-002 evidence as sufficient to promote a Pattern.
+- **Status:** In effect. See `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`) for the full review record and `governance/HIS-002_RESEARCH_BRIEF.md` §12 for the canonicalized rulings.
+
 ## Notes
 
 - New decisions are appended with the next sequential `DEC-###` ID; existing entries are not renumbered or removed.
