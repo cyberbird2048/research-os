@@ -12,17 +12,17 @@ One-page operational handoff. If you read only one file to know what to do right
 
 ## Current Sprint
 
-Sprint 1 — HIS-002 Research Design / Pattern Validation. The `HIS-002` brief's 8 Gate 1 revisions are applied (Gate 1 = PASS WITH CONDITIONS, DEC-012). The **Single-Cycle Pattern Validation (HIS-001) Gate is PASSED** (DEC-013): PAT-001/PAT-002 remain `draft`; **PAT-003 → `validated-in-one-cycle`**. Now authoring `HIS-002_RESEARCH_EXECUTION_PLAN.md`. No broad evidence collection has begun.
+Sprint 1 — HIS-002 Cross-Cycle Pattern Validation. Gate 1 is **CONFIRMED PASSED** and the Single-Cycle Pattern Validation gate is PASSED (DEC-013). The execution plan is complete. Stage A Source Orientation is active.
 
 ## Current Objective
 
-Get the `HIS-002` brief through **Gate 1 re-review** (PASS WITH CONDITIONS → confirmed PASSED). The Execution Plan (`HIS-002_RESEARCH_EXECUTION_PLAN.md`, implementing brief §8.4) is authored and internally checked against the approved brief. Broad evidence collection begins only after the Gate 1 re-review is confirmed PASSED.
+Create a bounded candidate-source landscape for the three Pattern tests without yet constructing substantive Evidence Ledger claims.
 
 ## Current Blockers
 
 - **The three §11 open research-design questions are resolved by DEC-012**; the **Single-Cycle Pattern Validation (HIS-001) gate is PASSED** by DEC-013; the **Execution Plan is authored and internally checked**. None of these is open any longer.
-- **Gate 1 re-review is pending** — the Research Architect must confirm the 8 required revisions are correctly applied (verdict PASS WITH CONDITIONS → confirmed PASSED). The re-review prompt is staged in `agent-handoff/2026-07-14_his-002-gate1-revisions-apply.md` (reply zone) for the User to route to ChatGPT. This is now the **sole remaining gate** before broad HIS-002 evidence collection.
-- **Broad HIS-002 evidence collection** — blocked pending the Gate 1 re-review confirmation only.
+- **Gate 1 re-review is complete** — no longer a blocker.
+- **Stage C evidence extraction and the Evidence Ledger** remain blocked until source orientation and verification are complete.
 - **Formal confirmation of the Pattern Validation Framework's own methodology review** has not been separately recorded.
 - **Historical-to-AI Mapping is blocked** until a Pattern reaches `cross-cycle-candidate` — `PAT-003` at `validated-in-one-cycle` is one step short and requires the HIS-002 cross-cycle result first.
 - **One item remains genuinely open** (not blocking): `MAP-001`'s structural spec was never supplied before that task was withdrawn.
@@ -33,9 +33,11 @@ Get the `HIS-002` brief through **Gate 1 re-review** (PASS WITH CONDITIONS → c
 
 Per `governance/AGENTS.md`: GitHub is the source of truth; Claude Code is Research Lead/Repository Operator (executes, does not self-authorize scope changes); the Research Architect (ChatGPT) designs research and reviews gates and made the Single-Cycle Pattern Validation dispositions; Codex reviews evidence and logic; the PI Agent owns state/handoff/routing (non-committing); the User is the Investment Committee and final decision-maker. The Single-Cycle Pattern Validation dispositions were decided by the Research Architect and relayed by the User; Claude Code applied them to the repository.
 
+For the current handoff only, the User explicitly assigned Codex to take over execution. This changes the active task owner, not the permanent role charter.
+
 ## Immediate Next Action
 
-1. PI Agent (or the User) gives ChatGPT the Gate 1 re-review prompt (staged in `agent-handoff/2026-07-14_his-002-gate1-revisions-apply.md` reply zone). ChatGPT returns a verdict.
-2. If the re-review is confirmed PASSED, broad HIS-002 evidence collection may begin — executing `HIS-002_RESEARCH_EXECUTION_PLAN.md` §4: parallel Supports/Weakens/Rejects/Undecidable searches testing PAT-001/PAT-002 (while `draft`) and PAT-003 (`validated-in-one-cycle`), building `HIS-002_SOURCE_REGISTER.md` then `HIS-002_EVIDENCE_LEDGER.md`.
-3. If still PASS WITH CONDITIONS or worse: the next revision set is drafted and routed to Claude Code; loop.
-4. Until the re-review is confirmed PASSED, no agent begins broad HIS-002 evidence collection, creates a Source Register / Evidence Ledger, drafts a historical synthesis, promotes any Pattern beyond DEC-013's dispositions, or creates `MAP-001` / `THS-001`.
+1. Build `HIS-002_SOURCE_REGISTER.md` as a candidate-source landscape mapped to PAT-001/PAT-002/PAT-003 and all four outcome lanes.
+2. Verify accessibility and methodological fit of load-bearing candidates before extracting ledger claims.
+3. Stop for Source Orientation review before Stage C Evidence Ledger construction.
+4. Do not draft a historical synthesis, promote any Pattern beyond DEC-013's dispositions, or create `MAP-001` / `THS-001`.

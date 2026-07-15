@@ -109,6 +109,13 @@ Append-only record of governance decisions. Each entry has a unique `DEC-###` ID
 - **Rationale:** Records the originating-cycle validation as binding governance, so each Pattern enters (or is barred from) cross-cycle testing on an explicit, evidence-graded basis rather than an informal judgment, and so PAT-003's single-cycle promotion is not later mistaken for a cross-cycle or `active` promotion.
 - **Status:** In effect. See `governance/HIS-001_SINGLE_CYCLE_PATTERN_VALIDATION.md` (`id: HIS-001-SCPV`) for the full gate record and `patterns/PATTERN_VALIDATION_MATRIX.md` for the tracked state.
 
+## DEC-014 — HIS-002 Gate 1 re-review confirmed passed
+
+- **Date:** 2026-07-16
+- **Decision:** The Research Architect confirmed that all 8 revisions required by the initial HIS-002 Gate 1 review were correctly applied. The four-label vocabulary, mechanism-level Pattern tests, Anti-Confirmation Rule, resolved §11 decisions, and US-only scope all passed re-review. The six original Gate 2+ escalation conditions were restored verbatim in `governance/HIS-002_GATE_1_REVIEW.md`. With the Single-Cycle Pattern Validation prerequisite already passed under DEC-013, HIS-002 Stage A Source Orientation is authorized.
+- **Rationale:** Closes the stale PASS-WITH-CONDITIONS state and records the already-completed re-review in the canonical append-only decision ledger before evidence work begins.
+- **Status:** In effect. See `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`).
+
 ## Notes
 
 - New decisions are appended with the next sequential `DEC-###` ID; existing entries are not renumbered or removed.

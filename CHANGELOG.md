@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-07-16 — HIS-002 Gate 1 confirmed passed; Stage A unblocked
+
+Changed:
+- `governance/HIS-002_GATE_1_REVIEW.md` — recorded the Research Architect's confirmed-passed re-review and replaced the reconstructed Gate 2+ escalation list with the original six conditions verbatim.
+- `governance/DECISIONS.md` — appended DEC-014, authorizing Stage A after the confirmed re-review and completed DEC-013 prerequisite.
+- `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md`, `governance/WORK_BOARD.md` — reconciled the canonical state: Gate 1 and the Single-Cycle Pattern Validation prerequisite are complete; `HIS-002_RESEARCH_EXECUTION_PLAN.md` is binding; Stage A Source Orientation is active.
+
+Note:
+- No historical evidence claim was added, no Pattern status changed, and no Mapping or Thesis was created.
+
 ## 2026-07-14 — Sprint 1: HIS-002 Research Execution Plan authored
 
 Added:

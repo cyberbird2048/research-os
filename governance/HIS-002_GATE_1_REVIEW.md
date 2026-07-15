@@ -12,7 +12,7 @@ related: [HIS-002, HIS-002-BRIEF, DEC-012]
 
 **Reviewer:** ChatGPT (Research Architect)
 **Subject:** `governance/HIS-002_RESEARCH_BRIEF.md` (`id: HIS-002-BRIEF`)
-**Verdict: PASS WITH CONDITIONS**
+**Verdict: CONFIRMED PASSED**
 
 ## Verdict
 
@@ -61,17 +61,15 @@ The §11 rulings are additionally canonicalized into the brief as a new §12 (Re
 
 ## Escalation Conditions for Gate 2+
 
-> **Provenance note.** The handoff task referenced six escalation triggers from the Research Architect's review but did not transcribe their verbatim text into the handoff package. Per the project's no-fabrication rule (`governance/OPERATING_PRINCIPLES.md`), the conditions below are **reconstructed by the Repository Operator** from the brief, the Pattern Validation Framework, and `DEC-012` — they are *not* the Research Architect's verbatim wording and must be confirmed (or replaced with the original text) at the Gate 1 re-review before Gate 2 opens.
+The Research Architect confirmed the following original six conditions verbatim during Gate 1 re-review:
 
-During `HIS-002` evidence collection (Stage A onward, once unblocked), Claude Code must escalate to the User (Investment Committee) / Research Architect rather than deciding alone if any of the following occur:
-
-1. A source load-bearing for one of §8's four-outcome tests for any Pattern has no open-access substitute after a genuine search (per the `HIS-001` U5 paid-access trigger, applied here).
-2. The US-only boundary (§2, DEC-012 §11.3) cannot be honored for a load-bearing test — i.e., only non-US evidence exists for a claim the validation depends on — rather than silently importing a non-US case as a de facto second validation row.
-3. Evidence would force a change to the primary research question (§1) or the scope (§2) themselves, as opposed to simply returning a Weaken/Reject/Undecidable verdict on a Pattern (which are all expected, in-process outcomes).
-4. The Anti-Confirmation Rule (§8.4) cannot be satisfied for a Pattern — i.e., no serious Weaken/Reject search is possible for lack of the relevant data — which should be recorded as an Undecidable disposition, not worked around.
-5. The operating-company vs. holding-company separation (§7) cannot be maintained from the available sources, threatening to collapse the two into a single "utility sector return" figure the brief forbids.
-6. Any attempt (by any agent) to promote a Pattern, create `MAP-001`/`THS-001`, or begin AI-era mapping on the strength of `HIS-002` evidence before both the Single-Cycle Pattern Validation (HIS-001) gate and the cross-cycle process in `governance/PATTERN_VALIDATION_FRAMEWORK.md` have been satisfied.
+1. No credible utility-sector return benchmark can be constructed for a meaningful portion of 1900–1935.
+2. Operating-company and holding-company securities cannot be separated with sufficient reliability.
+3. Industrial-electrification productivity evidence and investor-return evidence have no materially overlapping period, making PAT-001 structurally untestable.
+4. Generation, transmission, and utilization data cannot be reconciled well enough to test PAT-002 without substituting market-price decline for physical overbuild.
+5. No cohort, issuance-vintage, financing-tier, or capital-structure return evidence can be constructed for PAT-003.
+6. Evidence collection requires adding a second country, expanding materially beyond 1935, or reincorporating excluded streetcar, residential-appliance, or rural-electrification histories.
 
 ## Status
 
-**PASS WITH CONDITIONS — 8 revisions applied in this change set; Gate 1 re-review pending.** The Gate 1 re-review prompt is held in the agent-handoff task `2026-07-14_his-002-gate1-revisions-apply.md` (reply zone) for the User to route to the Research Architect. Evidence collection, Source Register, Evidence Ledger, and historical synthesis remain blocked until (a) the re-review confirms **PASSED**, and then (b) the Single-Cycle Pattern Validation (HIS-001) gate passes, per `DEC-012` §11.2. No Pattern is promoted by this review; `PAT-001`–`PAT-003` remain `status: draft`, `confidence: low`.
+**CONFIRMED PASSED.** All 8 revisions were confirmed correctly applied by the Research Architect. The Single-Cycle Pattern Validation (HIS-001) gate also passed under `DEC-013`; HIS-002 Stage A source orientation is therefore unblocked. No Pattern is promoted by this re-review.

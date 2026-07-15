@@ -16,7 +16,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Current Sprint
 
-**Sprint 1 — HIS-002 Research Design / Pattern Validation.** The `HIS-002` brief is Gate-1-reviewed (PASS WITH CONDITIONS, 8 revisions applied, DEC-012). The **Single-Cycle Pattern Validation (HIS-001) Gate is PASSED** (DEC-013): `PAT-001` and `PAT-002` remain `draft` with scope-narrowing/load-bearing-gap dispositions; **`PAT-003` is promoted to `validated-in-one-cycle`**. No Pattern reached `active`. The next research deliverable is `HIS-002_RESEARCH_EXECUTION_PLAN.md`, implementing brief §8.4 (parallel Supports/Weakens/Rejects/Undecidable searches per Pattern). No broad evidence collection has begun.
+**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 is **CONFIRMED PASSED**; the 8 revisions and the Research Architect's original six Gate 2+ escalation conditions are recorded in `HIS-002_GATE_1_REVIEW.md`. The **Single-Cycle Pattern Validation (HIS-001) Gate is PASSED** (DEC-013): `PAT-001` and `PAT-002` remain `draft`; `PAT-003` is `validated-in-one-cycle`. The execution plan is complete and Stage A source orientation is now active. No Evidence Ledger or historical synthesis has begun.
 
 ## Gate Status
 
@@ -27,7 +27,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 | Gate 3 | Historical Stability — `REV-HIST-001` | PASSED (stable historical asset), 4 minor revisions applied |
 | Pattern Review | Candidate Patterns `PAT-001`–`PAT-003` | PASS WITH MINOR REVISIONS — both authorized revisions confirmed complete: `PAT-001`'s Pattern Statement wording (commit `d0b7910`) and `PAT-002`'s operational definition of overbuild (already present in its Mechanism section — authorization→subscription→called→paid→expenditure→completed→impaired, kept strictly distinct; verified and recorded complete in Sprint 0.1, no file change needed) |
 | Pattern Validation Framework methodology review | `governance/PATTERN_VALIDATION_FRAMEWORK.md` | Internal-completeness gap closed (Undecidable handling added to §3); assessed ready for review. Formal Research Architect sign-off not yet separately confirmed — see `governance/HIS-002_RESEARCH_BRIEF.md` §11. |
-| Gate 1 | Research Design Review — `HIS-002` brief | **PASS WITH CONDITIONS** (DEC-012; 8 revisions applied this change set; re-review required) |
+| Gate 1 | Research Design Review — `HIS-002` brief | **CONFIRMED PASSED** (DEC-012; 8 revisions verified; original escalation conditions restored) |
 | Single-Cycle Pattern Validation (HIS-001) | Originating-cycle validation gate introduced by DEC-012 §11.2 | **PASSED** (DEC-013). PAT-001/PAT-002 remain `draft` (scope narrowed / load-bearing gap); PAT-003 → `validated-in-one-cycle`. See `governance/HIS-001_SINGLE_CYCLE_PATTERN_VALIDATION.md` (`id: HIS-001-SCPV`) |
 
 ## Stable Assets
@@ -58,12 +58,12 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 ## Blocked Work
 
 - **Historical-to-AI Mapping** — blocked. The prior authorization for `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` was withdrawn before any file was created. Mapping work does not resume until a Pattern reaches `cross-cycle-candidate` or better under the Pattern Validation Framework.
-- **`HIS-002` broad evidence collection** — blocked pending Gate 1 re-review confirmation (PASS WITH CONDITIONS → confirmed PASSED). The Execution Plan is authored and its internal check against the approved brief is complete. **`HIS-003`** — blocked, not started.
+- **`HIS-003`** — blocked, not started. HIS-002 Stage A source orientation is active; Stage C Evidence Ledger and historical synthesis remain gated by the staged workflow.
 - **Investment Thesis (`THS-001`)** — blocked. Phase 3 entry gates unmet (see Roadmap).
 
 ## Active Task
 
-Sprint 1 — HIS-002 Research Design / Pattern Validation. Gate 1 = PASS WITH CONDITIONS (DEC-012, 8 revisions applied); Single-Cycle Pattern Validation Gate PASSED (DEC-013); `HIS-002_RESEARCH_EXECUTION_PLAN.md` authored and internally checked against the approved brief. Scope: research design, Pattern-validation apply, and Execution Plan authoring. Broad evidence collection remains blocked until the Gate 1 re-review is confirmed PASSED.
+Sprint 1 — HIS-002 Stage A Source Orientation. Gate 1 is CONFIRMED PASSED; Single-Cycle Pattern Validation Gate PASSED (DEC-013); `HIS-002_RESEARCH_EXECUTION_PLAN.md` is the binding execution design. Current scope is candidate-source orientation and source architecture only.
 
 ## Known Evidence Gaps
 
@@ -75,4 +75,4 @@ Carried from Stage B/C of `HIS-001`, unresolved and not addressed by this sprint
 
 ## Next Required Review
 
-Gate 1 re-review (confirmation that the 8 required revisions are correctly applied; verdict must move from PASS WITH CONDITIONS to confirmed PASSED) before broad HIS-002 evidence collection may begin. The Execution Plan is authored and its internal check against the approved brief is complete. The Single-Cycle Pattern Validation (HIS-001) gate is PASSED (DEC-013). The three §11 open questions are resolved (DEC-012 / brief §12). Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding.
+Stage A Source Orientation review after a bounded `HIS-002_SOURCE_REGISTER.md` candidate landscape is produced. Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding but does not alter the already-recorded DEC-012/DEC-013 execution sequence.
