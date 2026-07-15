@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-14 — Sprint 1: HIS-002 Research Execution Plan authored
+
+Added:
+- `knowledge/industrial-revolutions/HIS-002_RESEARCH_EXECUTION_PLAN.md` (`id: HIS-002-PLAN`, `status: draft`) — the operational plan implementing `governance/HIS-002_RESEARCH_BRIEF.md` §8.4. §4 defines explicit, parallel evidence searches for all four cross-cycle outcomes (Supports / Weakens / Rejects / Undecidable) for each of `PAT-001`, `PAT-002`, and `PAT-003`, testing the post-Single-Cycle-Validation (DEC-013) narrowed mechanisms: PAT-001's two-ledger core (operating-profit as supporting sub-mechanism); PAT-002's two separated claims (financing-side impairment vs. the physical-overbuild load-bearing gap, with equity-price decline barred as an overbuild proxy); PAT-003's cohort/vintage/financing-tier/capital-structure dispersion with a broad-market control. Includes anti-confirmation controls (balanced four-lane search budget, Reject/Weaken evidence first-class, Undecidable as a real verdict, mechanism-not-shape rule, pre-synthesis completeness check), an `E-###` evidence-ledger claim-ID scheme distinct from HIS-001's `C-###`, the operating-vs-holding-company value-separation discipline, a ≥3 named failure-case quota, an open-access-first source strategy, staged stopping conditions, and an explicit out-of-scope section (no evidence yet, no Mapping/Thesis, no promotion). Internally checked against the approved brief.
+
+Changed:
+- `governance/WORK_BOARD.md`, `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — Execution Plan recorded as authored and internally checked; the sole remaining gate before broad HIS-002 evidence collection is now the Gate 1 re-review confirmation.
+
+Note:
+- No evidence collected. No Source Register, Evidence Ledger, or historical synthesis created. No Pattern created or promoted (dispositions unchanged from DEC-013). No `MAP-001`, `THS-001`, AI mapping, or investment recommendation. No AI-era content in the plan (verified). Broad evidence collection remains blocked pending the Gate 1 re-review.
+
 ## 2026-07-14 — Sprint 1: Single-Cycle Pattern Validation (HIS-001) applied (DEC-013)
 
 The Research Architect (ChatGPT) executed the Single-Cycle Pattern Validation Gate introduced by DEC-012 §11.2, relayed by the User (Investment Committee). Dispositions applied to the three candidate Patterns and recorded as binding governance.

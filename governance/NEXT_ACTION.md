@@ -16,14 +16,13 @@ Sprint 1 — HIS-002 Research Design / Pattern Validation. The `HIS-002` brief's
 
 ## Current Objective
 
-Complete `knowledge/industrial-revolutions/HIS-002_RESEARCH_EXECUTION_PLAN.md` — implementing brief §8.4 (explicit, parallel Supports/Weakens/Rejects/Undecidable evidence searches for every Pattern) — and internally check it against the approved brief. In parallel, get the brief through **Gate 1 re-review** (PASS WITH CONDITIONS → confirmed PASSED). Broad evidence collection begins only after both the Execution Plan is complete/checked and the Gate 1 re-review is confirmed PASSED.
+Get the `HIS-002` brief through **Gate 1 re-review** (PASS WITH CONDITIONS → confirmed PASSED). The Execution Plan (`HIS-002_RESEARCH_EXECUTION_PLAN.md`, implementing brief §8.4) is authored and internally checked against the approved brief. Broad evidence collection begins only after the Gate 1 re-review is confirmed PASSED.
 
 ## Current Blockers
 
-- **The three §11 open research-design questions are resolved by DEC-012**; the **Single-Cycle Pattern Validation (HIS-001) gate is PASSED** by DEC-013. Neither is open any longer.
-- **Gate 1 re-review is pending** — the Research Architect must confirm the 8 required revisions are correctly applied (verdict PASS WITH CONDITIONS → confirmed PASSED). The re-review prompt is staged in `agent-handoff/2026-07-14_his-002-gate1-revisions-apply.md` (reply zone) for the User to route to ChatGPT.
-- **`HIS-002_RESEARCH_EXECUTION_PLAN.md` internal check** — the plan must be complete and checked against the approved brief before broad evidence collection.
-- **Broad HIS-002 evidence collection** — blocked pending both the Execution Plan check and the Gate 1 re-review confirmation.
+- **The three §11 open research-design questions are resolved by DEC-012**; the **Single-Cycle Pattern Validation (HIS-001) gate is PASSED** by DEC-013; the **Execution Plan is authored and internally checked**. None of these is open any longer.
+- **Gate 1 re-review is pending** — the Research Architect must confirm the 8 required revisions are correctly applied (verdict PASS WITH CONDITIONS → confirmed PASSED). The re-review prompt is staged in `agent-handoff/2026-07-14_his-002-gate1-revisions-apply.md` (reply zone) for the User to route to ChatGPT. This is now the **sole remaining gate** before broad HIS-002 evidence collection.
+- **Broad HIS-002 evidence collection** — blocked pending the Gate 1 re-review confirmation only.
 - **Formal confirmation of the Pattern Validation Framework's own methodology review** has not been separately recorded.
 - **Historical-to-AI Mapping is blocked** until a Pattern reaches `cross-cycle-candidate` — `PAT-003` at `validated-in-one-cycle` is one step short and requires the HIS-002 cross-cycle result first.
 - **One item remains genuinely open** (not blocking): `MAP-001`'s structural spec was never supplied before that task was withdrawn.
@@ -36,7 +35,7 @@ Per `governance/AGENTS.md`: GitHub is the source of truth; Claude Code is Resear
 
 ## Immediate Next Action
 
-1. Complete and internally check `HIS-002_RESEARCH_EXECUTION_PLAN.md` against the approved brief (in progress).
-2. PI Agent (or the User) gives ChatGPT the Gate 1 re-review prompt (staged in `agent-handoff/2026-07-14_his-002-gate1-revisions-apply.md` reply zone). ChatGPT returns a verdict.
-3. If the re-review is confirmed PASSED **and** the Execution Plan passes its internal check, broad HIS-002 evidence collection may begin — testing PAT-001/PAT-002 (while `draft`) and PAT-003 (`validated-in-one-cycle`) per the brief's §8 criteria and the plan's parallel four-outcome searches.
-4. Until then, no agent begins broad HIS-002 evidence collection, creates a Source Register / Evidence Ledger, drafts a historical synthesis, promotes any Pattern beyond DEC-013's dispositions, or creates `MAP-001` / `THS-001`.
+1. PI Agent (or the User) gives ChatGPT the Gate 1 re-review prompt (staged in `agent-handoff/2026-07-14_his-002-gate1-revisions-apply.md` reply zone). ChatGPT returns a verdict.
+2. If the re-review is confirmed PASSED, broad HIS-002 evidence collection may begin — executing `HIS-002_RESEARCH_EXECUTION_PLAN.md` §4: parallel Supports/Weakens/Rejects/Undecidable searches testing PAT-001/PAT-002 (while `draft`) and PAT-003 (`validated-in-one-cycle`), building `HIS-002_SOURCE_REGISTER.md` then `HIS-002_EVIDENCE_LEDGER.md`.
+3. If still PASS WITH CONDITIONS or worse: the next revision set is drafted and routed to Claude Code; loop.
+4. Until the re-review is confirmed PASSED, no agent begins broad HIS-002 evidence collection, creates a Source Register / Evidence Ledger, drafts a historical synthesis, promotes any Pattern beyond DEC-013's dispositions, or creates `MAP-001` / `THS-001`.

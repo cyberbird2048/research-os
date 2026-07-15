@@ -48,6 +48,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 - `patterns/PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md` — **`status: validated-in-one-cycle`** (DEC-013); cohort/index-level, bounded; falsification statement added. Not `active`; does not count toward the Phase 3 gate.
 - `governance/HIS-002_RESEARCH_BRIEF.md` (`id: HIS-002-BRIEF`) — research design; 8 Gate 1 revisions applied; §12 Resolved Decisions records the three §11 rulings (DEC-012). No evidence collected.
 - `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`) — Gate 1 review record; verdict PASS WITH CONDITIONS, re-review pending.
+- `knowledge/industrial-revolutions/HIS-002_RESEARCH_EXECUTION_PLAN.md` (`id: HIS-002-PLAN`) — authored and internally checked against the approved brief; implements brief §8.4 (parallel four-outcome searches per Pattern). No evidence collected.
 - `patterns/PATTERN_VALIDATION_MATRIX.md` — tracking asset; HIS-001 column now records the DEC-013 dispositions, HIS-002/HIS-003 columns pending.
 
 ## Stable / Active Governance Records (this sprint)
@@ -57,12 +58,12 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 ## Blocked Work
 
 - **Historical-to-AI Mapping** — blocked. The prior authorization for `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` was withdrawn before any file was created. Mapping work does not resume until a Pattern reaches `cross-cycle-candidate` or better under the Pattern Validation Framework.
-- **`HIS-002` broad evidence collection** — blocked: (a) pending Gate 1 re-review confirmation (PASS WITH CONDITIONS → confirmed PASSED), and (b) pending completion and internal check of `HIS-002_RESEARCH_EXECUTION_PLAN.md` against the approved brief. **`HIS-003`** — blocked, not started.
+- **`HIS-002` broad evidence collection** — blocked pending Gate 1 re-review confirmation (PASS WITH CONDITIONS → confirmed PASSED). The Execution Plan is authored and its internal check against the approved brief is complete. **`HIS-003`** — blocked, not started.
 - **Investment Thesis (`THS-001`)** — blocked. Phase 3 entry gates unmet (see Roadmap).
 
 ## Active Task
 
-Sprint 1 — HIS-002 Research Design / Pattern Validation. Gate 1 = PASS WITH CONDITIONS (DEC-012, 8 revisions applied); Single-Cycle Pattern Validation Gate PASSED (DEC-013). Now authoring `HIS-002_RESEARCH_EXECUTION_PLAN.md` implementing brief §8.4. Scope: research design, Pattern-validation apply, and Execution Plan authoring. No broad evidence collection until the Execution Plan is complete, internally checked against the approved brief, and Gate 1 re-review is confirmed PASSED.
+Sprint 1 — HIS-002 Research Design / Pattern Validation. Gate 1 = PASS WITH CONDITIONS (DEC-012, 8 revisions applied); Single-Cycle Pattern Validation Gate PASSED (DEC-013); `HIS-002_RESEARCH_EXECUTION_PLAN.md` authored and internally checked against the approved brief. Scope: research design, Pattern-validation apply, and Execution Plan authoring. Broad evidence collection remains blocked until the Gate 1 re-review is confirmed PASSED.
 
 ## Known Evidence Gaps
 
@@ -74,4 +75,4 @@ Carried from Stage B/C of `HIS-001`, unresolved and not addressed by this sprint
 
 ## Next Required Review
 
-Gate 1 re-review (confirmation that the 8 required revisions are correctly applied; verdict must move from PASS WITH CONDITIONS to confirmed PASSED), and an internal check of the forthcoming `HIS-002_RESEARCH_EXECUTION_PLAN.md` against the approved brief, before broad HIS-002 evidence collection may begin. The Single-Cycle Pattern Validation (HIS-001) gate is PASSED (DEC-013). The three §11 open questions are resolved (DEC-012 / brief §12). Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding.
+Gate 1 re-review (confirmation that the 8 required revisions are correctly applied; verdict must move from PASS WITH CONDITIONS to confirmed PASSED) before broad HIS-002 evidence collection may begin. The Execution Plan is authored and its internal check against the approved brief is complete. The Single-Cycle Pattern Validation (HIS-001) gate is PASSED (DEC-013). The three §11 open questions are resolved (DEC-012 / brief §12). Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding.
