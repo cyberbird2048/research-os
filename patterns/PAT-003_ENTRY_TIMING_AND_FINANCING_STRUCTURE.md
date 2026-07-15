@@ -2,9 +2,9 @@
 id: PAT-003
 type: pattern
 title: Entry Timing and Financing Structure
-status: draft
+status: validated-in-one-cycle
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 owner: cyberbird
 research_lead: claude-code
 research_architect: chatgpt
@@ -75,13 +75,35 @@ Leverage is the amplification mechanism, not the underlying driver: removing it 
 
 Confirmation requires a second historical revolution (HIS-002 or HIS-003) showing: (a) a financing structure with embedded leverage (partial payment, margin, or an economic equivalent), (b) measurable dispersion in realized investor return by entry cohort/vintage within a single nominal sector, and (c) a demonstration that stripping out the leverage mechanism substantially narrows — without eliminating — that dispersion, as found here [C-116, C-117].
 
+## Falsification Statement
+
+**Added at Single-Cycle Pattern Validation (DEC-013).**
+
+> With adequate cohort or vintage data, if return dispersion disappears after controlling for broad-market exposure and financing structure or entry timing explains no material portion of the remaining dispersion, the Pattern is rejected for that cycle.
+
+## Single-Cycle Pattern Validation (HIS-001)
+
+**Disposition (DEC-013): promoted to `status: validated-in-one-cycle`.** The Research Architect's Single-Cycle Pattern Validation Gate found the originating-cycle evidence sufficient at the cohort/index level, bounded to:
+
+- London-listed railway ordinary equities;
+- 1843–1850;
+- partial-payment and compulsory-call financing;
+- authorization-cohort timing;
+- subscription-to-first-post-authorization-call measurement.
+
+The York and North Midland Railway money-weighted (cash-flow-aware) return gap remains visible (see *Limits of Available Money-Weighted Return Evidence* above) but is **precision-only** for the cohort-level mechanism — it does not undermine the cohort/index-level finding on which the Pattern rests, and is therefore not a load-bearing gap for this validation.
+
+`validated-in-one-cycle` is **not** `active`: per `governance/PATTERN_VALIDATION_FRAMEWORK.md` §9, only `active` Patterns count toward the Phase 3 entry gate, and per §2 a Pattern at `validated-in-one-cycle` still requires a second, independent revolution before it can reach `cross-cycle-candidate`. This Pattern is now eligible to enter formal cross-cycle testing through `HIS-002`.
+
 ## Pattern Eligibility
 
 | Criterion | Status |
 |---|---|
 | Mechanism defined | yes |
-| HIS-001 evidence sufficient | yes |
+| HIS-001 evidence sufficient | yes (cohort/index-level, bounded per DEC-013) |
 | Counter-evidence included | yes |
 | Boundary conditions defined | yes |
-| Cross-cycle validation complete | no |
-| Eligible for active | no |
+| Falsification statement stated | yes (DEC-013) |
+| Single-cycle validation (HIS-001) | **passed — `status: validated-in-one-cycle`** (DEC-013) |
+| Cross-cycle validation complete | no — eligible to enter cross-cycle testing via HIS-002 |
+| Eligible for active | no (requires cross-cycle validation) |

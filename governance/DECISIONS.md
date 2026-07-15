@@ -98,6 +98,17 @@ Append-only record of governance decisions. Each entry has a unique `DEC-###` ID
 - **Rationale:** Records the Research Architect's rulings and the Gate 1 verdict as binding governance, so subsequent sprints and agents cannot relitigate vocabulary, lifecycle sequencing, or geography, and so the 8 required revisions are explicitly tracked rather than carried informally. The §11.2 programmatic consequence is recorded at the same time to prevent a future agent from skipping the Single-Cycle Pattern Validation gate and treating HIS-002 evidence as sufficient to promote a Pattern.
 - **Status:** In effect. See `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`) for the full review record and `governance/HIS-002_RESEARCH_BRIEF.md` §12 for the canonicalized rulings.
 
+## DEC-013 — Single-Cycle Pattern Validation (HIS-001): Pattern dispositions
+
+- **Date:** 2026-07-14
+- **Decision:** The Research Architect executed the Single-Cycle Pattern Validation Gate (introduced by DEC-012 §11.2) against the three candidate Patterns, with these dispositions:
+  1. **PAT-001 — remains `draft`, scope narrowed.** Core mechanism narrowed to "measurable social or downstream value and direct-investor return are distinct ledgers and can diverge materially." Enterprise operating-profit divergence is a supporting sub-mechanism, not a required third matched leg. Cross-geography, cross-period, and unmatched-cohort limitations preserved.
+  2. **PAT-002 — remains `draft`, load-bearing gap and scope narrowing applied.** Two claims separated: (1) financing-side capital overcommitment → construction lag → investor impairment is supported within HIS-001; (2) physical capacity exceeding near-term demand/utilization is not fully measured within HIS-001 (load-bearing gap). An explicit falsification condition was added; equity-price decline alone must not be described as evidence of physical overbuild.
+  3. **PAT-003 — promoted to `validated-in-one-cycle`.** Originating-cycle evidence is cohort/index-level, bounded to London-listed railway ordinary equities, 1843–1850, partial-payment/compulsory-call financing, authorization-cohort timing, and subscription-to-first-post-authorization-call measurement. The YNM money-weighted return gap is precision-only for the cohort-level mechanism, not load-bearing. An explicit falsification statement was added.
+  4. **Gate interpretation.** The Single-Cycle Pattern Validation Gate is PASSED. PAT-001 and PAT-002 may be tested in HIS-002 while `draft` but cannot advance directly to `cross-cycle-candidate`; PAT-003 may now enter formal cross-cycle testing through HIS-002. No Pattern reached `active`; `validated-in-one-cycle` does not count toward the Phase 3 entry gate (`governance/PATTERN_VALIDATION_FRAMEWORK.md` §9).
+- **Rationale:** Records the originating-cycle validation as binding governance, so each Pattern enters (or is barred from) cross-cycle testing on an explicit, evidence-graded basis rather than an informal judgment, and so PAT-003's single-cycle promotion is not later mistaken for a cross-cycle or `active` promotion.
+- **Status:** In effect. See `governance/HIS-001_SINGLE_CYCLE_PATTERN_VALIDATION.md` (`id: HIS-001-SCPV`) for the full gate record and `patterns/PATTERN_VALIDATION_MATRIX.md` for the tracked state.
+
 ## Notes
 
 - New decisions are appended with the next sequential `DEC-###` ID; existing entries are not renumbered or removed.

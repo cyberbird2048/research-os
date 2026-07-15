@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-07-14 — Sprint 1: Single-Cycle Pattern Validation (HIS-001) applied (DEC-013)
+
+The Research Architect (ChatGPT) executed the Single-Cycle Pattern Validation Gate introduced by DEC-012 §11.2, relayed by the User (Investment Committee). Dispositions applied to the three candidate Patterns and recorded as binding governance.
+
+Added:
+- `governance/HIS-001_SINGLE_CYCLE_PATTERN_VALIDATION.md` (`id: HIS-001-SCPV`) — full gate record: verdict (PASSED), per-Pattern dispositions, gate interpretation.
+
+Changed:
+- `patterns/PAT-001_SOCIAL_VALUE_INVESTOR_RETURN_DIVERGENCE.md` — remains `status: draft`. Core mechanism narrowed to "measurable social or downstream value and direct-investor return are distinct ledgers and can diverge materially"; enterprise operating-profit divergence demoted to a supporting sub-mechanism, not a required third matched leg; cross-geography/cross-period/unmatched-cohort limitations preserved.
+- `patterns/PAT-002_CAPITAL_CYCLE_OVERBUILD.md` — remains `status: draft`. Two claims separated explicitly: (1) financing-side capital overcommitment → construction lag → investor impairment (supported within HIS-001); (2) physical capacity exceeding near-term demand/utilization (not fully measured — load-bearing gap). Added an explicit falsification condition; added a caution that equity-price decline alone is not evidence of physical overbuild.
+- `patterns/PAT-003_ENTRY_TIMING_AND_FINANCING_STRUCTURE.md` — **`status: draft` → `validated-in-one-cycle`**. Recorded originating-cycle bounds (London-listed railway ordinary equities; 1843–1850; partial-payment/compulsory-call financing; authorization-cohort timing; subscription-to-first-post-authorization-call measurement); YNM money-weighted gap marked precision-only, not load-bearing; added the Research Architect's verbatim falsification statement. Not `active`; does not count toward the Phase 3 gate.
+- `governance/DECISIONS.md` — appended DEC-013 (the three dispositions + gate interpretation).
+- `patterns/PATTERN_VALIDATION_MATRIX.md` — HIS-001 column now records the DEC-013 dispositions; PAT-003 Current Status → `validated-in-one-cycle`.
+- `governance/WORK_BOARD.md`, `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — updated: Single-Cycle Pattern Validation PASSED; next research deliverable is `HIS-002_RESEARCH_EXECUTION_PLAN.md`.
+
+Note:
+- No broad evidence collection begun. No Source Register, Evidence Ledger, or historical synthesis. No `MAP-001`, `THS-001`, AI mapping, or investment recommendation. `validated-in-one-cycle` is a single-cycle status, not `active`; PAT-001/PAT-002 remain `draft`. Per DEC-012 §11.2, PAT-001/PAT-002 may be tested in HIS-002 while `draft` but cannot advance directly to `cross-cycle-candidate`; PAT-003 may enter formal cross-cycle testing via HIS-002.
+
 ## 2026-07-14 — Sprint 1: Gate 1 revisions applied + Gate 1 review recorded (DEC-012)
 
 Research Architect (ChatGPT) completed Gate 1 — HIS-002 Research Design Review and returned **PASS WITH CONDITIONS**, with explicit rulings on the three open §11 questions and 8 required revisions. All 8 revisions applied in this same change set; Gate 1 review recorded as a governance asset; §11 rulings canonicalized into the brief and DECISIONS.md.

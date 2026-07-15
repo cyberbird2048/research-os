@@ -4,7 +4,7 @@ type: pattern
 title: Capital-Cycle Overbuild
 status: draft
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 owner: cyberbird
 research_lead: claude-code
 research_architect: chatgpt
@@ -22,7 +22,12 @@ related:
 
 ## Pattern Statement
 
-Abundant speculative capital can accelerate infrastructure deployment beyond near-term economic demand, impairing investors while leaving some productive capacity behind. Whether this constitutes "overbuild" in a welfare sense is partly a measured fact and partly an interpretation, and the two must be kept separate.
+**Scope, separated at Single-Cycle Pattern Validation (DEC-013).** This Pattern makes two claims that HIS-001 supports to *different* degrees; they must be kept explicitly separate and neither may stand in for the other:
+
+1. **Financing-side capital overcommitment → construction lag → investor impairment (supported within HIS-001).** Abundant speculative capital accelerated commitment and deployment; construction spending kept rising after market prices had already turned; investors were impaired; and some productive capacity was nonetheless completed and retained in service.
+2. **Physical capacity exceeding near-term demand / utilization (NOT fully measured within HIS-001 — load-bearing gap).** Whether the physical infrastructure genuinely exceeded near-term demand or utilization is only partly evidenced (an authorized-versus-built gap) and is partly a welfare *interpretation*, not a directly measured fact. HIS-001 lacks the demand-absorption and utilization data needed to establish physical overbuild in the strong sense.
+
+The welfare label "overbuild" therefore rests on claim 1 (supported) plus an incompletely-measured claim 2. The two must not be merged, and equity-price decline is not used as a proxy for either (see Measurement Caution).
 
 ## Mechanism
 
@@ -92,17 +97,31 @@ The scale of promotion (at least 1,000 lines projected [REV-HIST-001 §C]), the 
 
 Confirmation requires a second historical revolution (HIS-002 or HIS-003) showing: (a) a measurable gap between authorized/committed capital and actually-completed capacity, (b) investor impairment concentrated in the acceleration/deceleration phase of the cycle, and (c) at least partial retention of built capacity as productive infrastructure after the capital-market correction — with the same discipline of keeping authorized/subscribed/called/paid/expenditure/completed/impaired categories distinct rather than treated as interchangeable.
 
+## Falsification Condition
+
+**Added at Single-Cycle Pattern Validation (DEC-013).** The Pattern is rejected for a given cycle if, with adequate data, capital deployment is shown to have tracked near-term demand and utilization — specifically, if all of the following hold: (a) built capacity did not materially exceed contemporaneous demand or utilization; (b) later investment vintages did not show declining operating returns relative to earlier ones; and (c) there was no material abandonment, persistent underutilization, or impairment of the capacity built. That is, if capital deployment, physical capacity, and economic absorption broadly moved together, the overbuild mechanism did not operate in that cycle. Because HIS-001 does not fully measure claim 2 (physical capacity vs. demand/utilization — see Pattern Statement), even within HIS-001 this condition is only partially testable; the physical-overbuild leg remains a load-bearing gap pending a cycle with utilization/demand-absorption data.
+
 ## Measurement Caution
 
 **HIS-001 does not provide a reliable aggregate UK investor-loss figure and does not quantify one complete investor-capital-to-social-benefit chain.** The authorized/subscribed/called/paid/expenditure figures above are drawn from named contemporary compilations (principally Nash, via Odlyzko) that are not audited totals, and the "overbuild" characterization itself is partly a scholarly interpretation rather than a directly measured welfare judgment [REV-HIST-001 §C].
+
+**Equity-price decline is not evidence of physical overbuild.** The 66–70% peak-to-trough Mania price-index fall [C-112, C-113, C-120, C-121] is evidence of *investor impairment* (claim 1) only. It is **not**, by itself, evidence that physical capacity exceeded demand (claim 2); establishing physical overbuild requires demand-absorption and utilization data that HIS-001 does not contain. The two claims must not be conflated.
+
+## Pattern Eligibility
+
+## Single-Cycle Pattern Validation (HIS-001)
+
+**Disposition (DEC-013): remains `draft` — load-bearing gap and scope narrowing required, now applied.** The Research Architect's Single-Cycle Pattern Validation Gate required the two claims to be separated explicitly: (1) financing-side capital overcommitment → construction lag → investor impairment is **supported** within HIS-001; (2) physical capacity exceeding near-term demand/utilization is **not fully measured** within HIS-001 and is a load-bearing gap (both applied in the Pattern Statement above). An explicit falsification condition was added, and equity-price decline is now expressly barred as a proxy for physical overbuild (see Measurement Caution). Per DEC-012 §11.2, this Pattern may be tested in `HIS-002` while `draft`, but cannot advance directly to `cross-cycle-candidate`.
 
 ## Pattern Eligibility
 
 | Criterion | Status |
 |---|---|
-| Mechanism defined | yes |
-| HIS-001 evidence sufficient | partial |
+| Mechanism defined | yes (two claims now separated per DEC-013) |
+| HIS-001 evidence sufficient | claim 1 (financing-side impairment) supported; claim 2 (physical overbuild) load-bearing gap |
 | Counter-evidence included | yes |
 | Boundary conditions defined | yes |
+| Falsification condition stated | yes (DEC-013) |
+| Single-cycle validation (HIS-001) | passed with conditions — remains `draft`; physical-overbuild leg unresolved (DEC-013) |
 | Cross-cycle validation complete | no |
 | Eligible for active | no |

@@ -4,6 +4,7 @@ title: Pattern Validation Matrix
 status: active
 created: 2026-07-14
 updated: 2026-07-14
+related: [PAT-001, PAT-002, PAT-003, HIS-001-SCPV, DEC-013]
 ---
 
 # Pattern Validation Matrix
@@ -14,19 +15,23 @@ No Pattern is promoted by this document. No Pattern may be promoted this sprint.
 
 ## Matrix
 
-| Pattern | HIS-001 (Steam & Railways) | HIS-002 (Electricity) | HIS-003 (Semiconductor→Internet→Cloud) | Current Status |
+| Pattern | HIS-001 (originating cycle) | HIS-002 (Electricity) | HIS-003 (Semiconductor→Internet→Cloud) | Current Status |
 |---|---|---|---|---|
-| `PAT-001` — Social Value / Investor Return Divergence | Supports (partial) | pending | pending | `draft` |
-| `PAT-002` — Capital-Cycle Overbuild | Supports (partial) | pending | pending | `draft` |
-| `PAT-003` — Entry Timing and Financing Structure | Supports | pending | pending | `draft` |
+| `PAT-001` — Social Value / Investor Return Divergence | Supports — core two-ledger divergence; operating-profit leg supporting only (DEC-013) | pending | pending | `draft` (scope narrowed, DEC-013) |
+| `PAT-002` — Capital-Cycle Overbuild | Supports for financing-side impairment; physical-overbuild leg = load-bearing gap (DEC-013) | pending | pending | `draft` (DEC-013) |
+| `PAT-003` — Entry Timing and Financing Structure | Supports — cohort/index-level, bounded (DEC-013) | pending | pending | `validated-in-one-cycle` (DEC-013) |
 
-## Notes (HIS-001 column, as recorded in the repository)
+**Column semantics.** The HIS-001 column records the **originating-cycle** disposition from the Single-Cycle Pattern Validation Gate (DEC-013), not a cross-cycle test. The canonical four-label cross-cycle vocabulary (Supports / Weakens / Rejects / Undecidable — DEC-012, Framework §3) applies to the HIS-002 and HIS-003 columns, which remain the first genuine cross-cycle tests each Pattern will face.
 
-- **`PAT-001`.** Recorded as `Supports (partial)`, drawn directly from the Pattern's own Pattern Eligibility table ("HIS-001 evidence sufficient: partial") and from `REV-HIST-001`'s H2 verdict ("Social Value Exceeds Investor Value" — partially supported, medium confidence). The divergence is evidenced at the cohort/firm level (York and North Midland Railway) via a two-hop citation, not a single reconciled national accounting of social value against investor return — see `PAT-001`'s own Measurement Cautions section. Not simplified to a bare "Supports": the qualifier is load-bearing.
-- **`PAT-002`.** Recorded as `Supports (partial)`, drawn from `PAT-002`'s own Pattern Eligibility table ("HIS-001 evidence sufficient: partial") and `REV-HIST-001`'s H3 verdict ("Overbuild Can Be Economically Productive" — partially supported, medium-low confidence). Both a rational-investment and a speculative-excess interpretation are preserved in `PAT-002` without a forced binary; "overbuild" itself is partly a measured fact (authorized-vs-built gap) and partly a welfare interpretation, per `PAT-002`'s own Measurement Caution.
-- **`PAT-003`.** Recorded as `Supports` (not qualified `partial`), drawn from `PAT-003`'s own Pattern Eligibility table ("HIS-001 evidence sufficient: yes") and `REV-HIST-001`'s H5 verdict ("Timing Dominates Category Selection" — supported, medium-high confidence, explicitly the best-supported hypothesis in `HIS-001`). This is deliberately recorded as stronger than `PAT-001`/`PAT-002`'s HIS-001 support, matching what the evidence actually shows rather than flattening all three Patterns to the same rating.
+## Notes (HIS-001 column — Single-Cycle Pattern Validation dispositions, DEC-013)
 
-None of the above is a cross-cycle test — `HIS-001` is each Pattern's *originating* revolution, not an independent validation case. The `HIS-002` and `HIS-003` columns are the first genuine tests each Pattern will face.
+The Single-Cycle Pattern Validation Gate (`governance/HIS-001_SINGLE_CYCLE_PATTERN_VALIDATION.md`, `id: HIS-001-SCPV`; recorded as DEC-013) formally dispositioned each Pattern against the `HIS-001` evidence:
+
+- **`PAT-001` — remains `draft`, scope narrowed.** Core mechanism narrowed to the two-ledger divergence (measurable social/downstream value vs. direct-investor return); enterprise operating-profit divergence demoted to a supporting sub-mechanism, not a required third leg. Cross-geography, cross-period, and unmatched-cohort limitations preserved. Consistent with `REV-HIST-001`'s H2 verdict (partially supported, medium confidence).
+- **`PAT-002` — remains `draft`, load-bearing gap.** Financing-side capital overcommitment → construction lag → investor impairment is supported within HIS-001; physical capacity exceeding near-term demand/utilization is not fully measured (load-bearing gap). Explicit falsification condition added; equity-price decline alone barred as evidence of physical overbuild. Consistent with `REV-HIST-001`'s H3 verdict (partially supported, medium-low confidence).
+- **`PAT-003` — promoted to `validated-in-one-cycle`.** Originating-cycle evidence is cohort/index-level and bounded (London-listed railway ordinary equities; 1843–1850; partial-payment/compulsory-call financing; authorization-cohort timing; subscription-to-first-post-authorization-call measurement). YNM money-weighted gap is precision-only, not load-bearing. Explicit falsification statement added. Consistent with `REV-HIST-001`'s H5 verdict (supported, medium-high — the best-supported hypothesis in HIS-001).
+
+`validated-in-one-cycle` is **not** `active` and does not count toward the Phase 3 entry gate's "5 cross-cycle validated Patterns" requirement (`governance/PATTERN_VALIDATION_FRAMEWORK.md` §9). Per DEC-012 §11.2, `PAT-001` and `PAT-002` may be tested cross-cycle while `draft` but cannot advance directly to `cross-cycle-candidate`; `PAT-003` may now enter formal cross-cycle testing through `HIS-002`.
 
 ## How to Read "pending"
 

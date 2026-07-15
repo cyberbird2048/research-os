@@ -4,7 +4,7 @@ type: pattern
 title: Social Value / Investor Return Divergence
 status: draft
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-14
 owner: cyberbird
 research_lead: claude-code
 research_architect: chatgpt
@@ -22,15 +22,19 @@ related:
 
 ## Pattern Statement
 
-Infrastructure can create durable social and downstream economic value while direct investors experience weak, uneven, or negative returns. Social value creation, enterprise operating profit, and shareholder return are three distinct measures that need not move together. Across related infrastructure episodes, social value creation, enterprise profitability, and investor return can diverge materially. HIS-001 does not establish all three through one matched cohort-level dataset.
+**Core mechanism (narrowed at Single-Cycle Pattern Validation, DEC-013):** Measurable social or downstream value and direct-investor return are distinct ledgers and can diverge materially — infrastructure can create durable social and downstream economic value while direct investors in its financing vehicles experience weak, uneven, or negative returns.
+
+**Supporting sub-mechanism (not a required leg):** enterprise operating profit can *also* diverge from investor economic return (e.g., a reported dividend sustained by accounting choices while the underlying return on new capital is weak). Where present, this strengthens the picture, but it is **not** a required third matched leg of the core Pattern. HIS-001 does not establish social value, enterprise operating profit, and investor return through one matched cohort-level dataset, and the core Pattern does not require it to.
 
 ## Historical Mechanism
 
-Three sub-mechanisms recur in the HIS-001 evidence:
+The core mechanism and one supporting sub-mechanism recur in the HIS-001 evidence:
 
-1. **A downstream/user benefit is realized independently of investor outcomes.** The transport-cost benefit to the wider economy (social savings) is measured at the level of the whole economy, not at the level of the specific investors who financed the specific assets — the two ledgers are not the same ledger.
-2. **Reported operating results can diverge from investor economic return.** No separate depreciation was charged on railway assets, and revenue expenditure could be charged to capital instead, letting a company sustain a stable dividend while its underlying return diverged sharply by cohort or vintage [C-188, C-193, C-190, C-191, C-192].
-3. **Timing and cohort effects further separate operating performance from realized investor return** (see PAT-003) — meaning even "the same sector" can show simultaneous winners and losers among investors while the aggregate social/technological picture looks uniformly positive.
+**Core — two distinct ledgers.** A downstream/user benefit is realized independently of investor outcomes. The transport-cost benefit to the wider economy (social savings) is measured at the level of the whole economy, not at the level of the specific investors who financed the specific assets — the two ledgers are not the same ledger.
+
+**Supporting sub-mechanism (not required) — reported operating results can diverge from investor economic return.** No separate depreciation was charged on railway assets, and revenue expenditure could be charged to capital instead, letting a company sustain a stable dividend while its underlying return diverged sharply by cohort or vintage [C-188, C-193, C-190, C-191, C-192]. This corroborates the core divergence where firm-level data exist, but the core Pattern stands on the two-ledger divergence above even where operating-profit data are absent.
+
+**Further separation.** Timing and cohort effects further separate operating performance from realized investor return (see PAT-003) — meaning even "the same sector" can show simultaneous winners and losers among investors while the aggregate social/technological picture looks uniformly positive.
 
 ## Evidence from HIS-001
 
@@ -75,13 +79,18 @@ C-107, C-108, C-109, C-112, C-113, C-120, C-121, C-133, C-188, C-190, C-191, C-1
 - Finding a reliable aggregate UK investor-loss figure showing investor returns were, in fact, broadly commensurate with social value created (this would require resolving the gap noted in Measurement Cautions).
 - A second revolution in which social value and investor return move together, with no comparable divergence — this alone would not falsify a "can diverge" pattern, but would weaken confidence that the mechanism is common rather than an idiosyncrasy of 1840s British railway accounting and financing structure.
 
+## Single-Cycle Pattern Validation (HIS-001)
+
+**Disposition (DEC-013): remains `draft` — scope narrowing applied.** The Research Architect's Single-Cycle Pattern Validation Gate narrowed the core mechanism to the two-ledger divergence (measurable social/downstream value vs. direct-investor return, applied in the Pattern Statement above) and demoted enterprise operating-profit divergence to a supporting sub-mechanism rather than a required third matched leg. The cross-geography, cross-period, and unmatched-cohort limitations (see Measurement Cautions and Boundary Conditions) are preserved. Per DEC-012 §11.2, this Pattern may be tested in `HIS-002` while `draft`, but cannot advance directly to `cross-cycle-candidate`.
+
 ## Pattern Eligibility
 
 | Criterion | Status |
 |---|---|
-| Mechanism defined | yes |
-| HIS-001 evidence sufficient | partial |
+| Mechanism defined | yes (core narrowed per DEC-013) |
+| HIS-001 evidence sufficient | partial (core two-ledger divergence supported; third leg not required) |
 | Counter-evidence included | yes |
 | Boundary conditions defined | yes |
+| Single-cycle validation (HIS-001) | passed — remains `draft`, scope narrowed (DEC-013) |
 | Cross-cycle validation complete | no |
 | Eligible for active | no |
