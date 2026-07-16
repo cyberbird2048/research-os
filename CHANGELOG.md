@@ -293,3 +293,13 @@ Added:
 - canonical templates
 - GitHub issue and pull-request templates
 - AI revolution baseline
+## 2026-07-16 — HIS-002 Stage A Source Orientation complete
+
+Added:
+- `knowledge/industrial-revolutions/HIS-002_SOURCE_REGISTER.md` — bounded 20-source candidate landscape for US electricity generation/grid infrastructure and industrial electrification, c. 1900–1935. Sources are mapped to `PAT-001`/`PAT-002`/`PAT-003` and to Supports/Weakens/Rejects/Undecidable lanes. The register separates bibliographic/access orientation from evidentiary claims, defines the access taxonomy, identifies a five-item Stage B priority queue, and preserves genuine gaps around security-tier returns, entity linkage, physical utilization, matched-period value/return evidence, and negative-control cases.
+
+Changed:
+- `governance/PROJECT_STATE.md`, `NEXT_ACTION.md`, and `WORK_BOARD.md` — Stage A marked complete and awaiting Source Orientation review; Stage B and Stage C remain unauthorized.
+
+Note:
+- No Evidence Ledger claim rows, historical synthesis, Pattern promotion, AI Mapping, or Thesis were created. PAT-003 remains `validated-in-one-cycle`; PAT-001/PAT-002 remain `draft`.

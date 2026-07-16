@@ -12,11 +12,11 @@ One-page operational handoff. If you read only one file to know what to do right
 
 ## Current Sprint
 
-Sprint 1 — HIS-002 Cross-Cycle Pattern Validation. Gate 1 is **CONFIRMED PASSED** and the Single-Cycle Pattern Validation gate is PASSED (DEC-013). The execution plan is complete. Stage A Source Orientation is active.
+Sprint 1 — HIS-002 Cross-Cycle Pattern Validation. Gate 1 is **CONFIRMED PASSED** and the Single-Cycle Pattern Validation gate is PASSED (DEC-013). The execution plan is complete. Stage A Source Orientation is complete and awaiting review.
 
 ## Current Objective
 
-Create a bounded candidate-source landscape for the three Pattern tests without yet constructing substantive Evidence Ledger claims.
+Review the bounded candidate-source landscape for the three Pattern tests before Stage B verification begins.
 
 ## Current Blockers
 
@@ -37,7 +37,7 @@ For the current handoff only, the User explicitly assigned Codex to take over ex
 
 ## Immediate Next Action
 
-1. Build `HIS-002_SOURCE_REGISTER.md` as a candidate-source landscape mapped to PAT-001/PAT-002/PAT-003 and all four outcome lanes.
-2. Verify accessibility and methodological fit of load-bearing candidates before extracting ledger claims.
-3. Stop for Source Orientation review before Stage C Evidence Ledger construction.
+1. Research Architect reviews `HIS-002_SOURCE_REGISTER.md` for boundedness, lane balance, and load-bearing source architecture.
+2. Stage B, if authorized, verifies accessibility and methodological fit of load-bearing candidates before extracting ledger claims.
+3. Do not begin Stage C Evidence Ledger construction before source verification and its review are complete.
 4. Do not draft a historical synthesis, promote any Pattern beyond DEC-013's dispositions, or create `MAP-001` / `THS-001`.

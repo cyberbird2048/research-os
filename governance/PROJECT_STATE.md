@@ -16,7 +16,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Current Sprint
 
-**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 is **CONFIRMED PASSED**; the 8 revisions and the Research Architect's original six Gate 2+ escalation conditions are recorded in `HIS-002_GATE_1_REVIEW.md`. The **Single-Cycle Pattern Validation (HIS-001) Gate is PASSED** (DEC-013): `PAT-001` and `PAT-002` remain `draft`; `PAT-003` is `validated-in-one-cycle`. The execution plan is complete and Stage A source orientation is now active. No Evidence Ledger or historical synthesis has begun.
+**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 is **CONFIRMED PASSED**; the 8 revisions and the Research Architect's original six Gate 2+ escalation conditions are recorded in `HIS-002_GATE_1_REVIEW.md`. The **Single-Cycle Pattern Validation (HIS-001) Gate is PASSED** (DEC-013): `PAT-001` and `PAT-002` remain `draft`; `PAT-003` is `validated-in-one-cycle`. The execution plan is complete and Stage A source orientation is complete, awaiting review. No Evidence Ledger or historical synthesis has begun.
 
 ## Gate Status
 
@@ -63,7 +63,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Active Task
 
-Sprint 1 — HIS-002 Stage A Source Orientation. Gate 1 is CONFIRMED PASSED; Single-Cycle Pattern Validation Gate PASSED (DEC-013); `HIS-002_RESEARCH_EXECUTION_PLAN.md` is the binding execution design. Current scope is candidate-source orientation and source architecture only.
+Sprint 1 — HIS-002 Stage A Source Orientation review. `HIS-002_SOURCE_REGISTER.md` contains the bounded candidate-source architecture; Stage B source acquisition/verification is not yet authorized.
 
 ## Known Evidence Gaps
 
@@ -75,4 +75,4 @@ Carried from Stage B/C of `HIS-001`, unresolved and not addressed by this sprint
 
 ## Next Required Review
 
-Stage A Source Orientation review after a bounded `HIS-002_SOURCE_REGISTER.md` candidate landscape is produced. Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding but does not alter the already-recorded DEC-012/DEC-013 execution sequence.
+Stage A Source Orientation review of `HIS-002_SOURCE_REGISTER.md`. Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding but does not alter the already-recorded DEC-012/DEC-013 execution sequence.
