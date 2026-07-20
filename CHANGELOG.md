@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-07-20 — HIS-002 Stage B: Source Acquisition & Verification complete
+
+Executed by claude-code under the Research Architect's Stage A review verdict ("PASSED WITH STAGE B CONDITIONS"). Every Tier 1 source was fetched through the session proxy and the actual object opened/parsed (curl + pypdf / bs4 / xlrd, via four parallel verification agents). Verification only — no Evidence Ledger, synthesis, Mapping, Thesis, or Pattern promotion.
+
+Changed:
+- `knowledge/industrial-revolutions/HIS-002_SOURCE_REGISTER.md` — appended a "Stage B — Source Acquisition & Verification (verified-source readiness package)" section: per-Tier-1-source readiness records (identity, access + HTTP, exact object, tables/datasets, method/units, Pattern/outcome use, operating-vs-holding classification, load-bearing, gaps); priority-order verdicts; a bibliographic corrections log; the FTC S-005 index-first acquisition map; and a bounded access-escalation recommendation. Stage A content (Codex) left intact; frontmatter gains `stage_b_verification_lead: claude-code`, `updated` → 2026-07-20.
+- `governance/WORK_BOARD.md`, `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — Stage B recorded complete; next review = Source Verification Review; Stage C blocked pending that review.
+
+Key verdicts (all evidence-graded from objects actually reached):
+- **PAT-003 return feasibility — FEASIBLE-BUT-BOUNDED.** The Cowles data (Yale SOM ICF, open) yields a monthly total-return series split by operating (Series C-11) vs holding (C-16) tier vs all-stocks control (C-1), 1900–1935 — refuting Stage A's concern that the tiers could not be separated (Gate 1 escalation conditions #1 and #2 not met at the index tier). The security-level extension (issuance vintage / capital structure / individual delistings) is blocked on Moody's Public Utility Securities manuals (HathiTrust Cloudflare-403; not on archive.org) and the paywalled Taylor 1962 Insull study → bounded access escalation recommended, not the blanket PAT-003 escalation.
+- **PAT-002 physical compatibility — COMPATIBLE-BUT-BOUNDED.** Capacity (kW), output (kWh), and a native utilization series (Historical Statistics G-204) are defined in consistent units with ownership separable (private vs public 1902; municipal 1920), no price proxy needed; clean annual data from ~1920.
+- **PAT-001 matched-window — MATCHED-WINDOW-EXISTS** (~1900–1935, anchored by NBER 28076 + David & Wright), with the honesty caveat that the overlap is temporal across different outcome constructs (productivity vs investor return).
+
+Bibliographic corrections logged: S-007 citation "S. Doc. 238" is unverified/conflated (real docs: S. Doc. 91 / S. Doc. 146); S-014 = Schrade & Walls (IAEE 2005 → J. Energy & Development 2006), a cost-of-capital argument not a "high returns" series, remains NON-load-bearing; S-016 canonical = Oxford ESH WP _033 (1999, rev. 2005); S-019 = Gaggl, Gray, Marinescu & Morin (Labour Economics 2020); S-020 correct DOI 10.1257/000282803769206377.
+
+Note:
+- No Evidence Ledger, historical synthesis, Mapping, Thesis, or Pattern promotion. Stage C not authorized. `PAT-003` remains `validated-in-one-cycle`; `PAT-001`/`PAT-002` remain `draft`; no Pattern is `active`. Evidence origin held to the United States, c. 1900–1935.
+
 ## 2026-07-16 — HIS-002 Gate 1 confirmed passed; Stage A unblocked
 
 Changed:

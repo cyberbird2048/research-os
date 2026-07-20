@@ -3,7 +3,7 @@ type: governance
 title: Next Action
 status: active
 created: 2026-07-13
-updated: 2026-07-14
+updated: 2026-07-20
 ---
 
 # Next Action
@@ -12,17 +12,17 @@ One-page operational handoff. If you read only one file to know what to do right
 
 ## Current Sprint
 
-Sprint 1 — HIS-002 Cross-Cycle Pattern Validation. Gate 1 is **CONFIRMED PASSED** and the Single-Cycle Pattern Validation gate is PASSED (DEC-013). The execution plan is complete. Stage A Source Orientation is complete and awaiting review.
+Sprint 1 — HIS-002 Cross-Cycle Pattern Validation. Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation **PASSED** (DEC-013); Execution Plan complete; Stage A Source Orientation complete (Codex). **Stage B — Source Acquisition & Verification is complete** (claude-code): the verified-source readiness package is appended to `HIS-002_SOURCE_REGISTER.md`. Awaiting the Source Verification Review.
 
 ## Current Objective
 
-Review the bounded candidate-source landscape for the three Pattern tests before Stage B verification begins.
+Get the Stage B verified-source readiness package through the **Source Verification Review**, and a decision on the recommended bounded access escalation (security-level PAT-003 data — Moody's PU manuals + Taylor 1962 — and a browser HathiTrust session for FTC S-005). Stage C (Evidence Ledger) begins only after that review passes.
 
 ## Current Blockers
 
-- **The three §11 open research-design questions are resolved by DEC-012**; the **Single-Cycle Pattern Validation (HIS-001) gate is PASSED** by DEC-013; the **Execution Plan is authored and internally checked**. None of these is open any longer.
-- **Gate 1 re-review is complete** — no longer a blocker.
-- **Stage C evidence extraction and the Evidence Ledger** remain blocked until source orientation and verification are complete.
+- **The three §11 questions (DEC-012), the Single-Cycle Pattern Validation gate (DEC-013), the Execution Plan, and Gate 1 re-review are all resolved/complete.** None is open.
+- **Stage C (Evidence Ledger) is blocked** pending the Source Verification Review of the Stage B readiness package (and any access-escalation decision).
+- **Access escalation pending a decision (not triggered unilaterally):** the index-level PAT-003 test and the entire PAT-002 test run on open sources and need no paid access; the **security-level** PAT-003 extension needs Moody's Public Utility Securities manuals + Taylor 1962 (open route blocked here), and FTC S-005 full-text extraction needs a browser HathiTrust session.
 - **Formal confirmation of the Pattern Validation Framework's own methodology review** has not been separately recorded.
 - **Historical-to-AI Mapping is blocked** until a Pattern reaches `cross-cycle-candidate` — `PAT-003` at `validated-in-one-cycle` is one step short and requires the HIS-002 cross-cycle result first.
 - **One item remains genuinely open** (not blocking): `MAP-001`'s structural spec was never supplied before that task was withdrawn.
@@ -37,7 +37,7 @@ For the current handoff only, the User explicitly assigned Codex to take over ex
 
 ## Immediate Next Action
 
-1. Research Architect reviews `HIS-002_SOURCE_REGISTER.md` for boundedness, lane balance, and load-bearing source architecture.
-2. Stage B, if authorized, verifies accessibility and methodological fit of load-bearing candidates before extracting ledger claims.
-3. Do not begin Stage C Evidence Ledger construction before source verification and its review are complete.
-4. Do not draft a historical synthesis, promote any Pattern beyond DEC-013's dispositions, or create `MAP-001` / `THS-001`.
+1. Research Architect conducts the **Source Verification Review** of the Stage B readiness package (`HIS-002_SOURCE_REGISTER.md`, Stage B section): confirm the per-source access/identity/load-bearing verdicts and the three priority-order determinations (PAT-003 FEASIBLE-BUT-BOUNDED, PAT-002 COMPATIBLE-BUT-BOUNDED, PAT-001 MATCHED-WINDOW-EXISTS).
+2. Decide the recommended bounded access escalation (Moody's Public Utility Securities manuals + Taylor 1962 for security-level PAT-003; a browser HathiTrust session for FTC S-005). The index-level PAT-003 test and the whole PAT-002 test need no escalation and are ready.
+3. Only after the Source Verification Review passes: begin Stage C Evidence Ledger construction, executing the Execution Plan §4 parallel four-outcome searches on the verified sources.
+4. Do not begin Stage C, draft a historical synthesis, promote any Pattern beyond DEC-013's dispositions, or create `MAP-001` / `THS-001` before that review passes.
