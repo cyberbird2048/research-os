@@ -16,7 +16,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Current Sprint
 
-**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013; PAT-001/PAT-002 `draft`, PAT-003 `validated-in-one-cycle`). Execution Plan complete; Stage A source orientation complete (Codex). **Stage B — Source Acquisition & Verification is now complete** (claude-code): every Tier 1 source was fetched and the actual object opened/parsed; the verified-source readiness package is appended to `HIS-002_SOURCE_REGISTER.md`. Verdicts — PAT-003 FEASIBLE-BUT-BOUNDED, PAT-002 COMPATIBLE-BUT-BOUNDED, PAT-001 MATCHED-WINDOW-EXISTS. Awaiting the **Source Verification Review**. No Evidence Ledger or historical synthesis has begun.
+**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013). Stage A (Codex), Stage B Source Verification (claude-code), and the Source Verification Review (Stage B PASSED, Stage C AUTHORIZED) are done. **Stage C — Evidence Ledger is now complete** (claude-code): `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims across four lanes for all three Patterns, real data from open sources only, anti-confirmation check passed. Awaiting the **Evidence Sufficiency Review**. No historical synthesis; Pattern Validation Matrix HIS-002 verdicts remain pending; no Pattern promoted.
 
 ## Gate Status
 
@@ -30,7 +30,9 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 | Gate 1 | Research Design Review — `HIS-002` brief | **CONFIRMED PASSED** (DEC-012; 8 revisions verified; original escalation conditions restored) |
 | Single-Cycle Pattern Validation (HIS-001) | Originating-cycle validation gate introduced by DEC-012 §11.2 | **PASSED** (DEC-013). PAT-001/PAT-002 remain `draft` (scope narrowed / load-bearing gap); PAT-003 → `validated-in-one-cycle`. See `governance/HIS-001_SINGLE_CYCLE_PATTERN_VALIDATION.md` (`id: HIS-001-SCPV`) |
 | Stage A | HIS-002 Source Orientation | PASSED WITH STAGE B CONDITIONS (Codex authored the 20-source register) |
-| Stage B | HIS-002 Source Acquisition & Verification | **Complete — awaiting Source Verification Review.** Readiness package in `HIS-002_SOURCE_REGISTER.md`. PAT-003 FEASIBLE-BUT-BOUNDED, PAT-002 COMPATIBLE-BUT-BOUNDED, PAT-001 MATCHED-WINDOW-EXISTS. Bounded access escalation recommended (Moody's PU manuals + Taylor 1962 + HathiTrust session for FTC S-005). |
+| Stage B | HIS-002 Source Acquisition & Verification | **PASSED** (Source Verification Review). Readiness package in `HIS-002_SOURCE_REGISTER.md`. |
+| Source Verification Review | HIS-002 Stage B readiness | **Stage B PASSED; Stage C AUTHORIZED** ((b)+parallel access-escalation path; bounded escalation limited to S-012/S-011/S-005). |
+| Stage C | HIS-002 Evidence Ledger | **Complete — awaiting Evidence Sufficiency Review.** `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims, four lanes/Pattern, open-source scope; security-level PAT-003 recorded Undecidable-pending-access. |
 
 ## Stable Assets
 
@@ -52,7 +54,8 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 - `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`) — Gate 1 review record; verdict PASS WITH CONDITIONS, re-review pending.
 - `knowledge/industrial-revolutions/HIS-002_RESEARCH_EXECUTION_PLAN.md` (`id: HIS-002-PLAN`) — authored and internally checked against the approved brief; implements brief §8.4 (parallel four-outcome searches per Pattern). No evidence collected.
 - `knowledge/industrial-revolutions/HIS-002_SOURCE_REGISTER.md` (`id: HIS-002-SOURCE-REGISTER`) — Stage A candidate landscape (Codex) **plus the Stage B verified-source readiness package** (claude-code): every Tier 1 source verified against the actual object; 5 bibliographic corrections; FTC S-005 index-first acquisition map. No Evidence Ledger.
-- `patterns/PATTERN_VALIDATION_MATRIX.md` — tracking asset; HIS-001 column now records the DEC-013 dispositions, HIS-002/HIS-003 columns pending.
+- `knowledge/industrial-revolutions/HIS-002_EVIDENCE_LEDGER.md` (`id: HIS-002-EVIDENCE-LEDGER`) — Stage C deliverable; 58 `E-###` claims across four lanes (Supports/Weakens/Rejects/Undecidable-pending-access) for all three Patterns, open-source scope; anti-confirmation check passed; awaiting Evidence Sufficiency Review.
+- `patterns/PATTERN_VALIDATION_MATRIX.md` — tracking asset; HIS-001 column records the DEC-013 dispositions; HIS-002/HIS-003 columns **pending** (not updated by the ledger).
 
 ## Stable / Active Governance Records (this sprint)
 
@@ -61,13 +64,14 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 ## Blocked Work
 
 - **Historical-to-AI Mapping** — blocked. The prior authorization for `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` was withdrawn before any file was created. Mapping work does not resume until a Pattern reaches `cross-cycle-candidate` or better under the Pattern Validation Framework.
-- **`HIS-002` Stage C (Evidence Ledger)** — blocked, not authorized. Gated behind the Source Verification Review of the Stage B readiness package (and any access-escalation decision).
+- **`HIS-002` historical synthesis (REV-HIST-002)** — blocked, not authorized. Gated behind the Evidence Sufficiency Review of the Stage C ledger.
+- **PAT-003 security-level module** — Undecidable-pending-access, blocked on the recommended bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005).
 - **`HIS-003`** — blocked, not started.
 - **Investment Thesis (`THS-001`)** — blocked. Phase 3 entry gates unmet (see Roadmap).
 
 ## Active Task
 
-Sprint 1 — HIS-002 **Source Verification Review** (awaiting the Research Architect). Stage B source acquisition & verification is complete; the verified-source readiness package is in `HIS-002_SOURCE_REGISTER.md`. A bounded paid/institutional-access escalation is recommended (security-level PAT-003 data + FTC S-005 full text) for the review to decide. Stage C is not authorized.
+Sprint 1 — HIS-002 **Evidence Sufficiency Review** (awaiting the Research Architect). Stage C Evidence Ledger is complete (`HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims, four lanes, anti-confirmation check passed). No historical synthesis, no Matrix verdict update, no Pattern promotion until the review passes.
 
 ## Known Evidence Gaps
 
@@ -77,6 +81,4 @@ Carried from Stage B/C of `HIS-001`, unresolved and not addressed by this sprint
 - Provincial-market coverage question: partially resolved, not fully closed.
 - `MAP-001`'s structural specification was requested but never supplied before its authorization was withdrawn. Not currently needed — Mapping work is paused.
 
-## Next Required Review
-
-**Source Verification Review** of the Stage B verified-source readiness package in `HIS-002_SOURCE_REGISTER.md`, including a decision on the recommended bounded access escalation (Moody's Public Utility Securities manuals + Taylor 1962 + a browser HathiTrust session for FTC S-005). Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding but does not alter the already-recorded DEC-012/DEC-013 execution sequence.
+**Evidence Sufficiency Review** of `HIS-002_EVIDENCE_LEDGER.md` (Research Architect). The bounded access escalation recommended at Stage B (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005) remains open and would unblock the PAT-003 security-level module. Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding but does not alter the already-recorded DEC-012/DEC-013 execution sequence.

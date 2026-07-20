@@ -1,5 +1,19 @@
 # Contribution Log
 
+## 2026-07-20 | Claude Code | 完成 HIS-002 Stage C 证据账本
+
+**产出**:
+- 在 Source Verification Review 授权（Stage B PASSED / Stage C AUTHORIZED）下，用四个并行抽取 agent 从开放来源实取真实数字，建成 `HIS-002_EVIDENCE_LEDGER.md`：**58 条 E-### claim**，每个 Pattern 四条可审计 lane（Supports/Weakens/Rejects/Undecidable-pending-access），逐条带精确来源位置
+- 关键证据（判决留给 Evidence Sufficiency Review）：PAT-003 指数层 holding vs operating 差异真实但被 static beta 完全解释（E-307），证券层记 Undecidable-pending-access；PAT-002 美国 1920s 容量与需求同步增长（E-210）、1929→1932 利用率下滑约 55% 为需求冲击（E-208），Weakens/Rejects lane 不弱于 Supports；PAT-001 仅 coexisting divergence（E-113）
+- 反确认平衡检查通过；严守来源限制（S-005/011/012 不承担实质 claim；S-016 非 load-bearing；S-019 仅 adjacency；S-014 仅 financing-efficiency 反解释）
+- 同步 WORK_BOARD / PROJECT_STATE / NEXT_ACTION / CHANGELOG，停在 Evidence Sufficiency Review
+
+**状态**: ✅ 完成
+
+**遗留**: 未写 historical synthesis、未更新 Pattern Validation Matrix verdict、未晋升任何 Pattern、无 MAP-001/THS-001；PAT-003 证券层待有界取用升级（Moody's PU 手册 S-012 + Taylor S-011 + FTC S-005 浏览器 HathiTrust 会话）
+
+---
+
 ## 2026-07-20 | Claude Code | 完成 HIS-002 Stage B 来源采集与验证
 
 **产出**:

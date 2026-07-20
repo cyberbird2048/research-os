@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-07-20 — HIS-002 Stage C: Evidence Ledger complete
+
+Built under the Research Architect's Source Verification Review (Stage B PASSED; Stage C AUTHORIZED, with the (b)-base + bounded-parallel-escalation path). Executed by claude-code via four parallel extraction agents (curl + pypdf/bs4/xlrd), real data from open sources only. Verification/extraction, not verdicts.
+
+Added:
+- `knowledge/industrial-revolutions/HIS-002_EVIDENCE_LEDGER.md` (`id: HIS-002-EVIDENCE-LEDGER`, `status: draft`) — **58 `E-###` claims** across four auditable lanes (Supports / Weakens / Rejects / Undecidable-pending-access) for `PAT-001`/`PAT-002`/`PAT-003`, each tied to an exact source location. Quantitative Backbone: Cowles tier total-return + price (QB-1), Historical Statistics G-series physical (QB-2), CFC security-level micro-sample (QB-3). Includes an Anti-Confirmation Balance Check and a carried-gaps section. Key evidence recorded (verdicts belong to the Evidence Sufficiency Review): PAT-003 index-tier holding-vs-operating dispersion is real (holding total return −89.8% vs operating −74.6%, Sep-1929→Jun-1932) **but fully explained by static market beta** (E-307), with the security-level mechanism Undecidable-pending-access; PAT-002 US 1920s capacity tracked demand ~1:1 (E-210) and the 1929→1932 utilization drop is ≈55% Depression demand shock (E-208), so the Weakens/Rejects lane is at least as strong as Supports; PAT-001 establishes only coexisting divergence across two different outcome constructs (E-113).
+
+Changed:
+- `governance/WORK_BOARD.md`, `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — Stage C recorded complete; next review = Evidence Sufficiency Review; historical synthesis and Matrix HIS-002 verdicts remain blocked pending that review.
+
+Source discipline honored (RA Source Verification Review):
+- S-005 / S-011 / S-012 bear **no substantive claim** (full text not obtained) — appear only as Undecidable-pending-access pointers. S-016 not load-bearing (orientation only). S-019 supporting adjacency. S-014 non-load-bearing financing-efficiency counter only, never realized-return evidence. Every S-008 return claim retains the electric/gas-mix, index-construction, base-convention (inception=100, not 1926=100), and survivorship caveats.
+- PAT-001 = coexisting divergence only; PAT-002 physical-overbuild rests on capacity/output/utilization (no equity-decline/impairment proxy); PAT-003 index-tier dispersion is not treated as `Supports` for the Pattern (security-level module Undecidable-pending-access).
+
+Note:
+- No historical synthesis, no Pattern Validation Matrix verdict update, no Pattern promotion, no `MAP-001`/`THS-001`, no AI-era mapping or investment conclusion. `PAT-003` stays `validated-in-one-cycle`; `PAT-001`/`PAT-002` stay `draft`; no Pattern is `active`. Evidence origin held to the United States, c. 1900–1935.
+
 ## 2026-07-20 — HIS-002 Stage B: Source Acquisition & Verification complete
 
 Executed by claude-code under the Research Architect's Stage A review verdict ("PASSED WITH STAGE B CONDITIONS"). Every Tier 1 source was fetched through the session proxy and the actual object opened/parsed (curl + pypdf / bs4 / xlrd, via four parallel verification agents). Verification only — no Evidence Ledger, synthesis, Mapping, Thesis, or Pattern promotion.
