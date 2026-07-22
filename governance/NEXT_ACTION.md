@@ -21,7 +21,7 @@ Get `HIS-002_EVIDENCE_LEDGER.md` through the **Evidence Sufficiency Review**. On
 ## Current Blockers
 
 - **Gate 1, Single-Cycle Pattern Validation, Execution Plan, Source Verification Review, and Stage C are all complete.** None is open.
-- **Historical synthesis (REV-HIST-002) and the Pattern Validation Matrix HIS-002 verdicts are blocked** pending the Evidence Sufficiency Review of the Stage C ledger.
+- **Historical synthesis (REV-HIST-002) and the Pattern Validation Matrix HIS-002 verdicts are blocked** pending the 6 lane-classification fixes (verdict Part E conditions, DEC-015); the Evidence Sufficiency Review itself returned PASS WITH CONDITIONS on 2026-07-21.
 - **PAT-003 security-level module is Undecidable-pending-access**, blocked on the bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011, open route blocked; FTC S-005 needs a browser HathiTrust session). The index-tier PAT-003 evidence and the entire PAT-002/PAT-001 evidence are already in the ledger and need no escalation.
 - **Formal confirmation of the Pattern Validation Framework's own methodology review** has not been separately recorded.
 - **Historical-to-AI Mapping is blocked** until a Pattern reaches `cross-cycle-candidate` — `PAT-003` at `validated-in-one-cycle` is one step short and requires the HIS-002 cross-cycle result first.
@@ -37,7 +37,7 @@ Codex authored Stage A under a temporary user-directed executor assignment; Stag
 
 ## Immediate Next Action
 
-1. Research Architect conducts the **Evidence Sufficiency Review** of `HIS-002_EVIDENCE_LEDGER.md`: confirm the 58 `E-###` claims are correctly located and classified, that the four lanes are maintained per Pattern, that the anti-confirmation balance holds (no Weakens/Rejects lane obviously weaker than Supports), and that the source restrictions were honored (S-005/S-011/S-012 non-substantive; PAT-003 security-level = Undecidable-pending-access; PAT-001 coexisting-divergence only; PAT-002 no equity-decline-as-overbuild).
-2. Decide the still-open bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005) that would unblock the PAT-003 security-level module.
-3. Only after the Evidence Sufficiency Review passes: authorize the historical synthesis (`REV-HIST-002`) and, separately, the setting of the Pattern Validation Matrix HIS-002 verdicts.
-4. Do not draft a historical synthesis, update the Matrix HIS-002 verdicts, promote any Pattern beyond DEC-013's dispositions, or create `MAP-001` / `THS-001` before that review passes.
+1. **Evidence Sufficiency Review verdict received (2026-07-21): PASS WITH CONDITIONS (DEC-015).** Claude Code must apply the 6 lane-classification fixes in verdict Part E (E-109 re-label; PAT-001 add Rejects-lane + Undecidable-lane records; E-211 drop pending-access → Weakens; E-301–305/E-310 → descriptive-no-weight; restate PAT-001/PAT-003 balance). Task dispatched: `agent-handoff/2026-07-21_his-002-lane-fixups-confirmation.md`.
+2. Bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005): **DEFERRED** per verdict Part D — does not block synthesis; PAT-003 security-level module stays Undecidable-pending-access.
+3. **Only after the 6 fixes land:** Evidence Sufficiency Review auto-converts to PASS → authorize `REV-HIST-002` historical synthesis (carrying the three fixed boundaries) + set Pattern Validation Matrix HIS-002 verdicts.
+4. Do not draft synthesis / update Matrix / promote any Pattern beyond DEC-013's dispositions / create `MAP-001` / `THS-001` before the 6 fixes land and synthesis is authorized.

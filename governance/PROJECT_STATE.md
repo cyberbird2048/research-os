@@ -16,7 +16,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Current Sprint
 
-**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013). Stage A (Codex), Stage B Source Verification (claude-code), and the Source Verification Review (Stage B PASSED, Stage C AUTHORIZED) are done. **Stage C — Evidence Ledger is now complete** (claude-code): `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims across four lanes for all three Patterns, real data from open sources only, anti-confirmation check passed. Awaiting the **Evidence Sufficiency Review**. No historical synthesis; Pattern Validation Matrix HIS-002 verdicts remain pending; no Pattern promoted.
+**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013). Stage A (Codex), Stage B Source Verification (claude-code), and the Source Verification Review (Stage B PASSED, Stage C AUTHORIZED) are done. **Stage C — Evidence Ledger is now complete** (claude-code): `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims across four lanes for all three Patterns, real data from open sources only, anti-confirmation check passed. **Evidence Sufficiency Review verdict received (2026-07-21): PASS WITH CONDITIONS (DEC-015).** 6 lane-classification fixes (verdict Part E) dispatched to Claude Code; once applied, the review auto-converts to PASS → `REV-HIST-002` synthesis authorized. No synthesis drafted; Pattern Validation Matrix HIS-002 verdicts remain pending; no Pattern promoted.
 
 ## Gate Status
 
@@ -71,7 +71,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Active Task
 
-Sprint 1 — HIS-002 **Evidence Sufficiency Review** (awaiting the Research Architect). Stage C Evidence Ledger is complete (`HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims, four lanes, anti-confirmation check passed). No historical synthesis, no Matrix verdict update, no Pattern promotion until the review passes.
+Sprint 1 — HIS-002 **Evidence Sufficiency Review verdict received: PASS WITH CONDITIONS (DEC-015, 2026-07-21).** Stage C Evidence Ledger is complete; 6 lane-classification fixes (verdict Part E) dispatched to Claude Code. Once applied, the review auto-converts to PASS → `REV-HIST-002` synthesis authorized with three fixed boundaries. No synthesis drafted, no Matrix verdict update, no Pattern promotion until the fixes land.
 
 ## Known Evidence Gaps
 

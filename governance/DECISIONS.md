@@ -116,6 +116,13 @@ Append-only record of governance decisions. Each entry has a unique `DEC-###` ID
 - **Rationale:** Closes the stale PASS-WITH-CONDITIONS state and records the already-completed re-review in the canonical append-only decision ledger before evidence work begins.
 - **Status:** In effect. See `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`).
 
+## DEC-015 — HIS-002 Evidence Sufficiency Review: PASS WITH CONDITIONS
+
+- **Date:** 2026-07-21
+- **Decision:** The Research Architect (via felix · Investment Committee relaying to ChatGPT) returned the Evidence Sufficiency Review verdict on `HIS-002_EVIDENCE_LEDGER.md` @ `82561bb`: **PASS WITH CONDITIONS.** Evidence quantity, source quality, the core quantitative backbone, and anti-confirmation substance are all sufficient to support `REV-HIST-002`. Before synthesis, 6 lane-classification fixes must be applied (verdict Part E): (1) E-109 re-label out of PAT-001 Supports; (2) PAT-001 add explicit Rejects-lane record; (3) PAT-001 add explicit Undecidable-lane record for the matched-cohort value-transfer question; (4) E-211 drop `Undecidable-pending-access` → `Weakens/Mixed`; (5) E-301–305/E-310 re-label from Supports to descriptive-no-weight (per E-307 beta absorption); (6) restate PAT-001/PAT-003 Anti-Confirmation Balance. Once applied, the review auto-converts to PASS → `REV-HIST-002` synthesis authorized with three fixed boundaries (PAT-001 coexisting divergence only, not matched-cohort transfer; PAT-002 no national physical overbuild, 1930s slack = demand shock + pipeline capacity; PAT-003 dispersion beta-absorbed, security-level mechanism Undecidable-pending-access). Bounded access escalation (Moody's PU S-012 + Taylor S-011 + FTC S-005 HathiTrust) is **DEFERRED** (verdict Part D) — does not block synthesis; PAT-003 security-level module stays Undecidable-pending-access. No Pattern status changed by this review.
+- **Rationale:** Records the Evidence Sufficiency Review verdict as binding governance so the 6 lane fixes are explicitly tracked rather than carried informally, and so no agent treats the ledger as synthesis-ready before the fixes land. Locks the DEFER access decision and the three fixed synthesis boundaries against relitigation.
+- **Status:** In effect. Verdict full text: `agent-handoff/2026-07-20_his-002-evidence-sufficiency-review-request.md` `## 回复`. Fix task: `agent-handoff/2026-07-21_his-002-lane-fixups-confirmation.md`. Next decision (DEC-016, by Claude Code after fixes land): authorize `REV-HIST-002`.
+
 ## Notes
 
 - New decisions are appended with the next sequential `DEC-###` ID; existing entries are not renumbered or removed.
