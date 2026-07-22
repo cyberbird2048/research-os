@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-07-22 — HIS-002 REV-HIST-002 historical synthesis drafted (submitted for Gate 3)
+
+Authored by claude-code under the Gate 2 authorization (DEC-016). Derived **strictly** from `HIS-002_EVIDENCE_LEDGER.md`; no new evidence introduced. Sets no Pattern verdict, updates no Validation Matrix, changes no Pattern status, promotes no Pattern, and contains no `MAP-001`/`THS-001`/AI-era/investment content.
+
+Added:
+- `knowledge/industrial-revolutions/REV-HIST-002_ELECTRICITY_GRID_AND_INDUSTRIAL_ELECTRIFICATION.md` (`id: REV-HIST-002`, `status: draft`, `confidence: low`) — the HIS-002 historical synthesis. Full required structure A–I (Executive Answer with the five value strata held separate; Historical Timeline 1900–1935; Value Creation vs Value Capture; Capital Cycle and Physical Capacity; Financing Structure and Investor Outcomes; Failure and Control Cases; Counter-Evidence and Alternative Explanations; Evidence Gaps; Pattern-Relevant Findings as descriptive input only). Every material conclusion cites an `E-###` ledger claim; citation integrity was checked programmatically (all 58 cited claims exist in the ledger; the only uncited claims are E-109/E-110/E-111, which the ledger marks adjacency/framing/non-load-bearing). Carries the three RA-imposed fixed boundaries verbatim.
+
+Changed:
+- `governance/WORK_BOARD.md`, `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — current step = synthesis drafted, submitted for Gate 3; Gate Status gains a Gate-3 "IN REVIEW" row; Draft Assets gains `REV-HIST-002`; Active Task = Gate 3 Historical Stability Review; next review = Gate 3, after which the Cross-Cycle Comparison / Matrix verdict-setting begins.
+
+Boundaries carried by the synthesis (RA-imposed, DEC-015/DEC-016):
+- **PAT-001** — coexisting divergence only, not a matched-cohort value transfer (E-113, E-117, E-118).
+- **PAT-002** — a US 1920s national physical overbuild is not supported; 1930s slack ≈ Depression demand shock + pre-1929 pipeline capacity (E-208, E-210, E-204/E-205).
+- **PAT-003** — index-tier dispersion exists but is absorbed by market beta (E-307); security-level mechanism Undecidable-pending-access (E-311, E-370).
+
+Note:
+- No historical conclusion is promoted beyond the ledger; §I is descriptive input for the later Cross-Cycle Comparison, not Supports/Weakens/Rejects verdicts. `PAT-003` stays `validated-in-one-cycle`; `PAT-001`/`PAT-002` stay `draft`; no Pattern is `active`. Operating-company income data remains an explicit gap (FTC S-005 deferred). Evidence origin held to the United States, c. 1900–1935.
+
 ## 2026-07-21 — HIS-002 Gate 2: Evidence Sufficiency Review PASSED (six corrections applied)
 
 The Research Architect's Evidence Sufficiency Review of `HIS-002_EVIDENCE_LEDGER.md` returned **PASS WITH CONDITIONS** with six required ledger classification corrections. Claude Code applied all six, converting the verdict to **PASS** and authorizing the `REV-HIST-002` historical synthesis. This change set is bookkeeping and re-classification only — no new evidence was collected, no verdict was set, no Pattern was promoted.

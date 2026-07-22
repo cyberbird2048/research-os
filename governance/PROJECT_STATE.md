@@ -3,7 +3,7 @@ type: governance
 title: Project State
 status: active
 created: 2026-07-13
-updated: 2026-07-14
+updated: 2026-07-22
 ---
 
 # Project State
@@ -12,11 +12,11 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Current Phase
 
-**Phase 2 — Historical Research**, status `active` (per `governance/RESEARCH_SCOPE.md`). Phase 1 (Foundation) is complete. `HIS-001` is complete on the Work Board. `HIS-002` (Electricity, Grid Infrastructure, and Industrial Electrification) has begun its Research Design stage. Phase 3 (Investment Thesis Engine) remains locked; its entry gates are not yet satisfied (see Roadmap).
+**Phase 2 — Historical Research**, status `active` (per `governance/RESEARCH_SCOPE.md`). Phase 1 (Foundation) is complete. `HIS-001` is complete on the Work Board. `HIS-002` (Electricity, Grid Infrastructure, and Industrial Electrification) has cleared Gate 1, Single-Cycle Pattern Validation, Stage A/B/C, and Gate 2; its historical synthesis `REV-HIST-002` is **drafted and submitted for Gate 3 (Historical Stability Review)**. Phase 3 (Investment Thesis Engine) remains locked; its entry gates are not yet satisfied (see Roadmap).
 
 ## Current Sprint
 
-**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013). Stage A (Codex), Stage B Source Verification, Source Verification Review, and Stage C Evidence Ledger are done. **Gate 2 — Evidence Sufficiency Review is now PASSED** (PASS WITH CONDITIONS on 2026-07-21, DEC-015 → PASS, DEC-016; all six ledger corrections applied): `REV-HIST-002` historical synthesis is authorized, carrying three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). No synthesis written yet; Pattern Validation Matrix HIS-002 verdicts remain pending; no Pattern promoted.
+**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013); Stage A (Codex), Stage B Source Verification, Source Verification Review, and Stage C Evidence Ledger done; Gate 2 Evidence Sufficiency Review **PASSED** (DEC-015 → DEC-016). **The `REV-HIST-002` historical synthesis is now DRAFTED and submitted for Gate 3 (Historical Stability Review)** — derived strictly from the Evidence Ledger, full structure A–I, every conclusion cites an `E-###` claim (citation integrity checked), carrying the three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). No Pattern verdict is set; the Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdicts begin only after Gate 3 passes; no Pattern promoted.
 
 ## Gate Status
 
@@ -34,6 +34,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 | Source Verification Review | HIS-002 Stage B readiness | **Stage B PASSED; Stage C AUTHORIZED** ((b)+parallel access-escalation path; bounded escalation limited to S-012/S-011/S-005). |
 | Stage C | HIS-002 Evidence Ledger | **Complete.** `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims, four lanes/Pattern, open-source scope; security-level PAT-003 recorded Undecidable-pending-access. |
 | Gate 2 | HIS-002 Evidence Sufficiency Review | **PASS** (PASS WITH CONDITIONS → PASS; six ledger corrections applied). `REV-HIST-002` synthesis authorized with three fixed boundaries. See `governance/HIS-002_GATE_2_REVIEW.md` (`id: HIS-002-GATE-2`). |
+| Gate 3 | HIS-002 Historical Stability — `REV-HIST-002` | **IN REVIEW.** Synthesis drafted (`REV-HIST-002_ELECTRICITY_GRID_AND_INDUSTRIAL_ELECTRIFICATION.md`, `id: REV-HIST-002`), submitted to the Research Architect. No verdict yet. |
 
 ## Stable Assets
 
@@ -57,7 +58,8 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 - `knowledge/industrial-revolutions/HIS-002_SOURCE_REGISTER.md` (`id: HIS-002-SOURCE-REGISTER`) — Stage A candidate landscape (Codex) **plus the Stage B verified-source readiness package** (claude-code): every Tier 1 source verified against the actual object; 5 bibliographic corrections; FTC S-005 index-first acquisition map. No Evidence Ledger.
 - `knowledge/industrial-revolutions/HIS-002_EVIDENCE_LEDGER.md` (`id: HIS-002-EVIDENCE-LEDGER`) — Stage C deliverable; 58 `E-###` claims across four lanes for all three Patterns, open-source scope; Evidence Sufficiency Review conditions applied (E-117/E-118 added; E-109/E-211/E-301–E-310 reclassified). Gate 2 PASSED.
 - `governance/HIS-002_GATE_2_REVIEW.md` (`id: HIS-002-GATE-2`) — Evidence Sufficiency Review record; verdict PASS; three fixed synthesis boundaries.
-- `patterns/PATTERN_VALIDATION_MATRIX.md` — tracking asset; HIS-001 column records the DEC-013 dispositions; HIS-002/HIS-003 columns **pending** (not updated by the ledger).
+- `knowledge/industrial-revolutions/REV-HIST-002_ELECTRICITY_GRID_AND_INDUSTRIAL_ELECTRIFICATION.md` (`id: REV-HIST-002`) — HIS-002 historical synthesis; drafted from the Evidence Ledger (structure A–I, every conclusion cites an `E-###` claim), carries the three fixed boundaries; sets no Pattern verdict. **Submitted for Gate 3 (Historical Stability); no verdict yet.**
+- `patterns/PATTERN_VALIDATION_MATRIX.md` — tracking asset; HIS-001 column records the DEC-013 dispositions; HIS-002/HIS-003 columns **pending** (unchanged — HIS-002 verdicts are set only after Gate 3).
 
 ## Stable / Active Governance Records (this sprint)
 
@@ -66,14 +68,14 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 ## Blocked Work
 
 - **Historical-to-AI Mapping** — blocked. The prior authorization for `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` was withdrawn before any file was created. Mapping work does not resume until a Pattern reaches `cross-cycle-candidate` or better under the Pattern Validation Framework.
-- **`HIS-002` Gate 3 (Historical Stability)** — blocked, not started. Follows the `REV-HIST-002` synthesis.
+- **`HIS-002` Gate 3 (Historical Stability)** — **in review** (Research Architect). `REV-HIST-002` is drafted and submitted; awaiting verdict. The Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdicts are blocked behind it.
 - **PAT-003 security-level module** — Undecidable-pending-access, blocked on the recommended bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005).
 - **`HIS-003`** — blocked, not started.
 - **Investment Thesis (`THS-001`)** — blocked. Phase 3 entry gates unmet (see Roadmap).
 
 ## Active Task
 
-Sprint 1 — HIS-002 **`REV-HIST-002` historical synthesis** (authorized by Gate 2 PASS, DEC-016; Evidence Sufficiency Review PASS WITH CONDITIONS → PASS, DEC-015). To be derived strictly from `HIS-002_EVIDENCE_LEDGER.md`, carrying the three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). Then Gate 3 (Historical Stability). No Matrix verdict update or Pattern promotion until after Gate 3.
+Sprint 1 — HIS-002 **Gate 3 (Historical Stability Review) of `REV-HIST-002`** — awaiting the Research Architect. The synthesis is drafted (authorized by Gate 2, DEC-016), derived strictly from `HIS-002_EVIDENCE_LEDGER.md` and carrying the three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). Only after Gate 3 passes does the Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdict-setting begin. No Matrix verdict update or Pattern promotion until then.
 
 ## Known Evidence Gaps
 
