@@ -16,7 +16,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Current Sprint
 
-**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013). Stage A (Codex), Stage B Source Verification (claude-code), and the Source Verification Review (Stage B PASSED, Stage C AUTHORIZED) are done. **Stage C — Evidence Ledger is now complete** (claude-code): `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims across four lanes for all three Patterns, real data from open sources only, anti-confirmation check passed. **Evidence Sufficiency Review verdict received (2026-07-21): PASS WITH CONDITIONS (DEC-015).** 6 lane-classification fixes (verdict Part E) dispatched to Claude Code; once applied, the review auto-converts to PASS → `REV-HIST-002` synthesis authorized. No synthesis drafted; Pattern Validation Matrix HIS-002 verdicts remain pending; no Pattern promoted.
+**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013). Stage A (Codex), Stage B Source Verification, Source Verification Review, and Stage C Evidence Ledger are done. **Gate 2 — Evidence Sufficiency Review is now PASSED** (PASS WITH CONDITIONS on 2026-07-21, DEC-015 → PASS, DEC-016; all six ledger corrections applied): `REV-HIST-002` historical synthesis is authorized, carrying three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). No synthesis written yet; Pattern Validation Matrix HIS-002 verdicts remain pending; no Pattern promoted.
 
 ## Gate Status
 
@@ -32,7 +32,8 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 | Stage A | HIS-002 Source Orientation | PASSED WITH STAGE B CONDITIONS (Codex authored the 20-source register) |
 | Stage B | HIS-002 Source Acquisition & Verification | **PASSED** (Source Verification Review). Readiness package in `HIS-002_SOURCE_REGISTER.md`. |
 | Source Verification Review | HIS-002 Stage B readiness | **Stage B PASSED; Stage C AUTHORIZED** ((b)+parallel access-escalation path; bounded escalation limited to S-012/S-011/S-005). |
-| Stage C | HIS-002 Evidence Ledger | **Complete — awaiting Evidence Sufficiency Review.** `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims, four lanes/Pattern, open-source scope; security-level PAT-003 recorded Undecidable-pending-access. |
+| Stage C | HIS-002 Evidence Ledger | **Complete.** `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims, four lanes/Pattern, open-source scope; security-level PAT-003 recorded Undecidable-pending-access. |
+| Gate 2 | HIS-002 Evidence Sufficiency Review | **PASS** (PASS WITH CONDITIONS → PASS; six ledger corrections applied). `REV-HIST-002` synthesis authorized with three fixed boundaries. See `governance/HIS-002_GATE_2_REVIEW.md` (`id: HIS-002-GATE-2`). |
 
 ## Stable Assets
 
@@ -54,7 +55,8 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 - `governance/HIS-002_GATE_1_REVIEW.md` (`id: HIS-002-GATE-1`) — Gate 1 review record; verdict PASS WITH CONDITIONS, re-review pending.
 - `knowledge/industrial-revolutions/HIS-002_RESEARCH_EXECUTION_PLAN.md` (`id: HIS-002-PLAN`) — authored and internally checked against the approved brief; implements brief §8.4 (parallel four-outcome searches per Pattern). No evidence collected.
 - `knowledge/industrial-revolutions/HIS-002_SOURCE_REGISTER.md` (`id: HIS-002-SOURCE-REGISTER`) — Stage A candidate landscape (Codex) **plus the Stage B verified-source readiness package** (claude-code): every Tier 1 source verified against the actual object; 5 bibliographic corrections; FTC S-005 index-first acquisition map. No Evidence Ledger.
-- `knowledge/industrial-revolutions/HIS-002_EVIDENCE_LEDGER.md` (`id: HIS-002-EVIDENCE-LEDGER`) — Stage C deliverable; 58 `E-###` claims across four lanes (Supports/Weakens/Rejects/Undecidable-pending-access) for all three Patterns, open-source scope; anti-confirmation check passed; awaiting Evidence Sufficiency Review.
+- `knowledge/industrial-revolutions/HIS-002_EVIDENCE_LEDGER.md` (`id: HIS-002-EVIDENCE-LEDGER`) — Stage C deliverable; 58 `E-###` claims across four lanes for all three Patterns, open-source scope; Evidence Sufficiency Review conditions applied (E-117/E-118 added; E-109/E-211/E-301–E-310 reclassified). Gate 2 PASSED.
+- `governance/HIS-002_GATE_2_REVIEW.md` (`id: HIS-002-GATE-2`) — Evidence Sufficiency Review record; verdict PASS; three fixed synthesis boundaries.
 - `patterns/PATTERN_VALIDATION_MATRIX.md` — tracking asset; HIS-001 column records the DEC-013 dispositions; HIS-002/HIS-003 columns **pending** (not updated by the ledger).
 
 ## Stable / Active Governance Records (this sprint)
@@ -64,14 +66,14 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 ## Blocked Work
 
 - **Historical-to-AI Mapping** — blocked. The prior authorization for `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` was withdrawn before any file was created. Mapping work does not resume until a Pattern reaches `cross-cycle-candidate` or better under the Pattern Validation Framework.
-- **`HIS-002` historical synthesis (REV-HIST-002)** — blocked, not authorized. Gated behind the Evidence Sufficiency Review of the Stage C ledger.
+- **`HIS-002` Gate 3 (Historical Stability)** — blocked, not started. Follows the `REV-HIST-002` synthesis.
 - **PAT-003 security-level module** — Undecidable-pending-access, blocked on the recommended bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005).
 - **`HIS-003`** — blocked, not started.
 - **Investment Thesis (`THS-001`)** — blocked. Phase 3 entry gates unmet (see Roadmap).
 
 ## Active Task
 
-Sprint 1 — HIS-002 **Evidence Sufficiency Review verdict received: PASS WITH CONDITIONS (DEC-015, 2026-07-21).** Stage C Evidence Ledger is complete; 6 lane-classification fixes (verdict Part E) dispatched to Claude Code. Once applied, the review auto-converts to PASS → `REV-HIST-002` synthesis authorized with three fixed boundaries. No synthesis drafted, no Matrix verdict update, no Pattern promotion until the fixes land.
+Sprint 1 — HIS-002 **`REV-HIST-002` historical synthesis** (authorized by Gate 2 PASS, DEC-016; Evidence Sufficiency Review PASS WITH CONDITIONS → PASS, DEC-015). To be derived strictly from `HIS-002_EVIDENCE_LEDGER.md`, carrying the three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). Then Gate 3 (Historical Stability). No Matrix verdict update or Pattern promotion until after Gate 3.
 
 ## Known Evidence Gaps
 
@@ -81,4 +83,4 @@ Carried from Stage B/C of `HIS-001`, unresolved and not addressed by this sprint
 - Provincial-market coverage question: partially resolved, not fully closed.
 - `MAP-001`'s structural specification was requested but never supplied before its authorization was withdrawn. Not currently needed — Mapping work is paused.
 
-**Evidence Sufficiency Review** of `HIS-002_EVIDENCE_LEDGER.md` (Research Architect). The bounded access escalation recommended at Stage B (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005) remains open and would unblock the PAT-003 security-level module. Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding but does not alter the already-recorded DEC-012/DEC-013 execution sequence.
+**Gate 3 — Historical Stability Review** of the forthcoming `REV-HIST-002` synthesis (Research Architect), after Claude Code drafts it. The bounded access escalation recommended at Stage B (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005) remains open and would unblock the PAT-003 security-level module. Formal confirmation of the Pattern Validation Framework methodology review remains separately outstanding but does not alter the already-recorded DEC-012/DEC-013 execution sequence.

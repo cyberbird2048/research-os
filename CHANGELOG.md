@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-21 — HIS-002 Gate 2: Evidence Sufficiency Review PASSED (six corrections applied)
+
+The Research Architect's Evidence Sufficiency Review of `HIS-002_EVIDENCE_LEDGER.md` returned **PASS WITH CONDITIONS** with six required ledger classification corrections. Claude Code applied all six, converting the verdict to **PASS** and authorizing the `REV-HIST-002` historical synthesis. This change set is bookkeeping and re-classification only — no new evidence was collected, no verdict was set, no Pattern was promoted.
+
+Added:
+- `governance/HIS-002_GATE_2_REVIEW.md` (`id: HIS-002-GATE-2`, `status: active`) — the Gate 2 review record: verdict PASS WITH CONDITIONS → PASS, the six-correction disposition table, the three fixed synthesis boundaries, the DEFERRED (Part D) access-escalation note, and the DEC-015/DEC-016 cross-reference.
+- `governance/DECISIONS.md` — **DEC-016** appended (by Claude Code, the decision DEC-015 routed here): records that all six lane fixes are applied, that the Evidence Sufficiency Review auto-converts to PASS, and that `REV-HIST-002` is authorized with the three fixed boundaries. (DEC-015, the verdict record, was appended by the PI Agent in `6a6631a`.)
+
+Changed:
+- `knowledge/industrial-revolutions/HIS-002_EVIDENCE_LEDGER.md` — six corrections: (1) **E-109** relabelled *Adjacency — no outcome weight* (excluded from the PAT-001 Supports tally; employment reallocation is a third construct); (2) new **E-117** records the PAT-001 Rejects search as executed with disposition *"Rejects not established"* (does not auto-convert to Supports); (3) new **E-118** records the matched-cohort value-transfer question as *Undecidable with current evidence*, kept distinct from the coexisting-divergence question that may proceed to synthesis; (4) **E-211** reclassified *Weakens (mixed)* with the pending-access attribute removed (the data were obtained); (5) **E-301–E-305, E-308, E-310** relabelled *Descriptive — no independent Supports weight* (E-307 shows the index dispersion is fully absorbed by market beta), with a Module A header note; (6) the Anti-Confirmation Balance Check restated on the post-correction lane weights. Added an "Evidence Sufficiency Review — result and fixed synthesis boundaries" section and updated the Stage C stop point; `updated` → 2026-07-21; `HIS-002-GATE-2` added to `related`.
+- `governance/WORK_BOARD.md`, `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — Gate 2 recorded PASSED; next deliverable = `REV-HIST-002` synthesis (then Gate 3); Matrix HIS-002 verdicts and any Pattern promotion remain blocked until after Gate 3.
+
+Fixed synthesis boundaries `REV-HIST-002` must carry (RA-imposed):
+- **PAT-001** — coexisting divergence only, not a matched-cohort value transfer.
+- **PAT-002** — a US 1920s national physical overbuild is not supported; the 1930s slack is mainly Depression demand shock + pre-1929 pipeline capacity.
+- **PAT-003** — index-tier dispersion exists but is absorbed by market beta; the security-level financing/entry mechanism remains Undecidable-pending-access.
+
+Note:
+- No historical synthesis written yet, no Pattern Validation Matrix verdict update, no Pattern promotion, no `MAP-001`/`THS-001`, no AI-era mapping or investment conclusion. `PAT-003` stays `validated-in-one-cycle`; `PAT-001`/`PAT-002` stay `draft`; no Pattern is `active`. The bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005) remains open.
+
 ## 2026-07-20 — HIS-002 Stage C: Evidence Ledger complete
 
 Built under the Research Architect's Source Verification Review (Stage B PASSED; Stage C AUTHORIZED, with the (b)-base + bounded-parallel-escalation path). Executed by claude-code via four parallel extraction agents (curl + pypdf/bs4/xlrd), real data from open sources only. Verification/extraction, not verdicts.

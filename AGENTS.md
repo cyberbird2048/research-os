@@ -1,5 +1,24 @@
 # Contribution Log
 
+## 2026-07-21 | Claude Code | 落实 HIS-002 Gate 2 证据充分性复核（六项订正）
+
+**产出**:
+- Research Architect 的 Evidence Sufficiency Review 裁决 **PASS WITH CONDITIONS**（六项账本分类订正），逐条落实到 `HIS-002_EVIDENCE_LEDGER.md`，裁决转为 **PASS**，授权 `REV-HIST-002` 历史综合：
+  1. **E-109** → *Adjacency — no outcome weight*，移出 PAT-001 Supports 计数（就业结构转移是第三类构念）
+  2. 新增 **E-117**：PAT-001 Rejects 检索已执行，裁定 *"Rejects not established"*，不自动转为 Supports
+  3. 新增 **E-118**：matched-cohort 价值转移问题 = *Undecidable with current evidence*，与可进入综合的 coexisting-divergence 问题严格区分
+  4. **E-211** → *Weakens (mixed)*，去掉 pending-access（数据已取得）
+  5. **E-301–E-305、E-308、E-310** → *Descriptive — no independent Supports weight*（指数层离散度被市场 beta 完全吸收，E-307），并加 Module A 抬头说明
+  6. 反确认平衡检查按订正后各 lane 权重重述
+- 新建 `governance/HIS-002_GATE_2_REVIEW.md`（`id: HIS-002-GATE-2`）记录裁决、六项处置表、三条固定综合边界与取用升级说明
+- 同步 WORK_BOARD / PROJECT_STATE / NEXT_ACTION / CHANGELOG，停在 `REV-HIST-002` 历史综合（下一步）
+
+**状态**: ✅ 完成
+
+**遗留**: 未写 `REV-HIST-002` synthesis、未更新 Pattern Validation Matrix verdict、未晋升任何 Pattern、无 MAP-001/THS-001；Matrix 判决须待 synthesis 通过 Gate 3 后才设；PAT-003 证券层仍待有界取用升级（Moody's PU 手册 S-012 + Taylor S-011 + FTC S-005 浏览器 HathiTrust 会话）。三条固定边界：PAT-001 仅 coexisting-divergence；PAT-002 美国 1920s 物理性 overbuild 不成立；PAT-003 指数层离散度被 beta 吸收 / 证券层 Undecidable-pending-access
+
+---
+
 ## 2026-07-20 | Claude Code | 完成 HIS-002 Stage C 证据账本
 
 **产出**:
