@@ -1,5 +1,20 @@
 # Contribution Log
 
+## 2026-07-22 | Claude Code | 落实 REV-HIST-002 Gate 3 小修（重提确认）
+
+**产出**:
+- Gate 3（Historical Stability Review）裁决 **PASS WITH MINOR REVISIONS**，落实两项要求校准到 `REV-HIST-002`：
+  1. **1937 降为 post-window sensitivity**（§A.4、§A "Why outcomes differed" 结尾、§B、§D，并为内部一致性同步 §G 与 §I PAT-002）：核心窗结论改以 1935 事实为准（产出 1935 已回到 1929 峰值之上、利用率显著回升），E-206 保留但在核心窗结论中降权；"fully absorbed by 1935"→"substantially reabsorbed by 1935, with further recovery visible in the 1937 post-window sensitivity"；无限定的 "no permanent physical impairment"→"no evidence of persistent national utilization impairment through the available post-window sensitivity"
+  2. **§I PAT-001 去除因果暗示**：不再表述 coexisting divergence "via" 控股结构；改为控股组织是投资者结果离散度的候选解释，但当前指数层/开放来源证据未能将其识别为因果机制（保留 coexisting-divergence-only、无 matched-cohort 转移、E-307 beta 吸收、运营公司经济缺口、S-005 取用已 DEFERRED）
+- 1935 端点显式标注为 Brief §2.2 的 scope convention（非账本推导的历史结论）；新增 "Gate 3 revision record" 与更新 Stop point；重核引用完整性（所引 `E-###` 全部仍存在于账本）
+- 同步 WORK_BOARD / PROJECT_STATE / NEXT_ACTION / CHANGELOG，停在 Gate 3 确认
+
+**状态**: ✅ 完成（重提 Gate 3 确认）
+
+**遗留**: 未做 Cross-Cycle Comparison、未设 Matrix HIS-002 verdict、未晋升任何 Pattern；须待 Gate 3 确认后才启动
+
+---
+
 ## 2026-07-22 | Claude Code | 撰写 HIS-002 历史综合 REV-HIST-002（提交 Gate 3）
 
 **产出**:

@@ -16,7 +16,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 
 ## Current Sprint
 
-**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013); Stage A (Codex), Stage B Source Verification, Source Verification Review, and Stage C Evidence Ledger done; Gate 2 Evidence Sufficiency Review **PASSED** (DEC-015 → DEC-016). **The `REV-HIST-002` historical synthesis is now DRAFTED and submitted for Gate 3 (Historical Stability Review)** — derived strictly from the Evidence Ledger, full structure A–I, every conclusion cites an `E-###` claim (citation integrity checked), carrying the three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). No Pattern verdict is set; the Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdicts begin only after Gate 3 passes; no Pattern promoted.
+**Sprint 1 — HIS-002 Cross-Cycle Pattern Validation.** Gate 1 **CONFIRMED PASSED**; Single-Cycle Pattern Validation (HIS-001) **PASSED** (DEC-013); Stage A (Codex), Stage B Source Verification, Source Verification Review, and Stage C Evidence Ledger done; Gate 2 Evidence Sufficiency Review **PASSED** (DEC-015 → DEC-016). **The `REV-HIST-002` historical synthesis is drafted (structure A–I, every conclusion cites an `E-###` claim, citation integrity checked) and Gate 3 returned PASS WITH MINOR REVISIONS (2026-07-22).** The two required calibrations are applied (1937 downgraded to post-window sensitivity; §I PAT-001 holding-company causal implication removed) and the amended synthesis is **resubmitted for Gate 3 confirmation**. It carries the three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). No Pattern verdict is set; the Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdicts begin only after Gate 3 is confirmed; no Pattern promoted.
 
 ## Gate Status
 
@@ -34,7 +34,7 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 | Source Verification Review | HIS-002 Stage B readiness | **Stage B PASSED; Stage C AUTHORIZED** ((b)+parallel access-escalation path; bounded escalation limited to S-012/S-011/S-005). |
 | Stage C | HIS-002 Evidence Ledger | **Complete.** `HIS-002_EVIDENCE_LEDGER.md`, 58 `E-###` claims, four lanes/Pattern, open-source scope; security-level PAT-003 recorded Undecidable-pending-access. |
 | Gate 2 | HIS-002 Evidence Sufficiency Review | **PASS** (PASS WITH CONDITIONS → PASS; six ledger corrections applied). `REV-HIST-002` synthesis authorized with three fixed boundaries. See `governance/HIS-002_GATE_2_REVIEW.md` (`id: HIS-002-GATE-2`). |
-| Gate 3 | HIS-002 Historical Stability — `REV-HIST-002` | **IN REVIEW.** Synthesis drafted (`REV-HIST-002_ELECTRICITY_GRID_AND_INDUSTRIAL_ELECTRIFICATION.md`, `id: REV-HIST-002`), submitted to the Research Architect. No verdict yet. |
+| Gate 3 | HIS-002 Historical Stability — `REV-HIST-002` | **PASS WITH MINOR REVISIONS** (2026-07-22); the two required calibrations are applied (1937 → post-window sensitivity; §I PAT-001 holding-company causal implication removed) and the amended synthesis is resubmitted for **Gate 3 confirmation**. |
 
 ## Stable Assets
 
@@ -68,14 +68,14 @@ Single-page snapshot of where the repository stands. This file is expected to ch
 ## Blocked Work
 
 - **Historical-to-AI Mapping** — blocked. The prior authorization for `MAP-001_RAILWAY_MANIA_AND_AI_INFRASTRUCTURE.md` was withdrawn before any file was created. Mapping work does not resume until a Pattern reaches `cross-cycle-candidate` or better under the Pattern Validation Framework.
-- **`HIS-002` Gate 3 (Historical Stability)** — **in review** (Research Architect). `REV-HIST-002` is drafted and submitted; awaiting verdict. The Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdicts are blocked behind it.
+- **`HIS-002` Gate 3 (Historical Stability)** — **PASS WITH MINOR REVISIONS; awaiting confirmation** (Research Architect). The two calibrations are applied to `REV-HIST-002`; the amended synthesis is resubmitted. The Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdicts are blocked behind Gate 3 confirmation.
 - **PAT-003 security-level module** — Undecidable-pending-access, blocked on the recommended bounded access escalation (Moody's PU manuals S-012 + Taylor 1962 S-011 + a browser HathiTrust session for FTC S-005).
 - **`HIS-003`** — blocked, not started.
 - **Investment Thesis (`THS-001`)** — blocked. Phase 3 entry gates unmet (see Roadmap).
 
 ## Active Task
 
-Sprint 1 — HIS-002 **Gate 3 (Historical Stability Review) of `REV-HIST-002`** — awaiting the Research Architect. The synthesis is drafted (authorized by Gate 2, DEC-016), derived strictly from `HIS-002_EVIDENCE_LEDGER.md` and carrying the three fixed boundaries (PAT-001 coexisting-divergence-only; PAT-002 US-1920s-overbuild-not-supported; PAT-003 index-dispersion-beta-absorbed / security-level Undecidable-pending-access). Only after Gate 3 passes does the Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdict-setting begin. No Matrix verdict update or Pattern promotion until then.
+Sprint 1 — HIS-002 **Gate 3 confirmation of the amended `REV-HIST-002`** — awaiting the Research Architect. Gate 3 returned PASS WITH MINOR REVISIONS (2026-07-22); the two required calibrations are applied (1937 → post-window sensitivity; §I PAT-001 holding-company causal implication removed) and the synthesis is resubmitted. Only after Gate 3 is confirmed does the Cross-Cycle Comparison / Pattern Validation Matrix HIS-002 verdict-setting begin. No Matrix verdict update or Pattern promotion until then.
 
 ## Known Evidence Gaps
 

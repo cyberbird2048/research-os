@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-07-22 — HIS-002 REV-HIST-002 Gate 3 minor revisions applied (resubmitted for confirmation)
+
+Gate 3 (Historical Stability Review) returned **PASS WITH MINOR REVISIONS**. Claude Code applied the two required calibrations to `REV-HIST-002`; the amended synthesis is resubmitted for Gate 3 confirmation. Re-classification/calibration only — no new evidence, no Pattern verdict, no Matrix update, no Pattern promotion, no Cross-Cycle Comparison.
+
+Changed:
+- `knowledge/industrial-revolutions/REV-HIST-002_ELECTRICITY_GRID_AND_INDUSTRIAL_ELECTRIFICATION.md` — **Revision 1 (1937 → post-window sensitivity):** across §A.4, the §A "Why outcomes differed" close, §B, §D, and — for internal consistency — §G and §I PAT-002, the core-window conclusions now rest on the 1935 facts (output recovered above the 1929 peak; utilization materially recovered), the 1937 figures are labelled post-window sensitivity, E-206 is retained but reduced in weight, "fully absorbed by 1935" → "substantially reabsorbed by 1935, with further recovery visible in the 1937 post-window sensitivity", and unqualified "no permanent physical impairment" → "no evidence of persistent national utilization impairment through the available post-window sensitivity". **Revision 2 (§I PAT-001):** the causal "via holding-company structure" implication is removed — holding-company organization is now a candidate explanation the current index-level/open-source evidence does not identify as the causal mechanism (coexisting-divergence-only, no matched-cohort transfer, E-307 beta absorption, the operating-company economics gap, and the deferred S-005 limitation all preserved). The 1935 endpoint is labelled a **scope convention** from Brief §2.2, not a ledger-derived conclusion. Added a "Gate 3 revision record" note and updated the Stop point. Citation integrity re-checked (all cited `E-###` still exist in the ledger).
+- `governance/WORK_BOARD.md`, `governance/PROJECT_STATE.md`, `governance/NEXT_ACTION.md` — Gate 3 recorded PASS WITH MINOR REVISIONS (calibrations applied), next step = Gate 3 confirmation; Cross-Cycle Comparison / Matrix HIS-002 verdicts remain blocked until confirmation.
+
+Note:
+- No Pattern verdict, no Matrix update, no Pattern promotion, no `MAP-001`/`THS-001`/AI-era/investment content. `PAT-003` stays `validated-in-one-cycle`; `PAT-001`/`PAT-002` stay `draft`; no Pattern is `active`.
+
 ## 2026-07-22 — HIS-002 REV-HIST-002 historical synthesis drafted (submitted for Gate 3)
 
 Authored by claude-code under the Gate 2 authorization (DEC-016). Derived **strictly** from `HIS-002_EVIDENCE_LEDGER.md`; no new evidence introduced. Sets no Pattern verdict, updates no Validation Matrix, changes no Pattern status, promotes no Pattern, and contains no `MAP-001`/`THS-001`/AI-era/investment content.
